@@ -63,3 +63,5 @@ int main(){
     return 0;
 }
 ```
+## Missão
+Assistir o vídeo: [Hello World Como Você Nunca Viu! | Entendendo C](https://www.youtube.com/watch?v=Gp2m8ZuXoPg) de Fábio Akita.
