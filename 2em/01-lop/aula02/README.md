@@ -100,7 +100,7 @@ z = Math.sqrt(4)
 
 # Linguagem C
 ## Exemplos
-
+- ./exemplos
 # Lista de Exercícios - Semana
 - 1 - 1 Desenvolva um programa que leia três variáveis (a, b, c) e resolva a expressão: ( a + b ) / c.
 - 2 Desenvolva um programa que leia a velocidade de um carro (km/h) e a distância a ser percorrida (km) por ele. Calcule e apresente na tela, quanto tempo (horas) será necessário para o carro percorrer a distância informada.
