@@ -73,6 +73,7 @@ float PI = 3.14
 - (-) Menos
 - (*) vezes
 - (/) Dividido
+- (%) Resto de divisão inteira
 - (**) Potência ou Pow()
 ```js
 z = 2 ** 3
@@ -94,6 +95,29 @@ z = Math.sqrt(4)
 - (&&) E And
 - (||) OU OR
 - (!) Não
+
+#### Desafios
+- Desafio 1 
+```c
+/*
+Crie um programa que leia duas variáveis inteiras, 
+multiplique cada uma delas por 1 bilhão
+e mostre o resultado de cada multiplicação na tela.
+
+A) Teste o programa colocando como entrada os números 1 e 2
+B) Teste o programa colocando como entrada os números 3 e 4
+
+Explique a um dos professores, o motivo do segundo teste dar errado.
+*/
+```
+Desafio 2
+```c
+/*
+Crie um programa que receba como entrada o salário
+de um funcionário e calcule o desconto 8% de INSS,
+mostre o valor do desconto e o salário líquido.
+*/
+```
 
 #### Exercícios
 ![Exercícios](./exerc1.jpg)
