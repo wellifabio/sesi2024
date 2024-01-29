@@ -64,4 +64,7 @@ int main(){
 }
 ```
 ## Missão
-Assistir o vídeo: [Hello World Como Você Nunca Viu! | Entendendo C](https://www.youtube.com/watch?v=Gp2m8ZuXoPg) de Fábio Akita.
+- Assistir o vídeo: [Hello World Como Você Nunca Viu! | Entendendo C](https://www.youtube.com/watch?v=Gp2m8ZuXoPg) de Fábio Akita.
+
+## Para instalar em casa
+- Download DEV C++ https://sourceforge.net/projects/orwelldevcpp/
