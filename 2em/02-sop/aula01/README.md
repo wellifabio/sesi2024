@@ -12,7 +12,6 @@
     - Decimal
     - Binário
     - Hexadecimal
-- Conversão de bases
 
 ## Softwares
 ### Softwares Básicos
@@ -48,9 +47,6 @@
 - 0,1
 ### Hexadecimal
 - 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E
-
-## Conversão de bases
-./conversoes.pdf
 
 ## Conteúdo extra:
 - Vídeo youtube (Manual do Mundo) https://www.youtube.com/watch?v=xajcV4lwY3Q
