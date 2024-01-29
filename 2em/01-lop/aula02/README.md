@@ -29,13 +29,13 @@ Científica (Programas, Apps utilizados por pesquisadores a fim de fazer descobe
 Games (Jogos de computador)
 
 ## Linguagens de programação: Princípios e caraterísticas
-1.3.1. Compilada (O código fonte se transforma em linguagem de máquina e é exclusiva do sistema operacional onde foi compilada)
+### 1.3.1. Compilada (O código fonte se transforma em linguagem de máquina e é exclusiva do sistema operacional onde foi compilada)
 Um programa compilado normalmente é:
 mais rápido, pois possui parte do SO anexo.
 é adequado a um tipo de hardware.
 Exclusivo do sistema operacional onde foi compilado
 Ex: C, C#
-1.3.2. Interpretada (O código fonte é executado diretamente por um servidor de aplicação ou o próprio navegador)
+### 1.3.2. Interpretada (O código fonte é executado diretamente por um servidor de aplicação ou o próprio navegador)
 Não tão rápida como a compilada, pois é decodificada em tempo real
 Necessita de menos recursos do Sistema Operacional ou nenhum
 Ex: HTML, CSS, JavaScript
@@ -46,13 +46,13 @@ Ex: Java
 
 ## Lógica de Programação
 ### 3.1. Variáveis (char, byte, int, float, double, string)
-- Espaço de memória
-**char** 8bits ASCI 'A', 'b', '1' em C "%c"
-**byte** 8bits Binário, 5, 3, -1, 5 em C "%i", "%d"
-**int** 32 ou 64bits Binário 45687, -32446 em C "%i", "%d"
-**float** 128 ou 256 bits Binário, ponto flutuante 3.14, -32.446 em C "%f"
-**double** 256, 512 bits Binário, ponto flutuante 456.87, -3.2446 em C "%f"
-**string** 256 Bytes ASCI "Coisa", "teste 1", "teste 2" em C "%s"
+Espaço de memória
+- **char** 8bits ASCI 'A', 'b', '1' em C "%c"
+- **byte** 8bits Binário, 5, 3, -1, 5 em C "%i", "%d"
+- **int** 32 ou 64bits Binário 45687, -32446 em C "%i", "%d"
+- **float** 128 ou 256 bits Binário, ponto flutuante 3.14, -32.446 em C "%f"
+- **double** 256, 512 bits Binário, ponto flutuante 456.87, -3.2446 em C "%f"
+- **string** 256 Bytes ASCI "Coisa", "teste 1", "teste 2" em C "%s"
 
 ### 3.2. Constantes ('A','b','1', 5, 3.5, "Texto")
 - Variáveis de quaisquer tipos utilizadas durante o programa ou definidas inicialmente sempre em maiúsculas
