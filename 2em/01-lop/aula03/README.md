@@ -130,12 +130,12 @@ int main(){
 }
 ```
 
-## Desafios
+## Desafio em grupos
 |Caixa eletrônico|
 |-|
 |Desenvolva um programa que solicite ao usuário que digite um valor em dinheiro ex: **277** e exiba quantas notas serão necessárias para dar o valor|
 |1 notas de R$ 200,00 <br> 0 notas de R$ 100,00<br>1 notas de R$ 50,00<br>1 notas de R$ 20,00<br>0 notas de R$ 10,00<br>1 notas de R$ 5,00<br>1 notas de R$ 2,00|
-|OBS: O valor será inteiro e multiplo de 2 por não haver notas de 1 real, não é necessário colocar moedas, não deve ser utilizado o comando condicional **if**.|
+|OBS: O valor será inteiro e multiplo de 2, já que não existe mais notas de 1 real, não é necessário colocar moedas, não deve ser utilizado o comando condicional **if**.|
 - solucao.c
 ```c
 #include <stdio.h>
