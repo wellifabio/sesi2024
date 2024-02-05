@@ -10,7 +10,7 @@ Facilitar o entendimento de um programa ou processo de trabalho
 ## Lousa
 ![Lousa1](./lousa1.jpg)
 
-### Correção da primeira lista de exercícios
+### Correção da lista de exercícios da aula 02
 - "Desenvolva um programa que leia três variáveis (a, b, c) e resolva a expressão: ( a + b ) / c"
 - ex01.c
 ```c
@@ -21,7 +21,8 @@ int main(){
 	int a, b, c;
 	printf("Digite três números:\n");
 	scanf("%d %d %d", &a, &b, &c);
-	printf("(%d + %d)/%d = %d", a, b, c, (a + b) / c);	
+	printf("(%d + %d)/%d = %d", a, b, c, (a + b) / c);
+    return 0;
 }
 ```
 - Fluxograma
@@ -77,7 +78,7 @@ int main(){
 	scanf("%d", &empates);
 	total = vitorias * 3 + empates;
 	printf("O total de pontos do time %s é %d", time, total);
-	return;
+	return 0;
 }
 ```
 - Desenvolva um programa que leia um número ”n” inteiro, positivo e diferente de zero e apresente na tela: n – 1, e também n + 1.
@@ -93,7 +94,7 @@ int main(){
 	x1 = x - 1;
 	x2 = x + 1;
 	printf("O número digitado %d - 1 = %d e + 1 = %d ", x, x1, x2);
-	return;
+	return 0;
 }
 ```
 - Sabendo-se que a velocidade de cruzeiro de um avião 747-300 é de 900 km/h, faça um programa que leia uma distância (km), calcule e apresente na tela, quanto tempo (horas) será necessário para um 747-300 sobrevoar a distância informada.
@@ -107,7 +108,7 @@ int main(){
 	printf("Digite a distância em km do vôo:\n");
 	scanf("%d", &distancia);
 	printf("O vôo vai durar %.1f horas", distancia / 900.0 );
-	return;
+	return 0;
 }
 ```
 - Um caminhão consegue transportar 18 toneladas de laranjas em uma viagem que faz entre a fazenda e a fábrica de suco de laranja. Um alqueire de terra produz em média 250 toneladas de laranjas. Faça um programa que leia quantos caminhões e quantos alqueires uma fazenda produtora de laranjas possui, calcule e apresente na tela quantas viagens de caminhão serão necessárias para transportar toda a colheita de laranjas.
@@ -126,9 +127,74 @@ int main(){
 	scanf("%d", &caminhoes);
 	viagens = (alqueires * TONALQUEIRE) / (caminhoes * TONCAMINHAO);
 	printf("Será necessário %d viagens no máximo, para tranportar sua produção.", viagens + 1);
-	return;
+	return 0;
 }
 ```
+- Desenvolva um programa que leia o raio (cm) e a altura (cm) de um cilindro. Calcule e mostre a área (cm2) e o volume (cm3) do cilindro.
+- ex08.c
+```c
+#include <stdio.h>
+#include <locale.h>
+int main(){
+	setlocale(LC_ALL,"");
+	float raio, altura;
+	float area, volume;
+	float PI = 3.14;
+	
+	printf("Digite o raio em cm e a altura em cm de um cilindro:\n");
+	scanf("%f %f", &raio, &altura);
+	
+	area = 2 * PI * raio * (raio + altura);
+	volume = PI * raio * raio * altura;
+	
+	printf("O volume do cilindro é %.2f\n", volume);
+	printf("A área do cilindro é %.2f\n", area);
+	
+	return 0;
+}
+```
+- Desenvolva um programa que leia o nome e o preço de uma mercadoria. O programa deverá calcular um aumento de 5% no preço da mercadoria e mostrar o nome da mercadoria e o seu novo preço.
+- ex09.c
+```c
+#include <stdio.h>
+#include <locale.h>
+int main(){
+	setlocale(LC_ALL,"");
+	char nome[30];
+	float preco, novoPreco;
+
+	printf("Digite o nome e preço de uma mercadoria:\n");
+	scanf("%s %f", &nome, &preco);
+	
+	novoPreco = preco - preco * 5 / 100; 
+	
+	printf("A mercadoria %s passou a custar %.2f\n", nome, novoPreco);
+	
+	return 0;
+}
+```
+- Desenvolva um programa que leia o nome de uma cidade, o número total de eleitores e o número total de votos apurados na última eleição. O programa deverá calcular e exibir a porcentagem de participação dos eleitores desta cidade na última eleição.
+- ex10.c
+```c
+#include <stdio.h>
+#include <locale.h>
+int main(){
+	setlocale(LC_ALL,"");
+	char cidade[30];
+	int eleitores, votos;
+	float porcentagem;
+
+	printf("Digite o nome da cidade, o total de eleitores e o total de votos apurados:\n");
+	scanf("%s %d %d", &cidade, &eleitores, &votos);
+	
+	porcentagem = votos * 100.0 / eleitores;
+	
+	printf("%.1f%% dos eleitores participaram das eleiões em %s\n", porcentagem, cidade);
+	
+	return 0;
+}
+```
+
 
 ## Desafio em grupos
 |Caixa eletrônico|
@@ -172,3 +238,6 @@ int main(){
 	return 0;
 }
 ```
+
+## Atividades
+Dezenhe os 10 fluxogramas de cada um dos exercícios da aula anterior
