@@ -130,11 +130,45 @@ int main(){
 }
 ```
 
-## Desafio - Caixa eletrônico
-Desenvolva um programa que solicite ao usuário que digite um valor em dinheiro ex: R$ 272,00
-E exiba quantas notas serão necessárias para o montante
-1 nota de 200
-1 nota de 50
-1 nota de 20
-1 nota de 2
-OBS: O valor será inteiro e multiplo de 2 por não haver notas de 1 real, não é necessário colocar moedas, não deve ser utilizado o comando condicional **if**.
+## Desafios
+|Caixa eletrônico|
+|-|
+|Desenvolva um programa que solicite ao usuário que digite um valor em dinheiro ex: **277** e exiba quantas notas serão necessárias para dar o valor|
+|1 notas de R$ 200,00 <br> 0 notas de R$ 100,00<br>1 notas de R$ 50,00<br>1 notas de R$ 20,00<br>0 notas de R$ 10,00<br>1 notas de R$ 5,00<br>1 notas de R$ 2,00|
+|OBS: O valor será inteiro e multiplo de 2 por não haver notas de 1 real, não é necessário colocar moedas, não deve ser utilizado o comando condicional **if**.|
+- solucao.c
+```c
+#include <stdio.h>
+#include <locale.h>
+int main(){
+	setlocale(LC_ALL,"");
+	int duzentos  = 0, cem = 0, cinquenta = 0, vinte = 0, dez = 0, cinco = 0, dois = 0; 
+	int valor;
+	printf("Digite quanto dinheiro deseja sacar:\n OBS: Inteiro multiplo de 2:\n");
+	scanf("%d",&valor);
+	
+	duzentos = valor / 200;
+	valor = valor - duzentos * 200;
+	cem = valor / 100;
+	valor = valor - cem * 100;
+	cinquenta = valor / 50;
+	valor = valor - cinquenta * 50;
+	vinte = valor / 20;
+	valor = valor - vinte * 20;
+	dez = valor / 10;
+	valor = valor - dez * 10;
+	cinco = valor / 5;
+	valor = valor - cinco * 5;
+	dois = valor / 2;
+	valor = valor - dois * 2;
+	
+	printf("%d notas de R$....200,00\n", duzentos);
+	printf("%d notas de R$....100,00\n", cem);
+	printf("%d notas de R$.....50,00\n", cinquenta);
+	printf("%d notas de R$.....20,00\n", vinte);
+	printf("%d notas de R$.....10,00\n", dez);
+	printf("%d notas de R$......5,00\n", cinco);
+	printf("%d notas de R$......2,00\n", dois);
+	return 0;
+}
+```
