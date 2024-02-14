@@ -1,0 +1,102 @@
+EXERCÍCIO 01
+IP: 10.82.105.200/26
+
+Máscara
+Bin: 11111111.11111111.11111111.11000000
+Dec: 255.255.255.192
+
+Rede dividida em 4 partes de 64 hosts
+SubRede 1: de 10.82.105.0 até 10.82.105.63
+SubRede 2: de 10.82.105.64 até 10.82.105.127
+SubRede 3: de 10.82.105.128 até 10.82.105.191
+SubRede 4: de 10.82.105.192 até 10.82.105.255
+
+Escopo: 10.82.105.192 até 10.82.105.255
+Gateway: 10.82.105.193
+Broadcast: 10.82.105.255
+
+EXERCÍCIO 02
+IP: 10.82.105.23/26
+Máscara
+Bin: 11111111.11111111.11111111.11000000
+Dec: 255.255.255.192
+
+Rede dividida em 4 partes de 64 hosts
+SubRede 1: de 10.82.105.0 até 10.82.105.63
+SubRede 2: de 10.82.105.64 até 10.82.105.127
+SubRede 3: de 10.82.105.128 até 10.82.105.191
+SubRede 4: de 10.82.105.192 até 10.82.105.255
+
+Escopo: 10.82.105.0 até 10.82.105.63
+Gateway: 10.82.105.1
+Broadcast: 10.82.105.63
+
+EXERCÍCIO 03
+IP: 10.82.105.70/26
+Máscara
+Bin: 11111111.11111111.11111111.11000000
+Dec: 255.255.255.192
+
+Rede dividida em 4 partes de 64 hosts
+SubRede 1: de 10.82.105.0 até 10.82.105.63
+SubRede 2: de 10.82.105.64 até 10.82.105.127
+SubRede 3: de 10.82.105.128 até 10.82.105.191
+SubRede 4: de 10.82.105.192 até 10.82.105.255
+
+Escopo: 10.82.105.64 até 10.82.105.127
+Gateway: 10.82.105.65
+Broadcast: 10.82.105.127
+
+EXERCÍCIO 04
+IP: 10.82.105.150/26
+Máscara
+Bin: 11111111.11111111.11111111.11000000
+Dec: 255.255.255.192
+
+Rede dividida em 4 partes de 64 hosts
+SubRede 1: de 10.82.105.0 até 10.82.105.63
+SubRede 2: de 10.82.105.64 até 10.82.105.127
+SubRede 3: de 10.82.105.128 até 10.82.105.191
+SubRede 4: de 10.82.105.192 até 10.82.105.255
+
+Escopo: 10.82.105.128 até 10.82.105.191
+Gateway: 10.82.105.129
+Broadcast: 10.82.105.191
+
+EXERCÍCIO 05
+IP: 10.82.105.150/25
+
+Bin: 11111111.11111111.11111111.10000000
+Dec: 255.255.255.128
+
+Rede dividida em 2 partes de 128 hosts
+SubRede 1: de 10.82.105.0 até 10.82.105.127
+SubRede 2: de 10.82.105.128 até 10.82.105.255
+
+Escopo: 10.82.105.128 até 10.82.105.255
+Gateway: 10.82.105.129
+Broadcast: 10.82.105.255
+
+EXERCÍCIO 06
+IP: 172.16.12/24
+
+EXERCÍCIO 07
+IP: 172.16.130/25
+
+EXERCÍCIO 08
+IP: 172.16.70/26
+
+EXERCÍCIO 09
+IP: 192.168.1.72/25
+
+EXERCÍCIO 10
+IP: 192.168.0.3/24
+
+EXERCÍCIO 11
+IP: 172.16.0.28/16
+
+EXERCÍCIO 12
+IP: 172.16.0.15/17
+
+EXERCÍCIO 13
+IP: 10.0.100.100/9
