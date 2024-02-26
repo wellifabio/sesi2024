@@ -5,9 +5,6 @@
     - if(teste lógico){verdadeiro} else if(teste lógico) {verdadeiro} else {falso}
     - else = senão
 
-- ![Lousa](./lousa1.jpg)
-- ![Lousa](./lousa2.jpg)
-
 ## Árvore binária
 <img src="arvore.png">
 
