@@ -32,3 +32,6 @@ A partir dos requisitos descritos a seguir, criar os diagramas de casos de uso p
 ## Atividade 02
 ### Desafio para entrega 01/03
 Concluído o trabalho sobre **RN (Regras de negócio)** agora defina um sistema como solução para o tema escolhido e documente cada funcionalidade (Requisito Funcional) utilizando a sigla RF001, RF002 ... e DCUs (diagramas de casos de uso).
+
+### Entregha
+[Formulário para anexar PDF](https://forms.gle/tbKgCS9mVWqmT73y7)
