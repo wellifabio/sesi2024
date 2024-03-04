@@ -124,6 +124,22 @@ int main() {
 |While(){}|Quando não sabemos quantas vezes será repetido - mínimo 0 vezes|
 |do{}while();|O mesmo que o anterior mas - mínimo 1 vez|
 
+### Algoritmo das Tabuadas
+```c
+#include <stdio.h>
+
+int main() {
+    int i, j;
+    for(i = 1; i <= 10; i++){
+        for(j = 1; j <= 10; j++){
+            printf("%d x %d = %d\t",j,i,j*i);
+        }
+        printf("\n");
+    }
+}
+```
+### Fluxograma das tabuadas
+![Tabuadas](./tabuada.png);
 ## Atividades
 - 1 - Faça um programa que mostre na tela valores no intervalo entre 10 e 200;
 - 2 - Faça um programa que mostre na tela valores no intervalo entre 200 e 10;
