@@ -122,7 +122,7 @@ int main() {
 |-|-|
 |for(;;){}|Quando sabemos quantas vezes vamos repetir - mínimo 0 vezes|
 |While(){}|Quando não sabemos quantas vezes será repetido - mínimo 0 vezes|
-|do{}while();|O mesmo que o anterior mas - mínimo 14 vez|
+|do{}while();|O mesmo que o anterior mas - mínimo 1 vez|
 
 ## Atividades
 - 1 - Faça um programa que mostre na tela valores no intervalo entre 10 e 200;
