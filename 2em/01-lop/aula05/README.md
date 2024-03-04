@@ -23,7 +23,7 @@ do{}while()
 int main()
 {
     int i;
-    for(i = 1; i > 0; i++)
+    for(i = 1; i > 100; i++)
         printf("Não vou 'trolar' a professora\n");
     return 0;
 }
