@@ -18,9 +18,8 @@ Vamos criar uma página ou mais páginas **HTML**, criar um reositório remoto n
 - Editando o README.md com a linguagem Markdown
 
 ## Atividade
-- 1 Crie outra página página **HTML** chamada index.html, com cabeçalho, corpo e rodapé e pelo menos uma imagem no corpo.
-- 2 Criar **outro reositório** remoto público no **github**
+- 1 Crie outra página **HTML** chamada index.html, com cabeçalho, corpo e rodapé e pelo menos uma imagem no corpo.
+- 2 Criar **outro repositório** remoto público no **github**
 - 3 Clone o repositório e envie a página para ele.
 - 4 Utilizando **git bash** envie os arquivos para o repositório remoto
-- Edite o arquivo **README.md** conforme exemplo em aula com **Markdown** informando as tecnologias utilizadas VsCode, Github e MarkDow.
-
+- 5 Edite o arquivo **README.md** conforme exemplo em aula com **Markdown** informando as tecnologias utilizadas VsCode, Github e MarkDow.
