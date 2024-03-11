@@ -15,3 +15,17 @@ do{}while()
 - 8 - Faça um programa que peça para o usuário digitar um número inteiro positivo e calcule o fatorial deste número;
 - 9 - Escreva um programa que leia 10 números inteiros e exiba na tela ao final, o maior número que foi digitado pelo usuário.
 - 10 - Escreva um programa que leia 5 números inteiros em qualquer ordem e exiba na tela ao final, os cinco números em ordem crescente.
+
+## Correções
+- Ex04
+![ex04](./ex04.png)
+- Ex06
+![ex06](./ex06.png)
+- Ex07
+![ex06](./ex07.png)
+- Ex08
+![ex06](./ex08.png)
+- Ex09
+![ex06](./ex09.png)
+- Ex10
+![ex06](./ex10.png)
