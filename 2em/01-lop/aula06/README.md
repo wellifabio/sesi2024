@@ -23,8 +23,28 @@ do{}while()
 ![ex06](./ex06.png)
 - Ex07
 ![ex06](./ex07.png)
+```c
+#include<stdio.h>
+int main(){
+	int i = 0, acumulador = 0;
+	for(i = 0; i < 100; i++)
+		acumulador += i;
+	printf("A soma de 0 a 100 é = %d",acumulador);
+}
+```
 - Ex08
 ![ex06](./ex08.png)
+```c
+#include<stdio.h>
+int main(){
+	int i, fatorial;
+	printf("Digite um número inteiro positivo:");
+	scanf("%d",&fatorial);
+	for(i = fatorial - 1; i > 1; i--)
+		fatorial *= i;
+	printf("O fatorial é %d",fatorial);
+}
+```
 - Ex09
 ![ex06](./ex09.png)
 - Ex10
