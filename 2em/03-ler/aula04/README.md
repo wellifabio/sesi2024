@@ -53,3 +53,13 @@
 |Um dos integrantes do grupo deve criar um repositório público no github com o nome do tema e enviar a apresentação para ele no arquivo README.md do repositório [Form para envio](https://forms.gle/wHPKUnuMurMv4QPw9)|
 ## Data de entrega e Apresentação 22/03/2024
 
+## Critérios
+|Criticidade|Capacidades Básicas e Socioemocionais|Critérios|
+|-|-|-|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Demonstrou que endendeu o tema através da apresentação|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Criou arquivo markdown e claro coeso e coerente utilizando formatações estudadas|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Pesquisou utilizando a internet em fontes confiáveis e acrescentou os links das fontes no arquivo entregue|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autogestão|Cada integrante do grupo cooperou para o sucesso da pesquisa, desenvolvimento e apresentação|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar pensamento analítico|Entendeu como o tema estudado está relacionado aos outros temas|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar inteligência emocional|Conseguiu trabalhar e auxiliar a equipe aprendendo e cooperando para o aprendizado dos colegas|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autonomia|Resolvou preoblemas de gestão do grupo, acrescentando membros, preparou-se para apresentar em no máximo 20 minutos|
