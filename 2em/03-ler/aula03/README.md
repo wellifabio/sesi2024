@@ -25,6 +25,11 @@ A partir dos requisitos descritos a seguir, criar os diagramas de casos de uso p
 - RF03: Tela de cadastro de compras, com um formulário onde o comprador escolhe o fornecedor,  os produtos, preços e quantidades.
 - RF04: Tela de retirada de produtos, onde os vendedores registram as quantidades vendidas de cada produto.
 
+## 4 Documentação de Requisitos
+- 4.1. Normas técnicas
+- 4.2. Estrutura padrão (modelos de documentação)
+- 4.3. Controle de Versões
+
 ### Exemplo de trabalho para entrega (Solução do desafio)
 - [Trabalho Pneus versão Word](./Projeto_XPTO_Pneus.docx)
 - [Trabalho Pneus versão de entrega PDF](./Projeto_XPTO_Pneus.pdf)
