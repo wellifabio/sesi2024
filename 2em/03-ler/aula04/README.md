@@ -22,7 +22,7 @@
 
 |Desafio|
 |-|
-|Pesquisar o tema, debater no grupo, criar um arquivo markdown para apresentar a sala o tema estudado e apresentar em forma de seminário|
+|Pesquisar o tema, debater no grupo, criar um arquivo **markdown** para apresentar a sala o tema estudado e apresentar em forma de seminário|
 
 ### Temas
 #### Metodologias Clássicas (Desenvolvimento de sistemas)
@@ -50,6 +50,6 @@
 
 |Entrega|
 |-|
-|Um dos integrantes do grupo deve criar um repositório público no github com o nome do tema e enviar a apresentação para ele no arquivo README.md do repositório [Form para emvio](https://forms.gle/wHPKUnuMurMv4QPw9)|
+|Um dos integrantes do grupo deve criar um repositório público no github com o nome do tema e enviar a apresentação para ele no arquivo README.md do repositório [Form para envio](https://forms.gle/wHPKUnuMurMv4QPw9)|
 ## Data de entrega e Apresentação 22/03/2024
 
