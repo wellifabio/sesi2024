@@ -56,7 +56,7 @@
 ## Critérios
 |Criticidade|Capacidades Básicas e Socioemocionais|Critérios|
 |-|-|-|
-|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Demonstrou que endendeu o tema através da apresentação|
+|![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Demonstrou que entendeu o tema através da apresentação|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Criou arquivo markdown e claro, coeso e coerente utilizando formatações estudadas|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar práticas ágeis de acordo com as características e requisitos do projeto|Pesquisou utilizando a internet em fontes confiáveis e acrescentou os links das fontes no arquivo entregue|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autogestão|Cada integrante do grupo cooperou para o sucesso da pesquisa, desenvolvimento e apresentação|
