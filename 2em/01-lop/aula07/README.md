@@ -16,4 +16,4 @@
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|1 Demonstrar autogestão|Utilizou o tempo de avaliação cumprindo todas as atividades|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|2 Demonstrar pensamento analítico|Demonstrou a relação entre os problemas e a solução, implementando padrões reutilizáveis|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|3 Demonstrar inteligência emocional|Manteve o foco na solução dos problemas propostos|
-|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|4 Demonstrar autonomia|Geriu os recursos tecnológicos, internet, envio das soluções, conforme solicitado|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|4 Demonstrar autonomia|Geriu os recursos tecnológicos, internet, envio das soluções, conforme solicitado, entendeu e seguiu as instruções|
