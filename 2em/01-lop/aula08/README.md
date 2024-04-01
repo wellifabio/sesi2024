@@ -49,8 +49,7 @@ int main(){
 
 //Declarando a função que retorna o Delta
 delta(int a, int b, int c){
-    float d = (b * b - 4.0 * a * c);
-    return d;
+    return b * b - 4.0 * a * c;
 }
 
 int main(){
