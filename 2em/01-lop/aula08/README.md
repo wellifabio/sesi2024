@@ -54,11 +54,12 @@ delta(int a, int b, int c){
 
 int main(){
     setlocale(LC_ALL,"");
-    int a, b, c;
-    printf("Digite as variáveis a, b e c de uma expressão de 2º grau");
-    scanf("%d %d %d", a, b, c);
+    int a, b, c, d;
+    printf("Digite as variáveis a, b e c de uma expressão de 2º grau:");
+    scanf("%d %d %d", &a, &b, &c);
     //Chamado a função
-    printf("O delta é %.1f",delta(a,b,c));
+    d = delta(a,b,c);
+    printf("O delta é %.1f",d);
     return 0;
 }
 ```
