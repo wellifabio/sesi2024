@@ -149,3 +149,6 @@ int main(){
 }
 ```
 - Faça os testes novamente e verifique os resultados
+
+# Desafio
+Desenvolva um programa que solicita o nome e o salário de uma pessoa, em seguida monte um menú com os seguintes itens 1.FGTS, 2.INSS, 3.IRRF, 4.Salário Líquido e 5.Sair, cada item do menú deve chamar uma função que calcule o respectivo assunto, o programa só deve terminar se o usuário escolher a opção 5.
