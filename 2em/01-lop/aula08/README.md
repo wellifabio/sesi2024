@@ -49,17 +49,19 @@ int main(){
 
 //Declarando a função que retorna o Delta
 delta(int a, int b, int c){
-    return b * b - 4.0 * a * c;
+    float d = (b * b - 4.0 * a * c);
+    return d;
 }
 
 int main(){
     setlocale(LC_ALL,"");
-    int a, b, c, d;
+    int a, b, c;
+    float d;
     printf("Digite as variáveis a, b e c de uma expressão de 2º grau:");
     scanf("%d %d %d", &a, &b, &c);
     //Chamado a função
-    d = delta(a,b,c);
-    printf("O delta é %.1f",d);
+    d = delta(a, b, c);
+    printf("O delta é %.1f", d);
     return 0;
 }
 ```
