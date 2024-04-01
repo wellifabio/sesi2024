@@ -76,12 +76,12 @@ delta(int a, int b, int c){
     return b * b - 4.0 * a * c;
 }
 
-xLinha(int delta, int a, int b){
-    return (-b + sqrt(delta))/(2 * a);
+xLinha(float delta, int a, int b){
+    return (-b + sqrt(delta))/(2.0 * a);
 }
 
-xDuasLinhas(int delta, int a, int b){
-    return (-b - sqrt(delta))/(2 * a);
+xDuasLinhas(float delta, int a, int b){
+    return (-b - sqrt(delta))/(2.0 * a);
 }
 
 int main(){
@@ -93,6 +93,7 @@ int main(){
     //Chamado a função
     d = delta(a, b, c);
     printf("O delta é %.1f\n", d);
+    printf("A raiz quadrada de delta é %.3f\n",sqrt(d));
     if(d != 0){
         x1 = xLinha(d, a, b);
         x2 = xDuasLinhas(d, a, b);
