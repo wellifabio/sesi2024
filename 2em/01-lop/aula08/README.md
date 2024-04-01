@@ -27,3 +27,38 @@ int main(){
 }
 ```
 - Vantagens na utilização de funções e procedimentos é o reaproveitamento de códigos
+```c
+// Programa que possui um procedimento que formata números como moeda
+#include<stdio.h>
+//Declarando a função[Procedimento]
+moeda(float val){
+    printf("R$ %.2f\n",val);
+}
+int main(){
+    int i;
+    //Chamado a função
+    for(i = 1; i <= 100; i++) moeda(i*100);
+    return 0;
+}
+```
+### Exp02
+```c
+// Programa que calcula expressão de segundo grau
+#include<stdio.h>
+#include<locale.h>
+
+//Declarando a função que retorna o Delta
+delta(int a, int b, int c){
+    return b * b - 4.0 * a * c;
+}
+
+int main(){
+    setlocale(LC_ALL,"");
+    int a, b, c;
+    printf("Digite as variáveis a, b e c de uma expressão de 2º grau");
+    scanf("%d %d %d", a, b, c);
+    //Chamado a função
+    printf("O delta é %.1f",delta(a,b,c));
+    return 0;
+}
+```
