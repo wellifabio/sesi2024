@@ -80,19 +80,26 @@ xLinha(int delta, int a, int b){
     return (-b + sqrt(delta))/(2 * a);
 }
 
-xDuaslinhas(int delta, int a, int b){
+xDuasLinhas(int delta, int a, int b){
     return (-b - sqrt(delta))/(2 * a);
 }
 
 int main(){
     setlocale(LC_ALL,"");
     int a, b, c;
-    float d;
+    float d, x1, x2;
     printf("Digite as variáveis a, b e c de uma expressão de 2º grau:");
     scanf("%d %d %d", &a, &b, &c);
     //Chamado a função
     d = delta(a, b, c);
-    printf("O delta é %.1f", d);
+    printf("O delta é %.1f\n", d);
+    if(d != 0){
+        x1 = xLinha(d, a, b);
+        x2 = xDuasLinhas(d, a, b);
+        printf("x'=%.1f\nx''=%.1f\n", x1, x2);
+    }else{
+        printf("A expressão não possui raizes reais");
+    }
     return 0;
 }
 ```
