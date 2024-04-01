@@ -93,14 +93,18 @@ int main(){
     //Chamado a função
     d = delta(a, b, c);
     printf("O delta é %.1f\n", d);
-    printf("A raiz quadrada de delta é %.3f\n",sqrt(d));
+    printf("A raiz quadrada de delta é %.5f\n",sqrt(d));
     if(d != 0){
         x1 = xLinha(d, a, b);
         x2 = xDuasLinhas(d, a, b);
-        printf("x'=%.1f\nx''=%.1f\n", x1, x2);
+        printf("x' = %.1f\nx'' = %.1f\n", x1, x2);
     }else{
         printf("A expressão não possui raizes reais");
     }
     return 0;
 }
 ```
+- Execute o programa acima testando com valores de [a, b e c] como:
+    - a) [1, -2, 1]
+    - b) [1, -3, 1]
+    - c) [1, -4, 1]
