@@ -1,0 +1,7 @@
+i iteracoes valor   acumulado
+	5		0
+1		75	75
+2		23	98
+3		48	144
+4		26	170
+5		13.8	183.8
