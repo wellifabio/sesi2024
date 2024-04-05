@@ -6,18 +6,11 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 ![1 Semestre](https://raw.githubusercontent.com/wellifabio/senai2024/main/assets/calendario01.png)
 ![2 Semestre](https://raw.githubusercontent.com/wellifabio/senai2024/main/assets/calendario02.png)
 
-## Competências transversais
-- Acessar o portal EAD https://ead.sp.senai.br
-- Tutorial de como acessar o Portal EAD a primeira vez https://ead.sp.senai.br/tutorial/comoacessar/
-- Verificar se está matriculado em algum curso e completar todos os que estiver matriculado
-- Caso já tenha concluído os cursos escolha mais algum dos cursos sugeridos no site do senai:
-https://jaguariuna.sp.senai.br/cursos/13/899/formacao-inicial-e-continuada?Parent=898
-    - Excel Básico
-    - Lógica de Programação
-    - Desvendando a Indústria 4.0
-    - Desvendando a BlockChain
-    - Economia circular
-- Enviar os arquivos dos certificados (imagem ou PDF) em: https://forms.gle/STMxikkU8qVfLuEb8
+## Cursos EAD (A distância, pelo computador ou celular) do SENAI Jaguariúna
+- [Página com todos os cursos disponíveis no SENAI Jaguariúna](https://jaguariuna.sp.senai.br/cursos/13/899/formacao-inicial-e-continuada?Parent=898)
+- [Acessar o portal EAD](https://ead.sp.senai.br)
+- [Tutorial de como acessar o Portal EAD a primeira vez](https://ead.sp.senai.br/tutorial/comoacessar/)
+- **OBS:** Na lista de cursos também constam cursos presenciais caso possa se deslocar existe oferta de vários gratuitos e pagos.
 
 ## Banco de talentos
 - Se você é:
