@@ -24,6 +24,7 @@
 ### Lousa
 ![Lousa](./lousa.jpg)
 ![Lousa2](./lousa2.jpg)
+
 ## Comandos
 - ipconfig
     - Mostra o endereço IP, Máscara e outras informações do computador
