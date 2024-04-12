@@ -26,4 +26,4 @@
 |Entregas [FORM](https://docs.google.com/forms/d/e/1FAIpQLSfNrJa0eur-WV5qJoZZfTkZv11Qcz4GvjtGL4zvTmS_nrCJzg/viewform?usp=sf_link)|
 |-|
 |Um integrante do grupo deve criar um repositório público do github e postar a solução open source|
-|O Protótipo deve ser aapresentado a sala após a conclusão|
+|O Protótipo deve ser apresentado a sala após a conclusão|
