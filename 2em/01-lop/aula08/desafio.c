@@ -2,11 +2,28 @@
 #include <locale.h>
 #include <string.h>
 
+float fgts(float sal){
+    return sal * 8 / 100;
+}
+
+float inss(float sal){
+    if(sal < 1412.01)
+        return sal * 7.5 / 100;
+    else if(sal < 2666.68)
+        return sal * 9 / 100 - 21.18;
+    else if(sal < 4000.04)
+        return sal * 12 / 100 - 101.18;
+    else if(sal < 7786.03)
+        return sal * 14 / 100 - 181.18;
+    else
+        return 7786.02 * 14 / 100 - 181.18;
+}
+
 int main()
 {
     setlocale(LC_ALL, "");
     char nome[100];
-    float salario;
+    float salario, imposto;
     int opcao;
 
     printf("Digite o nome do funcionário: ");
@@ -15,25 +32,30 @@ int main()
     scanf("%f",&salario);
     
     do{
-        printf("Digite uma opção 1, 2, 3, 4-Sair: ");
+        printf("Digite uma opção:\n1 - FGTS\n2 - INSS\n3 - IRRF\n4 - Salário Líquido\n5 - Sair:\n");
         scanf("%d", &opcao);
         switch(opcao){
             case 1:
-                printf("Escolheu 1\n");
+                imposto = fgts(salario);
+                printf("O FGTS é R$ %.2f\n", imposto);
                 break;
             case 2:
-                printf("Escolheu 2\n");
+                imposto = inss(salario);
+                printf("O INSS é R$ %.2f\n", imposto);
                 break;
             case 3:
                 printf("Escolheu 3\n");
                 break;
             case 4:
+                printf("Escolheu 4\n");
+                break;                
+            case 5:
                 printf("Bye bye\n");
                 break;
             default:
                 printf("Opção inválida.\n");
         }
-    }while(opcao != 4);
+    }while(opcao != 5);
     
     return 0;
 }
