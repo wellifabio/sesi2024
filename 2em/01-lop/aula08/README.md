@@ -166,7 +166,7 @@ int main(){
 |18,5 a 24,9|Peso normal|Exercícios de moderados e leves|Exercícios de moderados e leves|
 |25 a 29,9|Sobrepeso|Exercícios Aeróbicos e de Hipertrofia moderados|Exercícios aeróbicos e de Calistenia moderados|
 |30 a 34,9|Obesidade grau I|Exercícios Aeróbicos e de Hipertrofia intensos|Exercícios Aeróbicos e de Calistenia intensos|
-|35 a 39,9|Obesidade grau II|Procurar recomendações médicas de um Endocrinologista|Procurar recomendações médicas de um EndocrinologistaA
+|35 a 39,9|Obesidade grau II|Procurar recomendações médicas de um Endocrinologista|Procurar recomendações médicas de um Endocrinologista|
 |40 a 49,9|Obesidade grau III|Procurar recomendações médicas de um Endocrinologista|Procurar recomendações médicas de um Endocrinologista|
 
 |Entregas|
