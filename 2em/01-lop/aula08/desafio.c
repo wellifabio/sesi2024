@@ -51,21 +51,21 @@ int main()
         switch(opcao){
             case 1:
                 imposto = fgts(salario);
-                printf("O FGTS é R$ %.2f\n", imposto);
+                printf("%s seu nome FGTS é R$ %.2f\n", nome, imposto);
                 break;
             case 2:
                 imposto = inss(salario);
-                printf("O INSS é R$ %.2f\n", imposto);
+                printf("%s seu INSS é R$ %.2f\n", nome, imposto);
                 break;
             case 3:
                 imposto = irrf(salario-inss(salario));
-                printf("O IRRF é R$ %.2f\n", imposto);
+                printf("%s seu IRRF é R$ %.2f\n", nome, imposto);
                 break;
             case 4:
-                printf("O Salário líquido é R$ %.2f\n", salario - inss(salario) - irrf(salario-inss(salario)));
+                printf("%s seu Salário líquido é R$ %.2f\n", nome, salario - inss(salario) - irrf(salario-inss(salario)));
                 break;                
             case 5:
-                printf("Bye bye\n");
+                printf("Bye bye %s\n", nome);
                 break;
             default:
                 printf("Opção inválida.\n");

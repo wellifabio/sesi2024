@@ -150,5 +150,22 @@ int main(){
 ```
 - Faça os testes novamente e verifique os resultados
 
-# Desafio
-Desenvolva um programa que solicita o nome e o salário de uma pessoa, em seguida monte um menú com os seguintes itens 1.FGTS, 2.INSS, 3.IRRF, 4.Salário Líquido e 5.Sair, cada item do menú deve chamar uma função que calcule o respectivo assunto, o programa só deve terminar se o usuário escolher a opção 5.
+## Desafios
+
+|Desafio 01|
+|-|
+|Desenvolva um programa que solicita o nome e o salário de uma pessoa, em seguida monte um menú com os seguintes itens 1.FGTS, 2.INSS, 3.IRRF, 4.Salário Líquido e 5.Sair, cada item do menú deve chamar uma função que calcule o respectivo assunto, o programa só deve terminar se o usuário escolher a opção 5. Pesquise as tebelas atuais de INSS e IRRS|
+
+|Desafio 02|
+|-|
+|Desenvolva um programa que peça o nome completo o peso, a altura e o sexo de um paciente e crie um menu com as seguintes opções 1.IMC, 2.Diagonóstico, 3.Recomendações, 4.Sair, utilize a tabela a seguir como parâmetro para as funções|
+
+|IMC (KG/M²)|Classificação|Recomendação|
+|-|-|-|
+|Menor que 18,5|Abaixo do peso|Exercícios de Hipertrofia|
+|18,5 a 24,9|Peso normal|Exercícios de moderados e leves|
+|25 a 29,9|Sobrepeso|Exercícios aeróbicos e de Hipertrofia moderados|
+|30 a 34,9|Obesidade grau I|Exercícios aeróbicos e de Hipertrofia intensos|
+|35 a 39,9|Obesidade grau II|Procurar recomendações médicas de um Endocrinologista|
+|40 a 49,9|Obesidade grau III|Procurar recomendações médicas de um Endocrinologista|
+
