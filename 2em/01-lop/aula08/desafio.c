@@ -19,6 +19,20 @@ float inss(float sal){
         return 7786.02 * 14 / 100 - 181.18;
 }
 
+float irrf(float salMenosINSS){
+    if(salMenosINSS < 2259.2)
+        return 0;
+    else if(salMenosINSS < 2826.66)
+        return salMenosINSS * 7.5 / 100 - 169.18;
+    else if(salMenosINSS < 3751.06)
+        return salMenosINSS * 15 / 100 - 381.44;
+    else if(salMenosINSS < 4664.69)
+        return salMenosINSS * 22.5 / 100 - 662.77;
+    else
+        return salMenosINSS * 27.5 / 100 - 896;
+}
+
+
 int main()
 {
     setlocale(LC_ALL, "");
@@ -44,10 +58,11 @@ int main()
                 printf("O INSS é R$ %.2f\n", imposto);
                 break;
             case 3:
-                printf("Escolheu 3\n");
+                imposto = irrf(salario-inss(salario));
+                printf("O IRRF é R$ %.2f\n", imposto);
                 break;
             case 4:
-                printf("Escolheu 4\n");
+                printf("O Salário líquido é R$ %.2f\n", salario - inss(salario) - irrf(salario-inss(salario)));
                 break;                
             case 5:
                 printf("Bye bye\n");
