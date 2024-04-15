@@ -154,18 +154,22 @@ int main(){
 
 |Desafio 01|
 |-|
-|Desenvolva um programa que solicita o nome e o salário de uma pessoa, em seguida monte um menú com os seguintes itens 1.FGTS, 2.INSS, 3.IRRF, 4.Salário Líquido e 5.Sair, cada item do menú deve chamar uma função que calcule o respectivo assunto, o programa só deve terminar se o usuário escolher a opção 5. Pesquise as tebelas atuais de INSS e IRRS|
+|Desenvolva um programa que solicita o nome e o salário de uma pessoa, em seguida monte um menu com os seguintes itens 1.FGTS, 2.INSS, 3.IRRF, 4.Salário Líquido e 5.Sair, cada item do menu deve chamar uma função que calcule o respectivo assunto, o programa só deve terminar se o usuário escolher a opção 5. Pesquise as tabelas atuais de INSS e IRRS|
 
 |Desafio 02|
 |-|
 |Desenvolva um programa que peça o nome completo o peso, a altura e o sexo de um paciente e crie um menu com as seguintes opções 1.IMC, 2.Diagonóstico, 3.Recomendações, 4.Sair, utilize a tabela a seguir como parâmetro para as funções|
 
-|IMC (KG/M²)|Classificação|Recomendação|
-|-|-|-|
-|Menor que 18,5|Abaixo do peso|Exercícios de Hipertrofia|
-|18,5 a 24,9|Peso normal|Exercícios de moderados e leves|
-|25 a 29,9|Sobrepeso|Exercícios aeróbicos e de Hipertrofia moderados|
-|30 a 34,9|Obesidade grau I|Exercícios aeróbicos e de Hipertrofia intensos|
-|35 a 39,9|Obesidade grau II|Procurar recomendações médicas de um Endocrinologista|
-|40 a 49,9|Obesidade grau III|Procurar recomendações médicas de um Endocrinologista|
+|IMC (KG/M²)|Classificação|Recomendação homem|Recomendação Mulher|
+|-|-|-|-|
+|Menor que 18,5|Abaixo do peso|Exercícios de Hipertrofia|Exercícios de Calistenia|
+|18,5 a 24,9|Peso normal|Exercícios de moderados e leves|Exercícios de moderados e leves|
+|25 a 29,9|Sobrepeso|Exercícios Aeróbicos e de Hipertrofia moderados|Exercícios aeróbicos e de Calistenia moderados|
+|30 a 34,9|Obesidade grau I|Exercícios Aeróbicos e de Hipertrofia intensos|Exercícios Aeróbicos e de Calistenia intensos|
+|35 a 39,9|Obesidade grau II|Procurar recomendações médicas de um Endocrinologista|Procurar recomendações médicas de um EndocrinologistaA
+|40 a 49,9|Obesidade grau III|Procurar recomendações médicas de um Endocrinologista|Procurar recomendações médicas de um Endocrinologista|
+
+|Entregas|
+|-|
+|[Formulário](https://docs.google.com/forms/d/e/1FAIpQLSfIbFKFkrX40YzXwAFSCF_f1qaHAeCLF9qY5tozjMeBYjOs9w/viewform?usp=sf_link)|
 
