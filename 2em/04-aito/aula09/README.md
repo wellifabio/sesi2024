@@ -28,5 +28,9 @@ Dispositivos mais completos como RaspberryPy e outros
 ```bash
 python --version
 ```
-
-
+O resultado será semelhante ao a seguir
+```cmd
+C:\>python --version
+Python 3.12.2
+```
+- **Obs**: Caso o processo falhe, basta repetir a instalação esoplendo a opção reparar ou instalar.
