@@ -20,7 +20,13 @@ Dispositivos mais completos como RaspberryPy e outros
 |[<img src="https://www.python.org/static/img/python-logo.png" style="height:50px">](https://www.python.org/)|
 |[<img src="https://logowik.com/content/uploads/images/visual-studio-code7642.jpg" style="height:50px">VsCode](https://code.visualstudio.com/)|
 
-- 1 No google digite Python
-
+- 1 Acesso o site oficial do [Python](https://www.python.org/)
+- 2 Faça download do instalador para o seu Sistema Operacional
+- 3 Instale o ambiente de desenvolvimento, ou instale através de um gerenciador de pacotes como chocolatey
+- 4 Caso utilize o windows ao concluir a instalação reinicie o computador ou aguarde alguns minutos
+- 5 Para verificar se está instalado, abra o **cmd**, **git** ou **powershell** e digite:
+```bash
+python --version
+```
 
 
