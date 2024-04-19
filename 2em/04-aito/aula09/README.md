@@ -34,5 +34,5 @@ O resultado será semelhante ao a seguir
 C:\>python --version
 Python 3.12.2
 ```
-- 6 - Instale também o vsCode e a extenção para compilar python
+- 6 - Instale também o [VsCode](https://code.visualstudio.com/) e a extenção para interpretar python, basta pesquisar por python nas extensões.
 - **Obs**: Caso o processo falhe, basta repetir a instalação esoplendo a opção reparar ou instalar.
