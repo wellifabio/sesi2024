@@ -4,8 +4,9 @@ Programação com linguagem **Python**
 ## Motivação
 Pyhton é uma linguagem de alto nível utilizada em praticamente todas as stacks, em nosso curso de redes com Iot precisaremos desenvolver aplicativos para embarcados em dispositivos diversos, para isso utilizaremos as linguagens **C** e **Python**
 - Desktop
-- Back-End
-- Front-End
+- Programação Web - Back-End
+- Programação Web - Front-End
+- Mobile
 - **Iot ou Embarcado**
 
 ## Utilização da linguagem C
