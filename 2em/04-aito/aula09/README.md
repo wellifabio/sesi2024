@@ -34,4 +34,5 @@ O resultado será semelhante ao a seguir
 C:\>python --version
 Python 3.12.2
 ```
+- 6 - Instale também o vsCode e a extenção para compilar python
 - **Obs**: Caso o processo falhe, basta repetir a instalação esoplendo a opção reparar ou instalar.
