@@ -36,3 +36,24 @@ Python 3.12.2
 ```
 - 6 - Instale também o [VsCode](https://code.visualstudio.com/) e a extenção para interpretar python, basta pesquisar por python nas extensões.
 - **Obs**: Caso o processo falhe, basta repetir a instalação esoplendo a opção reparar ou instalar.
+
+## Características da linguagem
+- Não tipada (Os tipos existem implicitos na linguagem, não é necessário declarar as variáveis previamente)
+- Menos verbosa (Não é necessário pontos e virgulas ou chaves)
+- Indentação (Hierarquias são através da indentação)
+
+## Exemplos
+```python
+# Exemplo de um programa com entrada e saída de dados 
+x = input("Digite seu nome:")
+print("Olá, ", x,"!")
+
+# Agora faça um programa que leia dois números e imprima a soma deles
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+soma = n1 + n2
+print("A soma dos números é: ", soma)
+
+# Agora faça um programa que leia um número e imprima se é par ou impar
+aua
+```
