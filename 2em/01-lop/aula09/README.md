@@ -141,13 +141,11 @@ int main() {
     int cmp = 5;
     int vetor[cmp];//Declaração com sujeira
     int i;
-
     //Laço para preencher o vetor com valores randômicos
     //Entre 0 e 100
     for (i = 0; i < cmp; i++) {
         vetor[i] = rand() % 101;
     }
-
     //Laço para mostrar o vetor
     for (i = 0; i < cmp; i++) {
         printf("%d\n", vetor[i]);
@@ -158,7 +156,7 @@ int main() {
 |Atividades|
 |-|
 |1) Crie uma matriz de 5 por 5 com números randômicos de 0 a 100 e mostre na tela|
-|2) Crie um vetor com 25 números randômicos mostre na tela|
+|2) Crie um vetor com 25 números randômicos de 0 a 100 e mostre na tela|
 |3) Reescreva o programa da atividade 2 e mostre também o maior número aleatório gerado e em qual posição do vetor se encontra|
 |4) Reescreva o programa da atividade 1 e mostre também o menor número aleatório gerado e em qual posição do vetor se encontra|
 |5) Reescreva o programa da atividade 2 e peça ao usuário para informar um número e verifique se este número está no vetor, caso positivo informe em qual posição do vetor ele está, senão informe que o número não foi encontrado|
