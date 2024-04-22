@@ -6,13 +6,25 @@
 
 ## Vetor
 - vetora[5]
-
+```c
+#include <stdio.h>
+int main() {
+    int vetora[5];
+    return 0;
+}
+```
 |indices|0|1|2|3|4|
 |-|-|-|-|-|-|
 |dados|||||
 
 - vetorb[5]
-
+```c
+#include <stdio.h>
+int main() {
+    int vetorb[5] = {52,25,0,15,21};
+    return 0;
+}
+```
 |indices|dados|
 |-|-|
 |0|52|
@@ -23,7 +35,13 @@
 
 ## Matriz
 - matriza[5][5]
-
+```c
+#include <stdio.h>
+int main() {
+    int matriza[5][5];
+    return 0;
+}
+```
 ||0|1|2|3|4|
 |-|-|-|-|-|-|
 |**0**||||||
@@ -33,7 +51,19 @@
 |**4**||||||
 
 - matrizb[5][5]
-
+```c
+#include <stdio.h>
+int main() {
+    int matrizb[5][5]={{1,0,3,8,5},{2,1,0,3,5},{1,2,3,3,3},{2,2,2,2,2},{0,2,5,8,9}};
+    int i, j;
+    for(i = 0; i < 5; i++){
+        for(j = 0; j < 5; j++)
+            printf("%d\t",matrizb[i][j]);
+        printf("\n");
+    }
+    return 0;
+}
+```
 ||0|1|2|3|4|
 |-|-|-|-|-|-|
 |**0**|1|0|3|8|5|
@@ -136,7 +166,7 @@ int main() {
 |7) Reescreva o programa da atividade 2 e peça ao usuário para informar se deseja ver os números em ordem 1. crescente ou 2. decrescente, ordene e mostre conforme escolha do usuário|
 [Entrega da lista](https://docs.google.com/forms/d/e/1FAIpQLSf4bDZgKjgHqBaAjyYos6w601bhSi8pHig-zHGfC8StZ70XMA/viewform?usp=sf_link)
 
-|Situação Problema:Sistema de agendamento de consultas|
+|Situação Problema: Sistema de agendamento de consultas|
 |-|
 |**Contextualização**|
 |O consultório da nutricionista Dra. Ângela Maria necessita de um sistema de agendamento de consultas, você como programador e empreendedor pretende prestar este serviço como PJ|
