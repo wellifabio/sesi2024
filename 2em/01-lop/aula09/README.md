@@ -132,7 +132,9 @@ int main() {
 |3) Reescreva o programa da atividade 2 e mostre também o maior número aleatório gerado e em qual posição do vetor se encontra|
 |4) Reescreva o programa da atividade 1 e mostre também o menor número aleatório gerado e em qual posição do vetor se encontra|
 |5) Reescreva o programa da atividade 2 e peça ao usuário para informar um número e verifique se este número está no vetor, caso positivo informe em qual posição do vetor ele está, senão informe que o número não foi encontrado|
-|6) Reescreva o programa da atividade 2 e peça ao usuário para informar um número e verifique se este número está na matriz, caso positivo informe em qual posição do vetor ele está, senão informe que o número não foi encontrado|
+|6) Reescreva o programa da atividade 1 e peça ao usuário para informar um número e verifique se este número está na matriz, caso positivo informe em qual posição do vetor ele está, senão informe que o número não foi encontrado|
+|7) Reescreva o programa da atividade 2 e peça ao usuário para informar se deseja ver os números em ordem 1. crescente ou 2. decrescente, ordene e mostre conforme escolha do usuário|
+[Entrega da lista](https://docs.google.com/forms/d/e/1FAIpQLSf4bDZgKjgHqBaAjyYos6w601bhSi8pHig-zHGfC8StZ70XMA/viewform?usp=sf_link)
 
 |Situação Problema:Sistema de agendamento de consultas|
 |-|
