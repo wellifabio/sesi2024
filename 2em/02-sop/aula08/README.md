@@ -21,7 +21,7 @@
 |RF001 - Receba como entrada o valor necessário para financiar o negócio, a taxa de juros ao mês e quantos meses será necessário para pagar.|Essecial|
 |RF002 - Retorne qual será o valor da parcela e o montante final a ser pago|Importante|
 |RF003 - Retorne uma tabela com os valores das parcelas no sistema SAC de amortização|Desejável|
-|RF - Faça um gráfico dos valores das parcelas|
+|RF - Faça um gráfico dos valores das parcelas|Desejável|
 |RN001 - O programa deve ser criado utilizando a linguagem Python|Essecial|
 [Solução](https://github.com/wellifabio/desafiofinancapy)
 
