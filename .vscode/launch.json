@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/welli/sesi2024/2em/01-lop/aula08",
-      "program": "c:/welli/sesi2024/2em/01-lop/aula08/build/Debug/outDebug",
+      "cwd": "c:/welli/sesi2024/2em/01-lop/aula09/exemplos",
+      "program": "c:/welli/sesi2024/2em/01-lop/aula09/exemplos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
