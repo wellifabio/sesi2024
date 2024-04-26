@@ -33,7 +33,7 @@ void loop(){
 ## Desafio
 |Contextualização|
 |-|
-|Sr. Adolfo é síndico de um condomínio muito grande, possui mais de 1500 casas com duas vagas na garagem cada uma. Nos horários de pico o cruzamento principal que leva a portaria fica congestionada, para resolver o problema precisa instalar um semáforo|
+|Sr. Adolfo é síndico de um condomínio muito grande, possui mais de 1500 casas com duas vagas na garagem cada uma. Nos horários de pico o cruzamento principal que leva a portaria fica congestionado, para resolver o problema precisa instalar um semáforo|
 
 ![Cruzamento](./cruzamento.webp)
 
