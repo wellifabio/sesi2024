@@ -39,4 +39,7 @@ void loop(){
 
 |Desafio|
 |-|
-|Construa dois semaforos controlados por um Arduíno UNO para o cruzamento da portaria, como protótipo deixe a luz verde com 2,5 segundos, a amarela com 0,5 segundos e o vermelho com 3 segundos, garanta que não haja acidentes causados por má programação dos semáforos|
+|Construa dois semaforos controlados por um Arduíno UNO para o cruzamento da portaria, como protótipo, deixe a luz verde com 2,5 segundos, a amarela com 0,5 segundos e o vermelho com 3 segundos, garanta que não haja acidentes causados por má programação dos semáforos|
+
+#### Protótipo
+![desafio](./desafio.png)
