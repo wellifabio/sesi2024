@@ -1,4 +1,4 @@
-# Aula 03
+# Aula 03 - Requisitos e UML (Unified Modeling Language)
 
 ## 2 Levantamento de Requisitos
 	- 2.3. Fases
@@ -11,9 +11,9 @@
 ### Requisitos funcionais:
 - Nós programadores trabalhamos boa parte do tempo codificando funcionalidades (requisitos funcionais)
 - Uma forma de ilustrar é utilizando UML - DCU.
--![lousa](./lousa.jpg)
--![Uber motorista](./dcu-uber.png)
--![Academia de musculação](./academia.png)
+- ![lousa](./lousa.jpg)
+- ![Uber motorista](./dcu-uber.png)
+- ![Academia de musculação](./academia.png)
 
 ## Atividade 01
 ### Contextualização:

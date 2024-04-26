@@ -22,8 +22,8 @@ Ideação é um processo criativo que se refere à geração de ideias e soluç�
 - Se a ideia é madura o suficiente, se torna uma possibilidade de **Empreendimento**, podento tornar-se uma Startup caso encontre parceiros dispostos a investir, neste caso precisamos modelar um negócio, e podemos utilizar a ferramenta [Quadro Canvas](https://wellifabio.github.io/canvas/) para Negócios.
 ![Canvas](./canvas.png)
 ## Prototipação
-- Figma
-- Diagrama de atividades
+- Ferramenta online para criação de diagramas e protótipos [**draw.io**](https://app.diagrams.net/)
+- Ferramenta para prototipação Desktop, Web, Mobile ... [Figma](https://www.figma.com/)
 ## Teste (Testes de software)
 - Teste de mesa
 - Teste unitário
@@ -32,3 +32,8 @@ Ideação é um processo criativo que se refere à geração de ideias e soluç�
 ## Implementação
 - IDE Ambiente integrado de desenvolvimento
 - SDK Kit de desenvolvimento de software
+
+## Processos para utilização do produto (Software)
+- Manuais técnicos
+- Ajuda F1, Help
+- Diagramas estruturais, DER, UML Diagrama de classes, [UML - Diagrama de atividades](../aula06/)
