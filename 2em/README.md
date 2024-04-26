@@ -1,6 +1,9 @@
 # Técnico em Desenvolvimento de Sistemas
-- 1DES
-    - [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./01-lop/)
+## 5º Itinerário: Formação Técnica e Profissional
+Esse itinerário específico é voltado para a Formação Técnica e Profissional dos estudantes.
+- [Plano de Curso](../PlanoCurso.pdf)
+- 2EM (Segundo ano do Ensino Médio)
+    - [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./1-lop/)
     - [SOP (Fundamentos e Administração de Sistemas Operacionais)](./02-sop/)
     - [LER (Levantamento de Requisitos)](./03-ler/)
     - [AITO (Arquitetura de redes com IoT)](./04-aito/)
