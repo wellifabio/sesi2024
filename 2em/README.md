@@ -1,9 +1,9 @@
 # Técnico em Desenvolvimento de Sistemas
 - 1DES
-    - [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./2em/01-lop/)
-    - [SOP (Fundamentos e Administração de Sistemas Operacionais)](./2em/02-sop/)
-    - [LER (Levantamento de Requisitos)](./2em/03-ler/)
-    - [AITO (Arquitetura de redes com IoT)](./2em/04-aito/)
+    - [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./01-lop/)
+    - [SOP (Fundamentos e Administração de Sistemas Operacionais)](./02-sop/)
+    - [LER (Levantamento de Requisitos)](./03-ler/)
+    - [AITO (Arquitetura de redes com IoT)](./04-aito/)
 
 ## Competências transversais - Cursos autoinstitucionais
 - 1 Acessar o portal **[EAD](https://ead.sp.senai.br)**
