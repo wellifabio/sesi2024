@@ -178,3 +178,5 @@ int main() {
 |Entrega|
 |-|
 |[Formulário para entrega](https://docs.google.com/forms/d/e/1FAIpQLScCmA2JiYr1CpZqdJ9lFZaMR9BuTbOUwFn70bycBzm4Xcg3zA/viewform?usp=sf_link)|
+
+[Solução](https://github.com/wellifabio/consultasc.git)
