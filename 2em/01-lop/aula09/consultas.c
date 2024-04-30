@@ -49,7 +49,7 @@ void listarPacientes()
     printf("\n");
 }
 
-// Fun√ß√£o que procura um Paciente e retorna o √≠ndice ou -1 se n√£o encontrado
+// FunÁ„o que procura um Paciente e retorna o Ìndice ou -1 se n„o encontrado
 int procurarPaciente(char *cpf){
     int encontrado = -1, i;
     for(i = 0; i < totalPacientes; i++){
@@ -64,6 +64,7 @@ int procurarPaciente(char *cpf){
 // Fun√ß√£o principal do programa
 int main()
 {
+	setlocale(LC_ALL,"");
     char cpf[14];
     int opcao = 0;
     do
@@ -71,7 +72,7 @@ int main()
         printf("1. Cadastrar Paciente\n2. Listar Pacientes\n");
         printf("3. Cadastrar Consulta\n4. Listar Consultas\n");
         printf("5. Cancelar Consulta\n6. Listar Consultas\n");
-        printf("7. Encerrar programa\n Escolha uma op√ß√£o: ");
+        printf("7. Encerrar programa\n Escolha uma opÁ„o: ");
         scanf("%d", &opcao);
         switch (opcao)
         {
@@ -81,7 +82,7 @@ int main()
             if(procurarPaciente(cpf) == -1){
                 novoPaciente(cpf);
             }else{
-                printf("O cpf deste paciente j√° est√° cadastrado.\n\n");
+                printf("O cpf deste paciente j· est· cadastrado.\n\n");
             }
             break;
         case 2:
@@ -91,7 +92,7 @@ int main()
             printf("Digite o cpf do paciente: ");
             scanf("%s",&cpf);
             if(procurarPaciente(cpf) == -1){
-                printf("Paciente n√£o encontrado.\n\n");
+                printf("Paciente n„o encontrado.\n\n");
             }else{
                 printf("Paciente encontrado.\n\n");
             }
@@ -105,7 +106,7 @@ int main()
             printf("Bye, bye.");
             break;
         default:
-            printf("Op√ß√£o inv√°lida");
+            printf("OpÁ„o inv·lida");
         }
     } while (opcao != 7);
     return 0;
