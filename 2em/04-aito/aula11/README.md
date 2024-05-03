@@ -33,7 +33,7 @@ void loop(){ // Início do Programa
 A vantagem da utilização de um **microcontrolador** como o Arduino é justamente a programação e a interconectividade com a internet através de uma **shield wifi** ou ethernet.
 
 ## Arduíno - Acendendo um led com um sensor de luz
-Esta demonstração replica o que acontece nos postes de nossas ruas todas as noites, acendem automaticamente ao anoitecer.
+Esta demonstração replica o que acontece nos postes de nossas ruas todas as noites, acendem automaticamente ao anoitecer. Precisaremos de dois resistores, um de 10kohm para o sensor de luminosidade (Fotoresistor) e um de 150ohm para o led.
 <br>![Circuito 02](./circuito2.png)
 ```c
 int sensorLuminosidade = 0;
