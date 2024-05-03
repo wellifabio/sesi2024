@@ -81,13 +81,13 @@ Finalmente, cada grupo apresenta sua solução, explicando como ela aborda o pro
 Benefícios do Exercício:
 <br>
 
-# Desafio:
-```c
-Você foi contratado pela empresa XPTO para estruturar a empresa, visando os seus principais clientes, os seus objetivos e a sua cultura.
+|Contextualização:|
+|-|
+|Você foi contratado pela empresa XPTO para estruturar a empresa, visando os seus principais clientes, os seus objetivos e a sua cultura.<br>Nicho da empresa: Lanchonete tudão!
 
-Nicho da empresa: Lanchonete tudão!
-
-Dasafio: Utilizando a ferramenta QUADRO CANVAS você deverá realizar o planejamento da empresa e salvar a imagem para apresentar aos sócios. 
+|Dasafio:|
+|-|
+|Utilizando a ferramenta QUADRO CANVAS você deverá realizar o planejamento da empresa e salvar a imagem para apresentar aos sócios.|
 
 ```
 - Parceiros chaves
