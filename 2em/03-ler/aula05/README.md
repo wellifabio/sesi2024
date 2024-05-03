@@ -43,11 +43,11 @@ Ideação é um processo criativo que se refere à geração de ideias e soluç�
 Objetivo do Exercício:<br>
 - Desenvolver uma solução inovadora para um problema específico utilizando os princípios do Design Thinking, enquanto integra a análise SWOT para entender melhor o contexto e identificar oportunidades e desafios.
 
-## Passos do Exercício:
+## Situação Problema:
 
 1. Identificação do Problema:
 
-- Divida os participantes em grupos pequenos (idealmente 4-6 pessoas por grupo).
+- Divida os participantes em grupos pequenos (idealmente 4 pessoas por grupo).
 Cada grupo deve selecionar um problema real ou fictício para resolver. 
 
 
