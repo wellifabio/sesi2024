@@ -3,4 +3,27 @@
 
 ## Arduíno - Obtendo o click de um botão de comando
 Para esta demosntração, vamos montar um circuito com um led e um botão, também precisaremos de dois resistores de 150 ohms para o led e de 4.7 khms para o botão.
-![Circuito 01](./circuito1.png)
+<br>![Circuito 01](./circuito1.png)
+```c
+/* 1 BOTAO LIGA DESLIGA LED */
+int led = 13; // Variável led assume o valor do pino 3
+int botao = 3; // variável recebe o valor proveniente do sensor
+int status = 0; //Variável do status do led desligado
+void setup(){ // Configurações - Pinos de Entrada/Saída
+pinMode(led, OUTPUT); // Configura led(pino 13) como saída
+pinMode(botao, INPUT); // Configura botao(pino 3) como entrada
+} // Fim da configuração
+void loop(){ // Início do Programa
+	int click = digitalRead(botao);
+	if (click == 1){ // Se pino 3 for igual a 1:
+		if(!status){
+			digitalWrite(led,1); // Aciona pino 13, NL=1 ou 5V na saída 13
+			status = 1;
+		} else { 
+			digitalWrite(led,0); // Desliga a saída digital 13
+			status = 0;
+		}
+		delay(500); // Tempo para remover flutuações ao clicar no botão
+	}
+} // Fim do Programa
+```
