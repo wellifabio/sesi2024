@@ -88,15 +88,13 @@ Benefícios do Exercício:
 |Dasafio:|
 |-|
 |Utilizando a ferramenta QUADRO CANVAS você deverá realizar o planejamento da empresa e salvar a imagem para apresentar aos sócios.
--Parceiros chaves
--Atividades chaves
--Preposições de valores
--Relacionamento com clientes
--Segmentação de clientes
--Custos
--Receita|
-|-|
+<br>-Parceiros chaves
+<br>-Atividades chaves
+<br>-Preposições de valores
+<br>-Relacionamento com clientes
+<br>-Segmentação de clientes
+<br>-Custos
+<br>-Receita|
 |Próximo passo, utilizando a ferramenta CANVA, você deverá desenvolver os layouts das paginas de cadastro e de catalogo de produtos, paginas de cadastro de funcionários, página de cadastro de fornecedores, trabalhando com paletas de cores e escolhidas pelo grupo, imagens escolhidas pelo grupo, fontes e demais questões de layout.
-|-|
 |Último passo, utilizando a ferramenta FIGMA você devera montar os processos de cada etapa, visando deixar o mais enxuto, bonito e de fácil entendimento.
 
