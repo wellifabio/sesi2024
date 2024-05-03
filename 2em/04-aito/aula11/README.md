@@ -4,6 +4,9 @@
 ## Arduíno - Obtendo o click de um botão de comando
 Para esta demosntração, vamos montar um circuito com um led e um botão, também precisaremos de dois resistores de 150 ohms para o led e de 4.7 khms para o botão.
 <br>![Circuito 01](./circuito1.png)
+O mesmo circuito pode ser montado sem a utilização do Arduino porém fica limitado apenas a pressionar o botão e segurar para acender o led
+<br>![Circuito 01](./circuito0.png)
+A programação a seguir acende o led ao clicar no botão, e se estiver aceso apaga o led ao clicar no botão, caso o botão seja mantido pressionado o led ficará piscando.
 ```c
 /* 1 BOTAO LIGA DESLIGA LED */
 int led = 13; // Variável led assume o valor do pino 3
@@ -27,3 +30,4 @@ void loop(){ // Início do Programa
 	}
 } // Fim do Programa
 ```
+A vantagem da utilização de um **microcontrolador** como o Arduino é justamente a programação e a interconectividade com a internet através de uma **shield wifi** ou ethernet.
