@@ -38,12 +38,16 @@ Ideação é um processo criativo que se refere à geração de ideias e soluç�
 - Ajuda F1, Help
 - Diagramas estruturais, DER, UML Diagrama de classes, [UML - Diagrama de atividades](../aula06/)
 
-  ## Exercício: Desenvolvendo uma Solução Inovadora para um Problema Específico
+  ## Situação Problema: Desenvolvendo uma Solução Inovadora para um Problema Específico
+
+|Contextualização:|
+|-|
+|Você foi contratado pela empresa XPTO para estruturar a empresa, visando os seus principais clientes, os seus objetivos e a sua cultura.<br>Nicho da empresa: Lanchonete tudão!|
 
 Objetivo do Exercício:<br>
 - Desenvolver uma solução inovadora para um problema específico utilizando os princípios do Design Thinking, enquanto integra a análise SWOT para entender melhor o contexto e identificar oportunidades e desafios.
 
-## Situação Problema:
+## Passos para a solução da Situação Problema:
 
 1. Identificação do Problema:
 
@@ -80,10 +84,6 @@ Os protótipos são então testados com colegas de outros grupos ou com indivíd
 Finalmente, cada grupo apresenta sua solução, explicando como ela aborda o problema identificado, aproveitando as oportunidades e superando as ameaças destacadas na análise SWOT.
 Benefícios do Exercício:
 <br>
-
-|Contextualização:|
-|-|
-|Você foi contratado pela empresa XPTO para estruturar a empresa, visando os seus principais clientes, os seus objetivos e a sua cultura.<br>Nicho da empresa: Lanchonete tudão!
 
 |Dasafio:|
 |-|
