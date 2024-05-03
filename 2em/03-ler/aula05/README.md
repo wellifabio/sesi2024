@@ -38,7 +38,7 @@ Ideação é um processo criativo que se refere à geração de ideias e soluç�
 - Ajuda F1, Help
 - Diagramas estruturais, DER, UML Diagrama de classes, [UML - Diagrama de atividades](../aula06/)
 
-  ## Situação Problema: Desenvolvendo uma Solução Inovadora para um Problema Específico
+# Situação Problema: Desenvolvendo uma Solução Inovadora para um Problema Específico
 
 |Contextualização:|
 |-|
