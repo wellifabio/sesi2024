@@ -50,3 +50,9 @@ void loop(){
 }
 ```
 O sensor de luminosidade, como a maioria dos sensores é analógico, significa que possui níveis de luminosidade, é um resistor que vai de 0 a 900 níveis diferentes, a porta número 9 configurada como saída também é analógica, fornecendo de 0 a 255 níveis de tenção, usamos a função map() para converter a escala de 0 a 900 para 0 a 255, desta forma quanto menos luz ambiente mais forte o led brilha.
+
+|Desafio|
+|-|
+|Construa um circuito semelhante ao anterior com um Fotoresistor e 10 leds, ao simular o aumento da luminozidade os leds vão se apagando|
+|![Circuito 03](./circuito3.png)|
+|![Circuito 03b](./circuito3b.png)|
