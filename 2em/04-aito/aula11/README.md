@@ -35,3 +35,18 @@ A vantagem da utilização de um **microcontrolador** como o Arduino é justamen
 ## Arduíno - Acendendo um led com um sensor de luz
 Esta demonstração replica o que acontece nos postes de nossas ruas todas as noites, acendem automaticamente ao anoitecer.
 <br>![Circuito 02](./circuito2.png)
+```c
+int sensorLuminosidade = 0;
+int led = 9;
+
+void setup(){
+	pinMode(led, OUTPUT);
+}
+void loop(){
+	int nivelDeLuz = analogRead(sensorLuminosidade);
+	nivelDeLuz = map(nivelDeLuz, 0, 900, 255, 0);
+	nivelDeLuz = constrain(nivelDeLuz, 0, 255);
+	analogWrite(led, nivelDeLuz);
+}
+```
+O sensor de luminosidade, como a maioria dos sensores é analógico, significa que possui níveis de luminosidade, é um resistor que vai de 0 a 900 níveis diferentes, a porta número 9 configurada como saída também é analógica, fornecendo de 0 a 255 níveis de tenção, usamos a função map() para converter a escala de 0 a 900 para 0 a 255, desta forma quanto menos luz ambiente mais forte o led brila.
