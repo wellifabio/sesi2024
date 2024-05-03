@@ -92,7 +92,7 @@ Benefícios do Exercício:
 -Atividades chaves
 -Preposições de valores
 -Relacionamento com clientes
-- egmentação de clientes
+- Segmentação de clientes
 - -Custos-Receita|
 
 Próximo passo, utilizando a ferramenta CANVA, você deverá desenvolver os layouts das paginas de cadastro e de catalogo de produtos, paginas de cadastro de funcionários, página de cadastro de fornecedores, trabalhando com paletas de cores e escolhidas pelo grupo, imagens escolhidas pelo grupo, fontes e demais questões de layout.
