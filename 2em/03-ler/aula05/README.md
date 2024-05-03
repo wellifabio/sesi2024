@@ -87,9 +87,7 @@ Benefícios do Exercício:
 
 |Dasafio:|
 |-|
-|Utilizando a ferramenta QUADRO CANVAS você deverá realizar o planejamento da empresa e salvar a imagem para apresentar aos sócios.|
-
-|- Parceiros chaves
+|Utilizando a ferramenta QUADRO CANVAS você deverá realizar o planejamento da empresa e salvar a imagem para apresentar aos sócios.- Parceiros chaves
 - Atividades chaves
 - Preposições de valores
 - Relacionamento com clientes
