@@ -97,6 +97,6 @@ Benefícios do Exercício:
 -Receita|
 |-|
 |Próximo passo, utilizando a ferramenta CANVA, você deverá desenvolver os layouts das paginas de cadastro e de catalogo de produtos, paginas de cadastro de funcionários, página de cadastro de fornecedores, trabalhando com paletas de cores e escolhidas pelo grupo, imagens escolhidas pelo grupo, fontes e demais questões de layout.
-
+|-|
 |Último passo, utilizando a ferramenta FIGMA você devera montar os processos de cada etapa, visando deixar o mais enxuto, bonito e de fácil entendimento.
 
