@@ -148,6 +148,35 @@ void novoInvestimento(){
     cont++;
 }
 
+void listarTodos(){
+    int i;
+    float nAcoes[cont], metaGanho[cont], limitePerda[cont], valorAtual[cont], patrimonio[cont];
+    char status[15][cont], concluido[5][cont];
+    for(i = 0; i < cont; i++){
+        nAcoes[i] = investimentos[i].valorInvestido / investimentos[i].precoEntrada;
+        metaGanho[i] = investimentos[i].precoEntrada + investimentos[i].precoEntrada * investimentos[i].metaGanho / 100;
+        limitePerda[i] = investimentos[i].precoEntrada - investimentos[i].precoEntrada * investimentos[i].limitePerda / 100;
+        if(investimentos[i].valorAtual == 0){
+            printf("\nVocê pagou R$ %.2f na ação %s digite o valor atual: ", investimentos[i].precoEntrada, investimentos[i].investimento);
+            scanf("%f",&valorAtual[i]);
+            strcpy(concluido[i],"Não");
+        }else{
+            valorAtual[i] = investimentos[i].valorAtual;
+            strcpy(concluido[i],"Sim");
+        }
+        patrimonio[i] = nAcoes[i] * valorAtual[i];
+        if(patrimonio[i] > investimentos[i].valorInvestido)
+            strcpy(status[i],"Positivo");
+        else
+            strcpy(status[i],"Negativo");
+    }
+    fflush(stdin);
+    printf("\n|Investimento|Data Início|Valor Investido|Preço Entrada|Total Ações|Meta Ganho %%|Limite Perda %%|Ganho R$|Perda R$|Valor Atual|Patrimonio|Status|Concluído|\n");
+    printf("|-|-|-|-|-|-|-|-|-|-|-|-|-|\n");
+    for(i = 0; i < cont; i++)
+        printf("|%s|%s|%.2f|%.2f|%.1f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|%s|%s|\n", investimentos[i].investimento, investimentos[i].dataInicio, investimentos[i].valorInvestido, investimentos[i].precoEntrada, nAcoes[i], investimentos[i].metaGanho, investimentos[i].limitePerda, metaGanho[i], limitePerda[i], valorAtual[i], patrimonio[i], status[i], concluido[i]);
+}
+
 int main(){
     setlocale(LC_ALL,"");
     int op = 0;
@@ -158,7 +187,9 @@ int main(){
                 novoInvestimento();
                 break;
             case 2: break;
-            case 3: break;
+            case 3: 
+                listarTodos();
+                break;
             case 4: break;
             case 5: 
                 printf("\nBye, bye!\n");
