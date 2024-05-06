@@ -33,7 +33,7 @@
 |Podem trabalhar em duplas ou grupos, Ainda não é necessário realizar a persistência de dados, o programa será apresentado ao Instrutor e cada pessoa deve responder perguntas técnicas|
 
 ## Dicas
-- 1 Login básico
+- Login básico
 - login.c
 ```c
 #include <stdio.h>
