@@ -12,9 +12,6 @@
 		- 2.3.6.Cópia de diretórios e arquivos
 		- 2.3.7.Edição de arquivos
 
-## (S.O) utilizado
-<img src="img.svg" width="250px">
-
 ## Virtualização (Instalação de SO)
 - Criando um computador virtual com **VirtualBOX**
 - Baixar e instalar o virtual BOX
