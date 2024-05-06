@@ -79,3 +79,27 @@ int main(){
 	return 0;
 }
 ```
+- Validando login e senha
+- login.c
+```c
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char login[50];
+    char senha[50];
+    char loginCorreto[50] = "wellifabio\n";
+    char senhaCorreta[50] = "Passwd00!\n";
+	do{
+	    fflush(stdin);//Limpar o buffer do teclado
+	    printf("Digite o seu login:");
+	    fgets(login,50,stdin);
+	    fflush(stdin);//Limpar o buffer do teclado
+	    printf("Digite o sua Senha:");
+	    fgets(senha,50,stdin);
+	    if(strcmp(senha, senhaCorreta) != 0 || strcmp(login, loginCorreto) != 0)
+	        printf("Acesso negado!\n\n");
+	}while(strcmp(senha, senhaCorreta) != 0 || strcmp(login, loginCorreto) != 0);
+	printf("Bem vindo %s",login);
+	return 0;
+}
+```
