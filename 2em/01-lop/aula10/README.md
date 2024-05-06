@@ -103,3 +103,70 @@ int main(){
 	return 0;
 }
 ```
+- Estrutura básica
+```c
+#include <stdio.h>
+#include <string.h>
+#include <locale.h>
+
+typedef struct
+{
+    char investimento[50];
+    char dataInicio[11];
+    float valorInvestido;
+    float precoEntrada;
+    float metaGanho;
+    float limitePerda;
+    float valorAtual;
+} Investimento;
+
+Investimento investimentos[100];
+int cont = 0;
+
+int menu(){
+    int opcao;
+    printf("\n\n1. Novo investimento\n2. Concluir investimento\n3. Listar todos os Investimentos\n4.Listar Carteira Ativa\n5. Sair\n");
+    printf("Digite uma opção: ");
+    scanf("%d",&opcao);
+    return opcao;
+}
+
+void novoInvestimento(){
+    printf("Investimento: ");
+    scanf("%s",&investimentos[cont].investimento);
+    printf("Data de início: ");
+    scanf("%s",&investimentos[cont].dataInicio);
+    printf("Valor Investido: ");
+    scanf("%f",&investimentos[cont].valorInvestido);
+    printf("Preço de Entrada: ");
+    scanf("%f",&investimentos[cont].precoEntrada);
+    printf("Meta de ganho em porcentagem: ");
+    scanf("%f",&investimentos[cont].metaGanho);
+    printf("Limite de perda em porcentagem: ");
+    scanf("%f",&investimentos[cont].limitePerda);
+    investimentos[cont].valorAtual = 0;
+    cont++;
+}
+
+int main(){
+    setlocale(LC_ALL,"");
+    int op = 0;
+    do{
+        op = menu();
+        switch(op){
+            case 1: 
+                novoInvestimento();
+                break;
+            case 2: break;
+            case 3: break;
+            case 4: break;
+            case 5: 
+                printf("\nBye, bye!\n");
+                break;
+            default:
+                printf("\nOpção inválida!\n");
+        }
+    }while(op != 5);
+	return 0;
+}
+```
