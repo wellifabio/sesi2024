@@ -201,3 +201,27 @@ int main(){
 	return 0;
 }
 ```
+O programa acima já está com as funcionalidades dos requisitos RF001, RF002, RF003 e RF005 desenvolvidas, pode utilizar como base para a resolução da sua situação problema desenvolvendo as ultimas funcionalidades RF004 e RF006.
+
+## Situação Problema 02
+
+|Contextualização|
+|-|
+|Sra. Esmeralda Aguiar, professora de Pilates, possui vários alunos que atende em sessões particulares. Atualmente ela utiliza uma planilha em Excel para controlar o agendamento de suas aulas|
+
+![Carteira](./plan2.png)
+
+|Desafio|
+|-|
+|Criar um programa em C que substirua a planilha em excel com as seguintes funcionalidades/requisitos funcionais e não funcionais|
+
+|Não funcionais|Prioridades|
+|-|-|
+|RN001 - Linguagem C|_Essencial_|
+|RN002 - Programação estrutural e funcional|_Essencial_|
+|**Funcionais**|**Prioridades**|
+|RF001 - Criar um programa com uma tela inicial com o nome do programa **Planilha de Pilates** e solicitando um login e uma senha|_Essencial_|
+|RF002 - Caso o usuário esteja cadastrado, permita que ele cadastre-se e logo após faça login com sua senha recem criada|_Desejavel_|
+|RF003 - Após o login, criar um menu com a opções [1.Novo atendimento, 2. Listar atendimentos, 4. Alterar atendimento, 4.Excluir atendimento, 5. Sair]|_Essencial_|
+|RF004 - Cadastrar atendimento com os campos [aluno, data, qtdeHoras, valorHora]|_Essencial_|
+|RF005 - Listar todos os atendimentos calculando os **totais** e o **total geral ao final**|_Importante_|
