@@ -4,7 +4,7 @@
 - 3.6. Vetores
 - 3.7. Matrizes
 
-## Desafio 01 - Situação Problema
+## Situação Problema 01
 
 |Contextualização|
 |-|
@@ -31,3 +31,51 @@
 |OBS:|
 |-|
 |Podem trabalhar em duplas ou grupos, Ainda não é necessário realizar a persistência de dados, o programa será apresentado ao Instrutor e cada pessoa deve responder perguntas técnicas|
+
+## Dicas
+- 1 Login básico
+- login.c
+```c
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char login[50];
+    char senha[50];
+    char senhaCorreta[50] = "Passwd00!\n";
+    
+	printf("Digite o seu login:");
+	fgets(login,50,stdin);
+	printf("Digite o sua Senha:");
+	fgets(senha,50,stdin);
+	
+	if(strcmp(senha, senhaCorreta) == 0){
+	    printf("Bem vindo %s",login);
+	}else{
+	    printf("Acesso negado");
+	}
+	
+	return 0;
+}
+```
+- Login com laço
+login.c
+```c
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char login[50];
+    char senha[50];
+    char senhaCorreta[50] = "Passwd00!\n";
+    
+	printf("Digite o seu login:");
+	fgets(login,50,stdin);
+	do{
+	   fflush(stdin);//Limpar o buffer do teclado
+	   printf("Digite o sua Senha:");
+	   fgets(senha,50,stdin);
+	   if(strcmp(senha, senhaCorreta) != 0) printf("Acesso negado!\n\n");
+	}while(strcmp(senha, senhaCorreta) != 0);
+	printf("Bem vindo %s",login);
+	return 0;
+}
+```
