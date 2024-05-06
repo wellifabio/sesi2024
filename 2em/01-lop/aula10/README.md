@@ -1,0 +1,33 @@
+# Aula10 - Desafios com Vetores
+
+## Conhecimentos
+- 3.6. Vetores
+- 3.7. Matrizes
+
+## Desafio 01 - Situação Problema
+
+|Contextualização|
+|-|
+|Sr. Jacinto Penna, jovem aposentado de 55 anos, após trabalhar por 35 anos no setor público aplica seu dinheiro em vários tipos de investimentos, fundos de renda fixa, ações, criptomoedas, tesouro direto emtre outros. Atualmente ele utiliza uma planilha em Excel para controlar sua carteira de investimentos|
+
+![Carteira](./plan1.png)
+
+|Desafio|
+|-|
+|Criar um programa em C que substirua a planilha em excel com as seguintes funcionalidades/requisitos funcionais e não funcionais|
+
+|Não funcionais|Prioridades|
+|-|-|
+|RN001 - Linguagem C|_Essencial_|
+|RN002 - Programação estrutural e funcional|_Essencial_|
+|**Funcionais**|**Prioridades**|
+|RF001 - Criar um programa com uma tela inicial com o nome do programa **Carteira de Investimentos** e solicitando um login e uma senha|_Essencial_|
+|RF002 - Após a senha correta criar um menu com a opções [1.Novo investimento, 2. Concluir investimento, 3. Listar todos os Investimentos, 4.Listar Carteira Ativa, 5. Sair]|_Essencial_|
+|RF003 - Cadastrar investimento com os campos [investimento, dataInício, valorInvestido, precoEntrada, metaGanho, limitePerda]|_Esencial_|
+|RF004 - Concluir investimento preenchendo o valorAtual e mostrando o valor do retorno final e se houve lucro ou prejuíso|_Esencial_|
+|RF005 - Listar todos os investimendos calculando os ganhos e perdas conforme a planilha, solicitando o valorAtual dos investimentos ativos|_Importante_|
+|RF006 - Listar carteira ativa. Listar somente os investimentos que não foram concluídos, solicitando o valorAtual|_Desejável_|
+
+|OBS:|
+|-|
+|Podem trabalhar em duplas ou grupos, Ainda não é necessário realizar a persistência de dados, o programa será apresentado ao Instrutor e cada pessoa deve responder perguntas técnicas|
