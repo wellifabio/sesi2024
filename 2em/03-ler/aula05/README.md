@@ -37,3 +37,64 @@ Ideação é um processo criativo que se refere à geração de ideias e soluç�
 - Manuais técnicos
 - Ajuda F1, Help
 - Diagramas estruturais, DER, UML Diagrama de classes, [UML - Diagrama de atividades](../aula06/)
+
+# Situação Problema: Desenvolvendo uma Solução Inovadora para um Problema Específico
+
+|Contextualização:|
+|-|
+|Você foi contratado pela empresa XPTO para estruturar a empresa, visando os seus principais clientes, os seus objetivos e a sua cultura.<br>Nicho da empresa: Lanchonete tudão!|
+
+Objetivo do Exercício:<br>
+- Desenvolver uma solução inovadora para um problema específico utilizando os princípios do Design Thinking, enquanto integra a análise SWOT para entender melhor o contexto e identificar oportunidades e desafios.
+
+## Passos para a solução da Situação Problema:
+
+1. Identificação do Problema:
+
+- Divida os participantes em grupos pequenos (idealmente 4 pessoas por grupo).
+Cada grupo deve selecionar um problema real ou fictício para resolver. 
+
+
+2. Análise SWOT:
+
+- Cada grupo realiza uma análise SWOT do problema selecionado. Eles devem identificar:<br>
+
+    - Forças (Strengths): Fatores internos que são positivos e ajudam a resolver o problema.
+    - Fraquezas (Weaknesses): Fatores internos que são negativos e dificultam a resolução do problema.
+    Oportunidades (Opportunities): Fatores externos que podem ser aproveitados para resolver o problema.
+    - Ameaças (Threats): Fatores externos que representam obstáculos para a resolução do problema.
+
+3. Empatia e Definição do Problema:
+
+- Após a análise SWOT, os grupos devem realizar entrevistas fictícias com pessoas afetadas pelo problema (ou que tenham experiência com ele) para entender melhor suas necessidades e pontos de vista. Isso ajuda a fortalecer a empatia.
+Com base nas descobertas, cada grupo deve refinar a definição do problema, destacando os principais pontos a serem abordados.
+
+4. Geração de Ideias:
+
+- Usando técnicas de geração de ideias do Design Thinking, como brainstorming ou brainwriting, os grupos devem gerar o máximo de soluções possíveis para resolver o problema identificado.
+Encoraje a criatividade e o pensamento fora da caixa.
+
+5. Prototipagem e Teste:
+
+- Cada grupo escolhe uma ou duas ideias mais promissoras e as transforma em protótipos simples. Isso pode ser feito com papel, canetas, post-its, ou até mesmo de forma digital, dependendo dos recursos disponíveis.
+Os protótipos são então testados com colegas de outros grupos ou com indivíduos externos, se possível.
+6. Refinamento e Apresentação:
+
+- Com base no feedback do teste, os grupos refinam seus protótipos.
+Finalmente, cada grupo apresenta sua solução, explicando como ela aborda o problema identificado, aproveitando as oportunidades e superando as ameaças destacadas na análise SWOT.
+Benefícios do Exercício:
+<br>
+
+|Dasafio:|
+|-|
+|Utilizando a ferramenta QUADRO CANVAS você deverá realizar o planejamento da empresa e salvar a imagem para apresentar aos sócios.
+<br>-Parceiros chaves
+<br>-Atividades chaves
+<br>-Preposições de valores
+<br>-Relacionamento com clientes
+<br>-Segmentação de clientes
+<br>-Custos
+<br>-Receita|
+|Próximo passo, utilizando a ferramenta CANVA, você deverá desenvolver os layouts das paginas de cadastro e de catalogo de produtos, paginas de cadastro de funcionários, página de cadastro de fornecedores, trabalhando com paletas de cores e escolhidas pelo grupo, imagens escolhidas pelo grupo, fontes e demais questões de layout.
+|Último passo, utilizando a ferramenta FIGMA você devera montar os processos de cada etapa, visando deixar o mais enxuto, bonito e de fácil entendimento.
+
