@@ -25,3 +25,13 @@
 ![Escolher Sistema Operacional](https://files.tecnoblog.net/wp-content/uploads/2019/08/virtualbox-002-700x446.jpg)
 - Instalar na máquina virtual o Sistema Oparacional **UBUNTU** através da ISO
 - Pronto.
+
+|Contextualização|
+|-|
+|Sr. Jacinto Penna, jovem aposentado de 55 anos, após trabalhar por 35 anos no setor público aplica seu dinheiro em vários tipos de investimentos, fundos de renda fixa, ações, criptomoedas, tesouro direto emtre outros. Atualmente ele utiliza uma planilha em Excel para controlar sua carteira de investimentos|
+
+![Carteira](./plan1.png)
+
+|Desafio|
+|-|
+|Criar um programa em HTML, CSS e JS que substirua a planilha em excel com as seguintes funcionalidades/requisitos funcionais e não funcionais|
