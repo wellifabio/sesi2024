@@ -71,3 +71,15 @@
 - b) Configurações Inadequadas: Configurações incorretas ou padrões de segurança fracos podem deixar sistemas e redes vulneráveis a ataques. Isso pode incluir deixar portas de rede abertas, usar senhas fracas, não implementar firewalls ou não aplicar políticas de segurança adequadas.
 
 - c) Falta de Atualizações de Segurança: Software desatualizado pode conter vulnerabilidades conhecidas que foram corrigidas em versões mais recentes. Se os sistemas não forem atualizados regularmente, eles permanecerão vulneráveis a ataques que exploram essas falhas.
+
+## Credenciais de Acesso:
+
+- Credenciais de acesso são informações usadas para verificar a identidade de um usuário e conceder acesso a sistemas, redes ou aplicativos. Elas geralmente consistem em um nome de usuário e uma senha, mas também podem incluir outras formas de autenticação, como tokens de segurança ou biometria.
+
+## Métodos de Autenticação:
+
+- a) Senhas: Senhas são a forma mais comum de credenciais de acesso e geralmente consistem em uma combinação de letras, números e caracteres especiais. No entanto, senhas podem ser vulneráveis a ataques de força bruta ou engenharia social se não forem suficientemente complexas ou exclusivas.
+
+- b) Autenticação de Dois Fatores (2FA): A autenticação de dois fatores adiciona uma camada extra de segurança exigindo que os usuários forneçam não apenas uma senha, mas também um segundo fator de autenticação, como um código enviado por SMS, um token de segurança ou uma impressão digital.
+
+- c) Biometria: A autenticação biométrica utiliza características físicas únicas, como impressões digitais, reconhecimento facial ou íris, para verificar a identidade de um usuário. Embora seja altamente segura, a biometria pode ser difícil de implementar e pode apresentar desafios de privacidade.
