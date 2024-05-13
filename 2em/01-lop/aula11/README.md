@@ -106,7 +106,7 @@ int main(){
 3;2;2
 ```
 
-- 2 Crie uma pasta chamada **ex2** e dentro dela um arquivo de texto chamado **times.csv** com o conteúdo a seguir, crie um programa que leia o arquivo, converta os dados calcule os **pontos ganhos** (vitória = 3; empate = 1; derrota = 0) e mostre na tela classificando do maior para o menor na quantidade de pontos ganhos.
+- 2 Crie uma pasta chamada **ex2** e dentro dela um arquivo de texto chamado **times.csv** com o conteúdo a seguir, crie um programa que leia o arquivo, converta os dados calcule os **pontos ganhos** (vitória = 3; empate = 1; derrota = 0) e mostre na tela classificando do **maior** para o **menor** na quantidade de pontos ganhos, caso haja empate no total de pontos ganhos, o saldo de gols será o segundo critério de desempate.
 <br>times.csv
 ```csv
 time;jogos;vitorias;empates;derrotas;saldo
@@ -119,7 +119,7 @@ Fluminense;4;2;0;2;0
 ```
 
 - 3 Crie uma pasta chamada **ex3** e dentro dela um arquivo de texto chamado **votos.csv** com o conteúdo a seguir, crie um programa que leia o arquivo, converta os dados calcule a porcentagem de voto de cada candidato e mostre na tela classificando do maior para o menor. Caso o primeiro colocado obtenha mais que 50% dos votos + 1 informe que ganhou em primeiro turno, senão informe que haverá segundo turno entre o primeiro colocado e o segundo colocado.
-<br>times.csv
+<br>votos.csv
 ```csv
 Luizinho Inácio,45847
 Jairzinho Bozo,45454
