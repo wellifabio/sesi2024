@@ -83,3 +83,13 @@
 - b) Autenticação de Dois Fatores (2FA): A autenticação de dois fatores adiciona uma camada extra de segurança exigindo que os usuários forneçam não apenas uma senha, mas também um segundo fator de autenticação, como um código enviado por SMS, um token de segurança ou uma impressão digital.
 
 - c) Biometria: A autenticação biométrica utiliza características físicas únicas, como impressões digitais, reconhecimento facial ou íris, para verificar a identidade de um usuário. Embora seja altamente segura, a biometria pode ser difícil de implementar e pode apresentar desafios de privacidade.
+
+## Engenharia Social
+
+- Engenharia social é uma técnica utilizada por atacantes para manipular pessoas a fim de obter informações confidenciais, acesso a sistemas ou realizar ações prejudiciais. 
+
+- a) Phishing: Phishing é uma técnica em que os atacantes enviam mensagens de e-mail, mensagens de texto ou mensagens instantâneas disfarçadas de comunicações legítimas de empresas ou contatos conhecidos. Essas mensagens geralmente solicitam informações confidenciais, como senhas, números de cartão de crédito ou detalhes de conta, ou contêm links maliciosos que direcionam os usuários a sites fraudulentos.
+
+- b) Pretexting: Pretexting envolve a criação de uma história ou pretexto falso para manipular as vítimas a compartilhar informações confidenciais ou realizar ações indesejadas. 
+
+- c) Tailgating: Tailgating, também conhecido como "piggybacking", é uma técnica física em que um invasor segue de perto um funcionário autorizado para entrar em uma área restrita de uma instalação segura. Isso explora a cortesia humana e a relutância em confrontar estranhos para ganhar acesso não autorizado a instalações protegidas. 
