@@ -47,3 +47,17 @@
 - Década de 2010: O aumento do uso de dispositivos móveis, computação em nuvem e IoT introduziu novos vetores de ataque, enquanto regulamentações como o GDPR e o aumento da conscientização sobre segurança cibernética impulsionaram a adoção de melhores práticas de segurança.
 
 - Década de 2020: A segurança cibernética tornou-se ainda mais complexa com o surgimento de ameaças como ransomware, ataques de supply chain e inteligência artificial aplicada a ciberataques, destacando a necessidade contínua de inovação e vigilância em segurança cibernética.
+
+## Ameaças Cibernéticas:
+
+- a) Malware: É um termo genérico que engloba vários tipos de software malicioso, como vírus, worms, trojans, ransomware e spyware.
+- b) Phishing: É uma técnica usada por cibercriminosos para enganar usuários e obter informações confidenciais, como senhas e informações de cartão de crédito. Isso geralmente é feito através de e-mails, mensagens de texto ou sites falsos que se passam por legítimos.
+- c) Ataques de Negação de Serviço (DDoS): Nesses ataques, os hackers inundam um sistema, rede ou serviço com uma quantidade esmagadora de tráfego de dados, tornando-o inacessível para usuários legítimos. Isso pode causar interrupções graves nos negócios e serviços online.
+- d) Ataques de Engenharia Social: Esses ataques exploram a psicologia humana para enganar as pessoas a divulgar informações confidenciais ou realizar ações prejudiciais. Isso pode incluir técnicas como pretexting, onde os hackers criam uma história falsa para obter acesso a informações, ou tailgating, onde eles se aproveitam da cortesia para ganhar acesso físico a instalações seguras.
+
+## 2. Exemplos Reais de Ataques Cibernéticos e Suas Consequências:
+- Ataque de Ransomware WannaCry em 2017: Este ataque infectou centenas de milhares de computadores em todo o mundo, criptografando seus dados e exigindo um resgate em Bitcoin para restaurá-los. Isso causou grandes interrupções em hospitais, empresas e serviços governamentais, resultando em perdas financeiras e danos à reputação.
+
+- Ataque de Phishing à Equifax em 2017: Neste caso, os hackers exploraram uma vulnerabilidade no site da Equifax para obter acesso a informações pessoais de mais de 143 milhões de pessoas. Isso resultou em um dos maiores vazamentos de dados da história e teve sérias repercussões para a empresa e seus clientes.
+
+- Ataque DDoS à Dyn em 2016: Este ataque mirou o provedor de serviços de DNS Dyn, causando interrupções em grandes sites como Twitter, Netflix e Amazon. O ataque destacou a vulnerabilidade da infraestrutura de internet centralizada e ressaltou os riscos associados aos ataques DDoS.
