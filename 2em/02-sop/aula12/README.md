@@ -137,4 +137,17 @@
             - Conformidade com regulamentações de segurança cibernética, como o GDPR na União Europeia ou o HIPAA nos Estados Unidos, que estabelecem padrões mínimos de segurança e proteção de dados para organizações em determinados setores.
 
 Em resumo, a prevenção de ataques cibernéticos envolve conscientização sobre segurança cibernética, treinamento de funcionários e implementação de políticas de segurança cibernética e conformidade regulatória. Ao educar os usuários, fortalecer as práticas de segurança e cumprir regulamentações, as organizações podem reduzir significativamente o risco de serem vítimas de ataques cibernéticos.
+
+
+
+|Atividade 1|
+|-|
+|Analisando as imagens abaixo, você tendo a posição de técnico de segurança cibernética entende que é um E-mail veridico, ou um E-mail malicioso.||
+<hr>
+Primeira Imagem:
+<center><img src="ex1.png"></center>
+<hr>
+Segunda Imagem
+<center><img src="ex02.png"></center>
+
         
