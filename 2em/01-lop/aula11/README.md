@@ -68,6 +68,9 @@ int main(){
 - Agora vamos ler o arquivo linha por linha, separar os dados e converter os tipos
 - lecalcula.c
 ```c
+#include <stdio.h>
+#include <locale.h>
+
 int main(){
 	setlocale(LC_ALL,"");
 	FILE *arquivo;
