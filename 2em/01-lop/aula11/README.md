@@ -71,6 +71,7 @@ int main(){
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main(){
 	setlocale(LC_ALL,"");
