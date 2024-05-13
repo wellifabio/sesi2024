@@ -61,3 +61,13 @@
 - Ataque de Phishing à Equifax em 2017: Neste caso, os hackers exploraram uma vulnerabilidade no site da Equifax para obter acesso a informações pessoais de mais de 143 milhões de pessoas. Isso resultou em um dos maiores vazamentos de dados da história e teve sérias repercussões para a empresa e seus clientes.
 
 - Ataque DDoS à Dyn em 2016: Este ataque mirou o provedor de serviços de DNS Dyn, causando interrupções em grandes sites como Twitter, Netflix e Amazon. O ataque destacou a vulnerabilidade da infraestrutura de internet centralizada e ressaltou os riscos associados aos ataques DDoS.
+
+## O que são Vulnerabilidades Cibernéticas
+- Vulnerabilidades cibernéticas referem-se a fraquezas ou falhas em sistemas de computador, redes, aplicativos ou dispositivos que podem ser exploradas por atacantes para comprometer a segurança e causar danos. Essas vulnerabilidades podem surgir devido a erros de programação, configurações inadequadas, falta de atualizações de segurança, uso de software desatualizado ou outras falhas no design ou implementação de sistemas tecnológicos.
+
+## Tipos Comuns de Vulnerabilidades:
+- a) Falhas de Software: Erros de programação, também conhecidos como bugs, podem criar vulnerabilidades que podem ser exploradas por atacantes para executar código malicioso, obter acesso não autorizado ou causar interrupções nos sistemas. Exemplos incluem buffer overflows, injection attacks (como SQL injection) e deserialization vulnerabilities.
+
+- b) Configurações Inadequadas: Configurações incorretas ou padrões de segurança fracos podem deixar sistemas e redes vulneráveis a ataques. Isso pode incluir deixar portas de rede abertas, usar senhas fracas, não implementar firewalls ou não aplicar políticas de segurança adequadas.
+
+- c) Falta de Atualizações de Segurança: Software desatualizado pode conter vulnerabilidades conhecidas que foram corrigidas em versões mais recentes. Se os sistemas não forem atualizados regularmente, eles permanecerão vulneráveis a ataques que exploram essas falhas.
