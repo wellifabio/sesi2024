@@ -111,3 +111,30 @@
         - Monitoramento de Rede: O monitoramento contínuo da rede permite identificar padrões incomuns ou atividades suspeitas que possam indicar uma possível violação de segurança. Isso inclui a análise de logs de segurança, tráfego de rede e comportamento do sistema em busca de sinais de atividade maliciosa.
 
         - Detecção de Intrusões: Os sistemas de detecção de intrusões (IDS) e os sistemas de prevenção de intrusões (IPS) são projetados para identificar e responder a atividades maliciosas em tempo real. Eles analisam o tráfego de rede em busca de padrões suspeitos ou assinaturas de ataques conhecidos e podem tomar medidas para bloquear ou mitigar essas ameaças automaticamente.
+
+## Prevenção
+- Objetivo: Discutir estratégias para prevenir ataques cibernéticos antes que eles ocorram, incluindo conscientização e treinamento de usuários.
+
+- 1. Conscientização sobre Segurança Cibernética:
+
+        - Conscientização sobre segurança cibernética é a compreensão dos riscos, ameaças e melhores práticas relacionadas à segurança da informação. Isso envolve educar usuários e funcionários sobre como reconhecer, evitar e responder a ameaças cibernéticas. Alguns aspectos importantes incluem:
+
+        - Identificação de sinais de possíveis ataques, como e-mails de phishing, sites falsos e solicitações de informações confidenciais.
+
+- 2. Treinamento de Funcionários:
+
+        - O treinamento de funcionários.
+
+        - Treinamento regular em segurança cibernética para todos os funcionários, incluindo a conscientização sobre as últimas ameaças e técnicas de ataque.
+        Simulações de phishing para testar a capacidade dos funcionários de identificar e relatar e-mails de phishing.
+        Treinamento específico para funcionários em posições de alto risco, como administradores de sistemas, que têm acesso privilegiado a sistemas e dados sensíveis.
+
+- 3. Políticas de Segurança Cibernética e Conformidade Regulatória:
+        - Políticas de segurança cibernética são diretrizes e procedimentos estabelecidos por uma organização para proteger seus ativos digitais contra ameaças cibernéticas. Isso pode incluir:
+            - Requisitos de senha forte, autenticação de dois fatores e práticas de segurança para proteger contas de usuário.
+            - Políticas de acesso e controle de acesso que limitam quem pode acessar dados sensíveis e como esses dados podem ser utilizados.
+            - Procedimentos para manter sistemas e software atualizados com as últimas correções de segurança e patches.
+            - Conformidade com regulamentações de segurança cibernética, como o GDPR na União Europeia ou o HIPAA nos Estados Unidos, que estabelecem padrões mínimos de segurança e proteção de dados para organizações em determinados setores.
+
+Em resumo, a prevenção de ataques cibernéticos envolve conscientização sobre segurança cibernética, treinamento de funcionários e implementação de políticas de segurança cibernética e conformidade regulatória. Ao educar os usuários, fortalecer as práticas de segurança e cumprir regulamentações, as organizações podem reduzir significativamente o risco de serem vítimas de ataques cibernéticos.
+        
