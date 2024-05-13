@@ -93,3 +93,21 @@
 - b) Pretexting: Pretexting envolve a criação de uma história ou pretexto falso para manipular as vítimas a compartilhar informações confidenciais ou realizar ações indesejadas. 
 
 - c) Tailgating: Tailgating, também conhecido como "piggybacking", é uma técnica física em que um invasor segue de perto um funcionário autorizado para entrar em uma área restrita de uma instalação segura. Isso explora a cortesia humana e a relutância em confrontar estranhos para ganhar acesso não autorizado a instalações protegidas. 
+
+## Proteção
+- Objetivo: Explorar as medidas proativas que podem ser tomadas para proteger sistemas e dados contra ameaças cibernéticas.
+- 1. Implementação de Firewalls e Antivírus:
+
+        - Firewalls: Firewalls são dispositivos ou programas que atuam como uma barreira entre uma rede interna e a internet, controlando o tráfego de entrada e saída com base em regras de segurança. Eles ajudam a bloquear ameaças conhecidas e não autorizadas, como malware, vírus e ataques de negação de serviço.
+
+        - Antivírus: Os programas antivírus são projetados para detectar, prevenir e remover software malicioso de computadores e dispositivos. Eles escaneiam arquivos em busca de padrões de código malicioso e os isolam ou removem para proteger o sistema contra infecções.
+- 2. Atualizações Regulares de Software e Patches de Segurança:
+
+        - Atualizações de Software: Fornecedores de software regularmente lançam atualizações para corrigir falhas de segurança conhecidas, chamadas de vulnerabilidades. Manter todos os programas e sistemas operacionais atualizados com as últimas versões é essencial para proteger contra explorações de vulnerabilidades conhecidas por hackers.
+
+        - Patches de Segurança: Patches de segurança são pequenas atualizações projetadas especificamente para corrigir vulnerabilidades de segurança específicas. Eles são lançados rapidamente em resposta a ameaças emergentes e devem ser aplicados imediatamente para proteger contra explorações de vulnerabilidades conhecidas.
+- 3. Monitoramento de Rede e Detecção de Intrusões:
+
+        - Monitoramento de Rede: O monitoramento contínuo da rede permite identificar padrões incomuns ou atividades suspeitas que possam indicar uma possível violação de segurança. Isso inclui a análise de logs de segurança, tráfego de rede e comportamento do sistema em busca de sinais de atividade maliciosa.
+
+        - Detecção de Intrusões: Os sistemas de detecção de intrusões (IDS) e os sistemas de prevenção de intrusões (IPS) são projetados para identificar e responder a atividades maliciosas em tempo real. Eles analisam o tráfego de rede em busca de padrões suspeitos ou assinaturas de ataques conhecidos e podem tomar medidas para bloquear ou mitigar essas ameaças automaticamente.
