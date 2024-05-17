@@ -3,7 +3,7 @@
 
 |Correção do Desafio|
 |-|
-|Criar um programa em HTML, CSS e JS que substirua a planilha em excel com as seguintes funcionalidades/requisitos funcionais e não funcionais||-|
+|Criar um programa em HTML, CSS e JS que substirua a planilha em excel com as seguintes funcionalidades/requisitos funcionais e não funcionais||-| 
 |RN001 - Linguagem HTML, CSS e JS|_Essencial_|
 |RN002 - Programação estrutural e funcional|_Essencial_|
 |**Funcionais**|**Prioridades**|
