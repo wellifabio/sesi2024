@@ -140,3 +140,19 @@ Zé do Bar,445550
 Viuva Branca,50
 Romário,1250
 ```
+
+- 4 Crie uma pasta chamada **ex4** e dentro dela um arquivo de texto chamado **salarios.csv** com o conteúdo a seguir, crie um programa que leia os dados de cada um dos funcionários, ignorando a primeira linha, calcule o valor das horas extras 50% sobre o valor do salário por hora, o FGTS e INSS sobre cada salário conforme tabela INSS doano atual, desconte o INSS e calcule o IRRF sobre o salário menos o INSS (Pesquise a planilha de IRRF do ano atual). Mostre na tela somente os totais de Salários Mensais, Horas Extras em Horas, Horas Extras em Dinheiro, Salários Brutos, FGTS, INSS, IRRF e Salários Líquidos. Crie um arquivo de saída com uma tabela em MarkDown, chamado **folha_de_pagamento.md** com as colunas [Funcionário, SalarioMensal, ContratoHoras, horas extras, SalárioHora, HorasExtrasDinheiro, SalarioBruto, FGTS, INSS, SalarioMenosINSS, IRRF, SalarioLiquido].
+<br> OBS: A última linha da tabela deve conter os totais.
+<br>salarios.csv
+```csv
+Funcionário, SalarioMensal, ContratoHoras, horas extras
+Adolfo Silva,7700.00,220,5
+Zé Roberto,5500.00,110,13
+Humberto,3000.00,220,0
+Felizberto,2200.00,110,0
+Dagoberto,1500.00,220,16
+Roberto,4000.00,110,24
+Margarida,8000.00,220,12
+Florinda,12500.00,220,0
+Genoveva,2500.00,110,11
+```
