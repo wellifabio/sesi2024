@@ -9,6 +9,9 @@
 |RF001 - Cadastrar Receitas e Despesas 1.Novo da Pessoa, 2. Receita, 3. Despesas , 4.Datas de Pagamento.|
 |RF005 - Listar todos os cadastros calculando se estara positivo ou negativo no final do mês.|_Importante_|
 
+- Modelo para utilizar de exemplo: 
+
+<img src="ex01.png">
 
 ##  - [Lista de Exercícios de Segurança Cibernética](https://forms.gle/th6etMAkeCNWG8dh8)
 
