@@ -1,5 +1,5 @@
 # 1DES - Primeiro Semestre
-- [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./1-lop/)
+- [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./01-lop/)
 - [SOP (Fundamentos e Administração de Sistemas Operacionais)](./02-sop/)
 - [LER (Levantamento de Requisitos)](./03-ler/)
 - [AITO (Arquitetura de redes com IoT)](./04-aito/)
