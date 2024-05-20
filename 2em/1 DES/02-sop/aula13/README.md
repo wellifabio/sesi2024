@@ -11,7 +11,7 @@
 
 - Modelo para utilizar de exemplo: 
 
-<img src="ex01.png">
+<img src="ex02.png">
 
 ##  - [Lista de Exercícios de Segurança Cibernética](https://forms.gle/th6etMAkeCNWG8dh8)
 
