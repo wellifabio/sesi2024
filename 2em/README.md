@@ -3,11 +3,6 @@
 Esse itinerário específico é voltado para a Formação Técnica e Profissional dos estudantes.
 - [Plano de Curso](../PlanoCurso.pdf)
 - 2EM (Segundo ano do Ensino Médio)
-    - [LOP (Lógica de Programação e Algoritmos - Linguágem C, Git, Github)](./1-lop/)
-    - [SOP (Fundamentos e Administração de Sistemas Operacionais)](./02-sop/)
-    - [LER (Levantamento de Requisitos)](./03-ler/)
-    - [AITO (Arquitetura de redes com IoT)](./04-aito/)
-
 ## Competências transversais - Cursos autoinstitucionais
 - 1 Acessar o portal **[EAD](https://ead.sp.senai.br)**
 - 2 Verificar se está matriculado em algum curso e completar todos Os que estiver matriculado.
