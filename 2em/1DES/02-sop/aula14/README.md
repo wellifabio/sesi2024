@@ -250,7 +250,7 @@ A atribuição de responsabilidades dentro da PSI é fundamental para garantir q
 
 |Estudo de Caso em Grupo|
 |-|
-|Elaboração de uma Mini Política de Segurança da Informação.
+|Em sua lanchonete Tudão, você deve elaborar uma Mini Política de Segurança da Informação.
 Definição dos Objetivos: 
 Defina três objetivos principais para a sua PSI. Explique a importância de cada um.
 Escopo, descreva o escopo da sua PSI. Inclua os ativos a serem protegidos, áreas de aplicação e limites da política.
