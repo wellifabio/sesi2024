@@ -139,3 +139,6 @@ Crie um programa em C que lê um arquivo de texto e conta a frequência de cada 
 
 ### Exercício 5: Encriptar e Desencriptar Arquivo de Texto
 Crie um programa em C que lê um arquivo de texto, encripta seu conteúdo usando uma cifra de substituição simples, e salva o resultado em outro arquivo. Depois, escreva outro programa para desencriptar o arquivo.
+
+### Entregas
+Crie um repositório público no github chamado **manipulaarquivos** contendo os códigos e arquivos dos 5 exercícios, cada um em uma pasta. copie o link do repositório e cole neste **[forms](https://docs.google.com/forms/d/e/1FAIpQLSeHM9VEFUEvxXWmVuI5nml_d1N-qSbhAOo4OK62SZEO2T6AdQ/viewform?usp=sf_link)**
