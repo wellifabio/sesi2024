@@ -8,5 +8,5 @@
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autogestão|Seguiu as orientações dos professores quanto ao tempo de avaliação e entrega|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar pensamento analítico|Entendeu como o tema estudado está relacionado aos outros temas|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar inteligência emocional|Não permitiu que fatores externos influênciase criticamente seu desempenho|
-|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autonomia|Resolvou preoblemas de endereçamento IP, descobriu qual o problema de configuração a rede apresentou|
+|![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autonomia|Resolveu problemas de endereçamento IP, descobriu qual o problema de configuração a rede apresentou|
 - [Link da avaliação](https://forms.gle/HQ2dTA3gZHD9Bofv7)
