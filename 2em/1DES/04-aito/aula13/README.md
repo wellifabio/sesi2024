@@ -21,7 +21,7 @@ Verificação Prática Somativa 02
 
 |Entregas|
 |-|
-|Repositório público do **github** com o nome **vps02iot** com duas pastas e um arquivo README.md<br> - 1 a primeira pasta chamada **portao** com o arquivo **codigo.c** com o código fonte e um **print.png** com a imagem do seu projeto do Thinkercad<br> - A segunda chamada **site** contendo o arquivo index.html, style.css com a página de controle dos acessos ao portão.|
+|Repositório público do **github** com o nome **vps02iot** com duas pastas e um arquivo README.md como capa<br> - 1 a primeira pasta chamada **portao** com o arquivo **codigo.c** com o código fonte e um **print.png** com a imagem do seu projeto do Thinkercad<br> - 2 A segunda chamada **site** contendo o arquivo index.html, style.css com a página/dashboard de controle dos acessos ao portão.|
 |**[Form para entrega](https://docs.google.com/forms/d/e/1FAIpQLScRVFmGb3YJ2i78CUaj6Dej_fQRqqT9EXrSdrzTTEMSHOUK-Q/viewform?usp=sf_link)**|
 
 ## Critérios
