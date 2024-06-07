@@ -34,4 +34,3 @@ Verificação Prática Somativa 02
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar pensamento analítico|Entendeu como o tema estudado está relacionado aos outros temas|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar inteligência emocional|Não permitiu que fatores externos influênciase criticamente seu desempenho|
 |![Desejável](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/desejavel.png)|Demonstrar autonomia|Codificou solução na linguagem de programação do microcontrolador Arduino UNO através do simulador|
-- [Link da avaliação](https://forms.gle/HQ2dTA3gZHD9Bofv7)
