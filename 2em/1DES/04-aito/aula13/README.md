@@ -14,8 +14,8 @@ Verificação Prática Somativa 02
 |Obs: O código de que controla o acionamento do portão está no arquivo **arduino.c**|
 |2 - Acrescente nesta simulação dois leds um vermelho e um verde que deverão ficar piscando alternadamente para sinalizar a saida de garagem da empresa: ![leds](./leds.png)|
 |3 - O arquivo **dados.csv** possui uma tabela com dados que representam o histórico de quantas vezes o portão foi aberto durante o mês de maio de 2024, abra este arquivo no Excel e crie dois gráficos, um que mostre a atividade do portão diáriamente e um semanalmente. Os gráficos devem ficar semelhantes aos seguintes, porém com valores diferentes, pois são apenas exemplos|
-|4 - Tire **print** dos gráficos e crie uma página web conforme o wireframe a seguir|
-|<center>![Wireframe](./wireframe.png)</center>|
+|4 - Tire **print** dos gráficos e crie uma página web conforme o wireframe a seguir, a tabela deve ser em HTML utilizando pelo menos os dados da primeira semana.|
+|![Wireframe](./wireframe.png)|
 
 |Entregas|
 |-|
