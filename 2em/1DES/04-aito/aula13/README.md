@@ -11,13 +11,11 @@ Verificação Prática Somativa 02
 |-|
 |1 - O experimento a seguir tem o objetivo de controlar este portão, você precisa replicá-lo otilizando os componentes a seguir: Placa de ensaio pequena, Arduino UNO R3, Bateria de 9V, Motor CC, 2 Relês DPDT, 3 Botões e 3 Resistores 1kohm.|
 |![Experimento](./portao.png)|
-|O Código de que controla o acionamento do portão está no arquivo **arduino.c**|
+|Obs: O código de que controla o acionamento do portão está no arquivo **arduino.c**|
 |2 - Acrescente nesta simulação dois leds um vermelho e um verde que deverão ficar piscando alternadamente para sinalizar a saida de garagem da empresa: ![leds](./leds.png)|
 |3 - O arquivo **dados.csv** possui uma tabela com dados que representam o histórico de quantas vezes o portão foi aberto durante o mês de maio de 2024, abra este arquivo no Excel e crie dois gráficos, um que mostre a atividade do portão diáriamente e um semanalmente. Os gráficos devem ficar semelhantes aos seguintes, porém com valores diferentes, pois são apenas exemplos|
-|![Diariamente](./diariamente.png)|
-|![Semanalmente](./semanalmente.png)|
 |4 - Tire **print** dos gráficos e crie uma página web conforme o wireframe a seguir|
-|![Wireframe](./wireframe.png)|
+|<center>![Wireframe](./wireframe.png)</center>|
 
 |Entregas|
 |-|
