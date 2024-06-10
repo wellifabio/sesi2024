@@ -196,11 +196,11 @@ data,hora,maquina
 
 |Desafio 01|
 |-|
-|Desenvolva um programa chamado chamdo **producao.c** que leia os dados deste arquivo e mostre na tela quantos exposívos foram produzidos por cada uma das máquinas|
+|Desenvolva um programa chamado **producao.c** que leia os dados deste arquivo e mostre na tela quantos explosívos foram produzidos por cada uma das máquinas|
 
 |Desafio 02|
 |-|
-|Ainda no programa chamado chamdo **producao.c** salve um relatório chamado **explosivos.md** com uma tabela resumindo quantos produtos foram produzidos por dia e por máquina|
+|Ainda no programa chamado **producao.c** salve um relatório chamado **explosivos.md** com uma tabela resumindo quantos produtos foram produzidos por dia e por máquina|
 
 |Situação Problema 3|
 |-|
@@ -221,7 +221,7 @@ numero_de_serie;resistencia;durabilidade
 ```
 |Desafio 01|
 |-|
-|Desenvolva um programa chamado chamdo **qualidade.c** que leia os dados deste arquivo e mostre na tela uma analize:|
+|Desenvolva um programa chamado **qualidade.c** que leia os dados deste arquivo e mostre na tela uma analise:|
 |- 1 calcule e exiba a média de resistência e a media de durabilidade dos produtos|
 |- 2 destaque os produtos com maior e menor resistência|
 |- 3 destaque os produtos com maior e menor durabilidade|
@@ -233,7 +233,7 @@ numero_de_serie;resistencia;durabilidade
 
 |Entregas|
 |-|
-|Crie um repositório publico no github chamado **vps02lop** contendo uma pasra para cada um dos três programas e dentro de cada pasta o código fonte, o arquivo CSV de entrada de dados e o arquivo MarkDown de saída de dados|
+|Crie um repositório publico no github chamado **vps02lop** contendo uma pasta para cada um dos três programas e dentro de cada pasta o código fonte, o arquivo CSV de entrada de dados e o arquivo MarkDown de saída de dados|
 |[Envie o link do repositório neste formulário](https://docs.google.com/forms/d/e/1FAIpQLSfbhtqKkXjTAbe05w-79lBfO-J9u2Idwzr0ebF-ppwr6_YyoQ/viewform?usp=sf_link)|
 
 
