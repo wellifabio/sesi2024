@@ -1,1 +1,262 @@
-{"titulo":"INSTRUMENTO DE REGISTRO DE AVALIAÇÃO FORMATIVA","turma":"2EM","instrutor":"Lucas e Wellington","componente":"LOP","data":"23/01/2024","tipo":"F","alunos":[{"aluno":"Aluno 01"},{"aluno":"Aluno 02"},{"aluno":"Aluno 03"},{"aluno":"Aluno 04"},{"aluno":"Aluno 05"},{"aluno":"Aluno 06"},{"aluno":"Aluno 07"},{"aluno":"Aluno 08"},{"aluno":""}],"criterios":[{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">6 Utilizar operadores aritméticos para realizar cálculos em expressões numéricas</span>","criterio":"<span style=\"font-size: 12.8px;\">Realizou os cálculos dentro do algoritmo resolvendo ao menos um dos problemas propostos.</span><br>","criticidade":1},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">7 Aplicar operadores lógicos para avaliar e combinar condições booleanas</span>","criterio":"<span style=\"font-size: 12.8px;\">Utilizou &amp;&amp;, || caso necessário solucionando os desafios</span><br>","criticidade":1},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">8 Utilizar estruturas condicionais para executar instruções com base em uma condição</span>","criterio":"Utilizou if ou switch de maneira a solucionar ao menos um dos desafios.","criticidade":1},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">9 Utilizar lógica de programação para a resolução de problemas</span>","criterio":"Resolveu todos os desafios propostos, através de algoritmos com sucesso.","criticidade":1},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">10 Utilizar vetores e matrizes na elaboração do programa</span>","criterio":"Utilizou vetores e ou listas para e solucionou uma das situações","criticidade":1},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">11 Aplicar técnicas de código limpo (clean code)</span>","criterio":"Removeu códigos desnecessários, variáveis desnecessárias, indentou o código.","criticidade":0},{"tg":"T","fundamento":"<div><font face=\"Arial, sans-serif\"><span style=\"font-size: 14.6667px;\">12 Manipular os diferentes tipos de dados na elaboração de programas</span></font></div>","criterio":"Utilizou int, float, char como tipos de dados de forma a solucionar os problemas propostos.","criticidade":0},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">13 Utilizar o ambiente integrado de desenvolvimento (IDE)</span>","criterio":"Utilizou o DevC++ ou VsCode","criticidade":0},{"tg":"T","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">14 Criar repositórios Git locais e remotos para controle de versionamento</span>","criterio":"Entregou as tarefas com histórico de versionamento.","criticidade":0},{"tg":"G","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">Demonstrar\nautogestão</span>","criterio":"Pesquisou somente em suas anotações seguindo as instruções e métodos de trabalho","criticidade":0},{"tg":"G","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">Demonstrar\npensamento analítico</span>","criterio":"Criou um sistema único com menus para a resolução de cada problema, conforme solicitado.","criticidade":0},{"tg":"G","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">Demonstrar\ninteligência emocional</span>","criterio":"Manteve a postura profissional, com calma durante as dificuldades.","criticidade":0},{"tg":"G","fundamento":"<span style=\"font-size:11.0pt;mso-bidi-font-size:10.0pt;\nline-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Calibri;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">Demonstrar\nautonomia</span>","criterio":"Leu e entendeu os desafios apresentando soluções eficazes, sem necessitar de excessivas explicações.","criticidade":0}],"matriz":[[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]}
+{
+    "titulo": "INSTRUMENTO DE REGISTRO DE AVALIAÇÃO FORMATIVA",
+    "turma": "2EM",
+    "instrutor": "Lucas e Wellington",
+    "componente": "LOP",
+    "data": "23/01/2024",
+    "tipo": "F",
+    "alunos": [
+        {
+            "aluno": "Aluno 01"
+        },
+        {
+            "aluno": "Aluno 02"
+        },
+        {
+            "aluno": "Aluno 03"
+        },
+        {
+            "aluno": "Aluno 04"
+        },
+        {
+            "aluno": "Aluno 05"
+        },
+        {
+            "aluno": "Aluno 06"
+        },
+        {
+            "aluno": "Aluno 07"
+        },
+        {
+            "aluno": "Aluno 08"
+        },
+        {
+            "aluno": ""
+        }
+    ],
+    "criterios": [
+        {
+            "tg": "T",
+            "fundamento": "6 Utilizar operadores aritméticos para realizar cálculos em expressões numéricas",
+            "criterio": "<span style=\"font-size: 12.8px;\">Realizou os cálculos dentro do algoritmo resolvendo ao menos um dos problemas propostos.<br>",
+            "criticidade": 1
+        },
+        {
+            "tg": "T",
+            "fundamento": "7 Aplicar operadores lógicos para avaliar e combinar condições booleanas",
+            "criterio": "<span style=\"font-size: 12.8px;\">Utilizou &amp;&amp;, || caso necessário solucionando os desafios<br>",
+            "criticidade": 1
+        },
+        {
+            "tg": "T",
+            "fundamento": "8 Utilizar estruturas condicionais para executar instruções com base em uma condição",
+            "criterio": "Utilizou if ou switch de maneira a solucionar ao menos um dos desafios.",
+            "criticidade": 1
+        },
+        {
+            "tg": "T",
+            "fundamento": "9 Utilizar lógica de programação para a resolução de problemas",
+            "criterio": "Resolveu todos os desafios propostos, através de algoritmos com sucesso.",
+            "criticidade": 1
+        },
+        {
+            "tg": "T",
+            "fundamento": "10 Utilizar vetores e matrizes na elaboração do programa",
+            "criterio": "Utilizou vetores e ou listas para e solucionou uma das situações",
+            "criticidade": 1
+        },
+        {
+            "tg": "T",
+            "fundamento": "11 Aplicar técnicas de código limpo (clean code)",
+            "criterio": "Removeu códigos desnecessários, variáveis desnecessárias, indentou o código.",
+            "criticidade": 0
+        },
+        {
+            "tg": "T",
+            "fundamento": "<div><font face=\"Arial, sans-serif\"><span style=\"font-size: 14.6667px;\">12 Manipular os diferentes tipos de dados na elaboração de programas</font></div>",
+            "criterio": "Utilizou int, float, char como tipos de dados de forma a solucionar os problemas propostos.",
+            "criticidade": 0
+        },
+        {
+            "tg": "T",
+            "fundamento": "13 Utilizar o ambiente integrado de desenvolvimento (IDE)",
+            "criterio": "Utilizou o DevC++ ou VsCode",
+            "criticidade": 0
+        },
+        {
+            "tg": "T",
+            "fundamento": "14 Criar repositórios Git locais e remotos para controle de versionamento",
+            "criterio": "Entregou as tarefas com histórico de versionamento.",
+            "criticidade": 0
+        },
+        {
+            "tg": "G",
+            "fundamento": "Demonstrarautogestão",
+            "criterio": "Pesquisou somente em suas anotações seguindo as instruções e métodos de trabalho",
+            "criticidade": 0
+        },
+        {
+            "tg": "G",
+            "fundamento": "Demonstrarpensamento analítico",
+            "criterio": "Criou um sistema único com menus para a resolução de cada problema, conforme solicitado.",
+            "criticidade": 0
+        },
+        {
+            "tg": "G",
+            "fundamento": "Demonstrarinteligência emocional",
+            "criterio": "Manteve a postura profissional, com calma durante as dificuldades.",
+            "criticidade": 0
+        },
+        {
+            "tg": "G",
+            "fundamento": "Demonstrarautonomia",
+            "criterio": "Leu e entendeu os desafios apresentando soluções eficazes, sem necessitar de excessivas explicações.",
+            "criticidade": 0
+        }
+    ],
+    "matriz": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ]
+}
