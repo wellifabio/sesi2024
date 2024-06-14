@@ -9,7 +9,7 @@
 |Desafios|
 |-|
 |1 - Monte o experimento a seguir que demosntra o funcionamento da esteira, utilizando os componentes a seguir: Placa de ensaio pequena, Arduino UNO R3, Bateria de 9V, Motor CC, 1 Relês DPDT, 1 Botão, 1 Resistores 1kohm. e um sensor de proximidade ultrasonico PING|
-|![Experimento](./esteira1.png)|
+|![Experimento](./esteira1.png)![Experimento](./esteira2.png)|
 |2 - O código abaixo é a base para o controle do motor e do sensor de proximidade, acrescente as funcionalidades do botão para ligar e desligar o motor e a segurança que desliga a esteira caso se aproxime a menos de 50cm.|
 
 ```c
