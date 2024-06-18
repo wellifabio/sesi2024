@@ -4,13 +4,28 @@
 - [LER (Levantamento de Requisitos)](./03-ler/)
 - [AITO (Arquitetura de redes com IoT)](./04-aito/)
 
-|Dia|Período|Aulas|Matéria|
+### Segunda-feira
+|Início|Matéria|Aulas|Fim|
 |-|:-:|:-:|:-:|
-|Seg|Manhã|5|LOP|
-|Seg|Tarde|5|SOP|
-|Sex|Manhã|5|AITO|
-|Sex|Tarde|1|SOP|
-|Sex|Tarde|4|LER|
+|07:30|LOP|2|09:00|
+|09:00|Intervalo||09:15|
+|09:15|LOP|3|11:30|
+|11:30|Almoço||13:15|
+|13:15|SOP|2|14:45|
+|14:45|Intervalo||15:00|
+|15:00|SOP|3|17:15|
+
+### Sexta-feira
+|Início|Matéria|Aulas|Fim|
+|-|:-:|:-:|:-:|
+|07:30|AITO|2|09:00|
+|09:00|Intervalo||09:15|
+|09:15|AITO|3|11:30|
+|11:30|Almoço||13:15|
+|13:15|SOP|1|14:00|
+|14:00|LER|1|14:45|
+|14:45|Intervalo||15:00|
+|15:00|LER|3|17:15|
 
 ## Pesquisa de Satisfação
 Alunos da amostragem
