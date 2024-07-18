@@ -21,7 +21,8 @@ Os códigos fonte, exemplos e materiais didáticos serão adicionados a este rep
 - [Banco de Talentos PCD](https://sesisenaisp.jobs.recrut.ai/job/LKJV4W)
 
 ## GitHub dos outros professores do SENAI Jaguariúna
-- [Reenye](https://github.com/ReenyeLima)
 - [Lucas Paiva](https://github.com/lucasPaiva00)
-- [Matheus Pignata](https://github.com/MatheusPignata)
-- [Renato](https://github.com/remajag)
+- [Luis Fernando](luisfernandospoljaric)
+- [Robson](https://github.com/robsonbsouzaa)
+- [Reenye](https://github.com/ReenyeLima)
+- [Ana Julia](https://github.com/AnaMassaro)
