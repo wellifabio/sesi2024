@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Juros</title>
+</head>
+
+<body>
+    <header>Calculadora de Montantes</header>
+    <nav>
+        <button onclick="m.innerHTML=jSimples(c.value,i.value,t.value)">Juros Simples</button>
+        <button onclick="m.innerHTML=jComposto(c.value,i.value,t.value)">Juros Compostos</button>
+    </nav>
+    <main>
+        <form>
+            <input type="number" id="c" step="0.01" placeholder="Capital" required>
+            <input type="number" id="i" step="0.01" placeholder="Taxa de Juros" required>
+            <input type="number" id="t" placeholder="Nro. meses" required>
+        </form>
+    </main>
+    <footer>
+        <p id="m">Resultado</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
