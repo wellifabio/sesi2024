@@ -21,6 +21,28 @@
 - Git
 - MySQL Workbanck
 
+## Tutorial para acessar o SGBD (Sistema Gerenciador de Banco de Dados) MySQL/MariaDB pela primeira vez.
+- 1 Instalar o XAMPP
+- 2 Abrir o XAMPP Control Panel
+  - Iniciar e digite XAMPP no menu iniciar ou navegue até
+  ```cmd
+  c:\xampp\xampp-control.exe
+  ```
+  Clique em **start** no serviço **Mysql**
+  ![xampp](./xampp.png)
+- 3 Abra uma **pasta** com o **VsCode** crie um arquivo de **script.sql**
+- 4 Abra um terminal e configure como **cmd** ou **git**
+- 5 Saia de todas as pastas e acessa a pasta **c:\xampp\mysql\bin**
+```cmd
+c:\aula\>cd\
+c:\>cd xampp
+c:\xampp>cd mysql
+c:\xampp\mysql>cd bin
+c:\xampp\mysql\bin>mysql -u root
+```
+- 6 Pronto você está pronto para executar comandos e scripts **SQL**
+
+
 ## Scripts SQL
 
 - DDL
