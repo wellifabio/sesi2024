@@ -52,3 +52,159 @@
 ## Atividade prática
 
 - Desenvolva um curriculo utilizando as tags aprendidas em aula.
+
+- HTML
+```c
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="nome">Lucas Paiva</h1>
+    <h5 id="informacoes_pessoais">
+        <span>Data de nascimento: 10/04/2002</span>
+        <br><span>22 anos - Brasileiro - Solteiro</span>
+        <br><span id="email">Email: paival907@gmail.com</span>
+        <br><span>Rua: Mario Zarpelon, nº195 - B. Jd. Triunfo - Pedreira/SP CEP. 13928-232</span>
+        <br><span>Telefone: (19)00000-2382</span>
+    </h5>
+
+    <hr id="espacamento">
+
+    <h1 id="obtivo">Objetivo</h1>
+    <h5 id="texto_objetivo">Meu objetivo é atuar como Instrutor em Tecnologia, aplicando meus conhecimentos<br>
+        em Experiência com o cliente, metodologia Ágil, Web Designer e, também cooperar em <br>
+        outros projetos de governança/tratativa de dentro da companhia para contruibuir com <br>
+        o crescimento. Busco aprender e crescer profissionalmente dentro da empresa. <br>
+        contribuindo para o sucesso da equipe e da organização como um todo.</h5>
+
+    <h1 id="formacao">Formação Acadêmica</h1>
+    <!-- "OL" LISTA ORDENADA -->
+
+    <!-- <ol>
+        <li></li>
+    </ol> -->
+
+    <!-- "UL" LISTA NÃO ORDENADA -->
+    <ul id="lista">
+        <li>Tecnólogo em Análise e Desenvolvimento de Sistemas - Concluído <br>Unicesumar - dez/2023.</li>
+        <li>Pós Graduação em Design de UX - Pausada.</li>
+        <li>TI (Técnico em Informática) - Concluído - Senai Jaguariúna - dez/2019.</li>
+        <li>Power BI - Senai Jaguariuna - nov/2023</li>
+        <li>IOT - Cisco Academy - marc/2024</li>
+        <li>Hardware - Concluído - Educa Jaguariúna - dez/2018.</li>
+        <li>Ensino Médio - E.E. Prof. João Alvarenga - Concluído - dez/2019.</li>
+    </ul>
+
+    <h1 id="experiencia">Experiência Profissional</h1>
+    <ul id="segunda_lista">
+        <li>Instrutor de Informática.</li>
+        <li>Manutenção em periféricos de Tecnologia.</li>
+        <li>Programação Web Service, Web Designer, Android, Java Desktop, C e Python.</li>
+        <li>Product Owner of Service Now platform support and governance - Ambev.</li>
+        <li>Instrutor de Aprendizagem e Treinamento Industrial - Senai/Sesi</li>
+    </ul>
+
+    <h1 id="curso">Cursos e Qualificações</h1>
+    <ul id="terceira_lista">
+        <li>Hardware e Software.</li>
+        <li>Web Service, Web Designer, Android, Java Desktop, C e Python.</li>
+        <li>Banco de Dados</li>
+        <li>Metodologia Ágil</li>
+        <li>Redes de Internet</li>
+        <li>IOT (Internet das coisas)</li>
+        <li>Power BI</li>
+    </ul>
+
+
+</body>
+
+</html>
+```
+
+- CSS
+```c
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+#nome{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#informacoes_pessoais{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email{
+    color: blue;
+}
+
+#espacamento{
+    padding: 0px;
+    width: 450px;
+
+}
+
+#obtivo{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#texto_objetivo{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formacao{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#lista{
+    background: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#experiencia{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#segunda_lista{
+    background: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#curso{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#terceira_lista{
+    background: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+```
