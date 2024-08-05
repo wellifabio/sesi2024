@@ -32,10 +32,8 @@ alter table Alunos drop column idade;
 -- Ver a estrutura da tabela
 describe Alunos;
 
--- Ver todas as tabelas
-show tables;
-
 -- DML - Data Manipulation Language
+-- Criar os dados dos alunos inserindo na tabela
 insert into Alunos values (1,"João","19 99878-7879","joao@gamil.com");
 insert into Alunos values (2,"Mariana","19 95978-7879","mariana@gmail.com");
 insert into Alunos values (3,"Carlos","19 91878-7879","carlos@gmail.com");
