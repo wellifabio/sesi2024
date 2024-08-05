@@ -2,6 +2,7 @@
 Crie um programa que leia os três lados de um triângulo
 e classifique, se é um triângulo equilátero, isósceles ou escaleno.
 */
+const prompt = require("prompt-sync")();
 
 a = parseFloat(prompt("Digite o lado A"));
 b = parseFloat(prompt("Digite o lado B"));
