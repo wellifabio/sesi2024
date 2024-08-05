@@ -18,3 +18,11 @@ Relacionamentos são as ligações entre as entidades. Exemplo: Aluno está matr
 
 ## DER - Diagrama Entidade Relacionamento
 O DER é uma representação gráfica do MER. O DER é composto por entidades, atributos e relacionamentos.
+### Exemplo de DER - Escola
+![Escola](./escola.png)
+
+### Notação
+![Notação](./merder.png)
+
+## Dicionário de Dados
+O dicionário de dados é uma lista de todos os elementos do banco de dados. O dicionário de dados é composto por:
