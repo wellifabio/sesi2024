@@ -12,14 +12,25 @@ create table Pessoas(
     email varchar(100) not null
 );
 
+-- Listar as tabelas
+show tables;
 -- Ver a estrutura da tabela
 describe Pessoas;
 
--- Ver todas as tabelas
-show tables;
-
 -- Excluir uma tabela
 drop table Pessoas;
+
+-- Alterar uma tabela, acrescentar um campo/culuna
+alter table Pessoas add column idade int;
+
+-- Ver a estrutura da tabela
+describe Pessoas;
+
+-- Alterar a tabela, remover o campo idade
+alter table Pessoas drop column idade;
+
+-- Ver a estrutura da tabela
+describe Pessoas;
 
 -- Ver todas as tabelas
 show tables;
