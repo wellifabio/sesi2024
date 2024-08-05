@@ -1,23 +1,28 @@
 -- DDL - Dinamic Data Language
+-- Criar um banco de dados
+drop database if exists escola;
+create database escola;
+use escola;
+
 -- Criar uma tabela de Pessoas
 create table Pessoas(
     id int not null primary key auto_increment,
     nome varchar(100) not null,
     telefone varchar(20),
     email varchar(100) not null
-),
+);
 
 -- Ver a estrutura da tabela
-describe Pessoas,
+describe Pessoas;
 
 -- Ver todas as tabelas
-show tables,
+show tables;
 
 -- Excluir uma tabela
-drop table Pessoas,
+drop table Pessoas;
 
 -- Ver todas as tabelas
-show tables,
+show tables;
 
 -- DML - Data Manipulation Language
 insert into Pessoas values (1,"João","19 99878-7879","joao@gamil.com");
