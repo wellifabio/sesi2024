@@ -33,7 +33,8 @@ alter table Alunos drop column idade;
 describe Alunos;
 
 -- DML - Data Manipulation Language
--- Criar os dados dos alunos inserindo na tabela
+-- CRUD - Create, Read, Update, Delete
+-- Create - Criar os dados dos alunos inserindo na tabela
 insert into Alunos values (1,"João","19 99878-7879","joao@gamil.com");
 insert into Alunos values (2,"Mariana","19 95978-7879","mariana@gmail.com");
 insert into Alunos values (3,"Carlos","19 91878-7879","carlos@gmail.com");
@@ -45,4 +46,14 @@ insert into Alunos values (8,"Julia","19 99878-5555","julia@gmail.com");
 insert into Alunos values (9,"Marcos","19 99878-7777","marcos@gmail.com");
 insert into Alunos values (10,"Maria","19 99878-8888","maria@gmail.com");
 
+-- Read - Listar os alunos 
+select * from Alunos;
+
+-- Update - Atualizar os dados de um aluno
+update Alunos set nome = "Ana Luiza" where id = 1;
+update Alunos set email = "analuiza@gmail.com" where id = 1;
+select * from Alunos;
+
+-- Delete - Excluir um aluno
+delete from Alunos where id = 1;
 select * from Alunos;
