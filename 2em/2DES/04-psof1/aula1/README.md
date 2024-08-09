@@ -52,8 +52,6 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
 	- Planejamento
 	- Execução
 	- Controle
-	- Nos levou a lua
-	- Prineipais clientes (Bancos e Empresas aéreas)
 
 ## Metodologias ágeis
 - XP
