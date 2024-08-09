@@ -26,12 +26,11 @@ mkdir lojinha
 cd lojinha
 code .
 ````
-- 2 Abra o terminal do VsCode `CTRL + '`
-- 3 Inicie o projeto NodeJS
+- 2 Abra o terminal do VsCode `CTRL + '` e inicie o projeto NodeJS (Utilize o gerenciador de pacotes npm)
 ```bash
 npm init -y
 ```
-- 4 Instale o Express
+- 3 Instale o Express
 ```bash
 npm install express
 ```
