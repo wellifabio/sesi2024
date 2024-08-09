@@ -48,14 +48,18 @@ npm install express
 - 4 No arquivo `server.js` e adicione o seguinte código:
 
 ```javascript
+//Importa o express
 const express = require('express');
 
+//Cria uma instância do express
 const app = express();
 
+//Cria uma rota
 app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
+//Inicia o servidor
 app.listen(3000, () => {
   console.log('Respondendo na porta http://localhost:3000');
 });
