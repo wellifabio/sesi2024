@@ -17,7 +17,7 @@
 |Nginx|Ruby on Rails|
 |IIS|.NET|
 |Tomcat|Java|
-|NodeJS|JavaScript|
+|V8a|NodeJS|
 
 ## Tutorial de como inicar um projeto NodeJS
 - 1 Com o  VsCode e o NodeJS instalados.
