@@ -27,9 +27,11 @@ cd lojinha
 code .
 ````
 - 2 Criar um arquivo `server.js` na raiz do projeto
+
 ```bash
-touch server.js
+echo "">server.js
 ```
+
 - 3 Abra o terminal do VsCode `CTRL + '` e inicie o projeto NodeJS (Utilize o gerenciador de pacotes npm), antes verifique se o node está instalado com o comando `node -v`
 ```bash
 node -v
@@ -53,3 +55,13 @@ app.listen(3000, () => {
   console.log('Respondendo na porta http://localhost:3000');
 });
 ```
+- 5 Execute o projeto
+```bash
+node server.js
+$ou
+npm start
+```
+- No terminal aparecerá a mensagem `Respondendo na porta http://localhost:3000`
+![Terminal](./terminal.png)
+- 6 Abra o navegador e acesse `http://localhost:3000`
+![Tela](./tela01.png)
