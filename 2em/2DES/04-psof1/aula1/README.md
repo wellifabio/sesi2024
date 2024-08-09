@@ -79,7 +79,7 @@ A equipe do projeto é responsável por garantir que o produto seja entregue no 
 
 - BackLog
 
-![](scrum3.png)
+![](scrum3.png) 
 
 - Benefícios
 	- Versatilidade
