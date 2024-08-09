@@ -20,9 +20,18 @@
 |V8a|NodeJS|
 
 ## Tutorial de como inicar um projeto NodeJS
-- 1 Com o  VsCode e o NodeJS instalados, crie uma Pasta para o projeto.
+- 1 Com o  VsCode e o NodeJS instalados, crie uma Pasta para o projeto e abra com VsCode.
 ```bash
+mkdir lojinha
+cd lojinha
 code .
 ````
-- 2 Abra o VsCode e abra a pasta do projeto.
-- 3 Abra o terminal do VsCode.
+- 2 Abra o terminal do VsCode `CTRL + '`
+- 3 Inicie o projeto NodeJS
+```bash
+npm init -y
+```
+- 4 Instale o Express
+```bash
+npm install express
+```
