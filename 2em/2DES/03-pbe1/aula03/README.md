@@ -11,6 +11,14 @@
 ### Servidor HTTP
 - É um servidor que fornece conexão através de um protocolo de **Resposta** a **Requisições** web para os navegadores. Ex: Apache, Nginx, IIS, etc.
 
+|Servidores|Framework|
+|-|-|
+|Apache|PHP|
+|Nginx|Ruby on Rails|
+|IIS|.NET|
+|Tomcat|Java|
+|NodeJS|JavaScript|
+
 ## Tutorial de como inicar um projeto NodeJS
 - 1 Com o  VsCode e o NodeJS instalados.
 - 2 Crie uma Pasta para o projeto.
