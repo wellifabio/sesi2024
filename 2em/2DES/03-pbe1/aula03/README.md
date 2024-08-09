@@ -25,14 +25,13 @@
 mkdir lojinha
 cd lojinha
 code .
-````
+```
 - 2 Criar um arquivo 'server.js' na raiz do projeto
 
 ```bash
 echo >server.js
 ```
-
-- 3 Abra o terminal do VsCode `CTRL + '` e inicie o projeto NodeJS (Utilize o gerenciador de pacotes npm), antes verifique se o node está instalado com o comando `node -v`
+- 3 Abra o terminal do VsCode "CTRL + '" e inicie o projeto NodeJS (Utilize o gerenciador de pacotes npm), antes verifique se o node está instalado com o comando "node -v"
 
 ```bash
 node -v
@@ -102,3 +101,23 @@ app.listen(3000, () => {
     console.log('Respondendo na porta http://localhost:3000');
 });
 ```
+
+## HTTP
+O protocolo HTTP é um protocolo de comunicação que permite a transferência de informações na web. Ele é baseado no modelo **cliente-servidor**, onde o cliente faz uma requisição e o servidor responde.
+
+## Rotas
+- As rotas são os caminhos que o servidor disponibiliza para o cliente acessar. Ex: `/`, `/produtos`, `/clientes`, etc.
+
+## Verbos HTTP
+- Os verbos HTTP são os métodos que o cliente utiliza para interagir com o servidor. Os principais são:
+  - GET: Obter informações
+  - POST: Enviar informações
+  - PUT: Atualizar informações
+  - DELETE: Deletar informações
+
+## Testar com o Navegador com o verbo GET
+- Abra o navegador e acesse `http://localhost:3000/produtos`
+- A mensagem `Lista de produtos` será exibida
+
+## Localhost ou 127.0.0.1
+- O localhost é um endereço de loopback, ou seja, ele aponta para o próprio computador onde está o servidor HTTP respondendo. O endereço IP do localhost é `127.0.0.1`
