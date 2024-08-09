@@ -83,3 +83,22 @@ nodemon
 Repita este tutorial em sua máquina e faça as seguintes alterações:
 - 1 Altere a mensagem de retorno para `Bem vindo a Lojinha`
 - 2 Crie uma rota `/produtos` que retorne a mensagem `Lista de produtos`
+
+## Solução
+```javascript
+const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('Bem vindo a lojinha!');
+});
+
+app.get('/produtos', (req, res) => {
+    res.send('Lista de produtos!');
+});
+
+app.listen(3000, () => {
+    console.log('Respondendo na porta http://localhost:3000');
+});
+```
