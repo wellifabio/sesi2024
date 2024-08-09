@@ -72,3 +72,8 @@ npm start
 
 - 6 Abra o navegador e acesse `http://localhost:3000`
 <br>![Tela](./tela01.png)
+
+## Atividade
+Repita este tutorial em sua máquina e faça as seguintes alterações:
+- 1 Altere a mensagem de retorno para `Bem vindo a Lojinha`
+- 2 Crie uma rota `/produtos` que retorne a mensagem `Lista de produtos`
