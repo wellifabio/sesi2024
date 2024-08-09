@@ -62,7 +62,7 @@ $ou
 npm start
 ```
 - No terminal aparecerá a mensagem `Respondendo na porta http://localhost:3000`
-![Terminal](./terminal.png)
+<br>![Terminal](./terminal.png)
 
 - 6 Abra o navegador e acesse `http://localhost:3000`
-![Tela](./tela01.png)
+<br>![Tela](./tela01.png)
