@@ -69,6 +69,8 @@ app.listen(3000, () => {
 node server.js
 $ou
 npm start
+$ou
+nodemon
 ```
 
 - No terminal aparecerá a mensagem `Respondendo na porta http://localhost:3000`
