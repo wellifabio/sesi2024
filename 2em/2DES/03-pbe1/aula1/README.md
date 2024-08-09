@@ -40,21 +40,6 @@ console.log(z);
 - 5 Instalar o Insomnia
 
 ## Desafio JavaScript
-- 1 Juros Simples - Crie um programa que leia um valor inicial,
-uma taxa de juros e um período em meses e calcule o montante final
-com juros simples. Fórmula: **M = C + C *  i * t**
-- Juros Compostos - Crie um programa que leia um valor inicial,
-uma taxa de juros e um período em meses e calcule o montante final
-com juros compostos. Fórmula: **M = C * (1 + i)^t**
-
-~~~javascript
-Esta é uma linha de código em Javascript.
-~~~
-
-~~~php
-Esta é uma linha de código em PHP.
-~~~
-
-~~~html
-Esta é uma linha de código em HTML.
-~~~
+- 1 Juros Simples - Crie um programa que leia um valor inicial, uma taxa de juros e um período em meses e calcule o montante final com juros simples. Fórmula: **M = C + C *  i * t**<br>$$ M = C + C *  i * t $$
+- 2 Juros Compostos - Crie um programa que leia um valor inicial, uma taxa de juros e um período em meses e calcule o montante final com juros compostos. Fórmula: **M = C * (1 + i)^t**<br>$$ M = C * (1 + i)^t $$
+- 3 Crie um programa que leia os três lados de um triângulo e classifique, se é um triângulo equilátero, isósceles ou escaleno.
