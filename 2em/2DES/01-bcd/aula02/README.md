@@ -57,7 +57,7 @@ Uma padaria deseja informatizar o seu sistema de vendas. A padaria vende pães, 
 ### Problema 2 - Oficina Mecânica (Zanon, Marcos, Araújo, Giachetto)Ok
 Uma oficina mecânica deseja informatizar o seu sistema de ordem de serviço. A oficina atende carros, motos, caminhões, etc. Cada veículo possui uma placa, modelo, ano e cliente. A oficina possui mecânicos que fazem serviços. Cada serviço possui um número, data, veículo e peças.
 
-### Problema 3 - Academia (Dahra, Duda, Pedro, Nicole e Emily)
+### Problema 3 - Academia (Dahra, Duda, Pedro, Nicole e Emily)Ok
 Uma academia deseja informatizar o seu sistema de treino. A academia possui alunos que fazem treinos. Cada aluno possui um código, nome, idade e plano. A academia possui professores que fazem treinos. Cada treino possui um número, data, aluno e exercícios.
 
 ### Problema 4 - Biblioteca do SESI (Maria, Míriam, Heloísa)Ok (Eloá e Menegon)Ok
@@ -72,7 +72,7 @@ O dono de uma rede social de música deseja informatizar o seu sistema de playli
 ### Problema 7 - Pet Shop (Duda, Jõao, Olavo)Ok
 O dono de um pet shop deseja informatizar o seu sistema de vendas. O pet shop vende ração, brinquedos, remédios, etc. Cada produto possui um código, nome, preço e quantidade em estoque. O pet shop possui clientes que fazem compras. Cada compra possui um número, data, cliente e produtos.
 
-### Problema 8 - Escritório de Engenharia Civil (Hasman, Henrico, Canina, Stafocher, Leonardo)
+### Problema 8 - Escritório de Engenharia Civil (Hasman, Henrico, Canina, Stafocher, Leonardo)Ok
 Um escritório de engenharia deseja informatizar o seu sistema de projetos. O escritório faz projetos de casas, prédios, pontes, etc. Cada projeto possui um código, nome, data e cliente. O escritório possui engenheiros que fazem projetos. Cada projeto possui um número, data, engenheiro e atividades.
 
 <hr/>
