@@ -99,6 +99,6 @@
 
 !![ex2](./exp02.jpg)
 
-### Exercício 01
+### Exercício 03
 
 !![ex3](./exp03.jpg)
