@@ -49,7 +49,7 @@ O dicionário de dados é uma lista de todos os elementos do banco de dados. O d
 ## Atividade
 
 Em grupos de no mínimo 2 alunos e no máximo 4 alunos, crie um **DER Conceitual** e um **Dicionário de Dados** para os seguintes problemas:
-
+<rh>
 ### Problema 1 - Padaria (lohaine e Gabriela)
 Uma padaria deseja informatizar o seu sistema de vendas. A padaria vende pães, bolos, doces, salgados, etc. Cada produto possui um código, nome, preço e quantidade em estoque. A padaria possui clientes que fazem pedidos. Cada pedido possui um número, data, cliente e produtos.
 
@@ -73,3 +73,8 @@ O dono de um pet shop deseja informatizar o seu sistema de vendas. O pet shop ve
 
 ### Problema 8 - Escritório de Engenharia Civil (Hasman, Henrico, Canina, Stafocher, Leonardo)
 Um escritório de engenharia deseja informatizar o seu sistema de projetos. O escritório faz projetos de casas, prédios, pontes, etc. Cada projeto possui um código, nome, data e cliente. O escritório possui engenheiros que fazem projetos. Cada projeto possui um número, data, engenheiro e atividades.
+<rh/>
+## Entregas
+- Crie um repositório público no GitHub chamado `der-dd` e adicione o professor (wellifabio@hotmail.com) como colaborador.
+- Crie os diagramas no formato PNG e adicione no README.md do repositório.
+- Crie o dicionário de dados também no README.md como tabela formato Markdown.
