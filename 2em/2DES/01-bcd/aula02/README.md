@@ -54,7 +54,7 @@ Em grupos de no mínimo 2 alunos e no máximo 4 alunos, crie um **DER Conceitual
 ### Problema 1 - Padaria (lohaine e Gabriela)Ok
 Uma padaria deseja informatizar o seu sistema de vendas. A padaria vende pães, bolos, doces, salgados, etc. Cada produto possui um código, nome, preço e quantidade em estoque. A padaria possui clientes que fazem pedidos. Cada pedido possui um número, data, cliente e produtos.
 
-### Problema 2 - Oficina Mecânica (Zanon, Marcos, Araújo, Giachetto)
+### Problema 2 - Oficina Mecânica (Zanon, Marcos, Araújo, Giachetto)Ok
 Uma oficina mecânica deseja informatizar o seu sistema de ordem de serviço. A oficina atende carros, motos, caminhões, etc. Cada veículo possui uma placa, modelo, ano e cliente. A oficina possui mecânicos que fazem serviços. Cada serviço possui um número, data, veículo e peças.
 
 ### Problema 3 - Academia (Dahra, Duda, Pedro, Nicole e Emily)
@@ -66,7 +66,7 @@ O bibliotecário deseja informatizar o seu sistema de empréstimo. A biblioteca 
 ### Problema 5 - Mercadinho do Seu João - Fiado (Matheus, Isabelle)Ok
 O dono de um mercadinho deseja informatizar o seu sistema de vendas fiado. O mercadinho vende arroz, feijão, macarrão, etc. Cada produto possui um código, nome, preço e quantidade em estoque. O mercadinho possui clientes que fazem compras. Cada compra possui um número, data, cliente e produtos.
 
-### Problema 6 - Rede Social de Música (Laila e Bia)
+### Problema 6 - Rede Social de Música (Laila e Bia)Ok
 O dono de uma rede social de música deseja informatizar o seu sistema de playlists. A rede social possui músicas, álbuns, artistas, etc. Cada música possui um código, título, duração e gênero. A rede social possui usuários que fazem playlists. Cada playlist possui um número, data, usuário e músicas.
 
 ### Problema 7 - Pet Shop (Duda, Jõao, Olavo)Ok
