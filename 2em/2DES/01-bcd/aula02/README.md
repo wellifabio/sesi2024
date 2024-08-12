@@ -59,10 +59,10 @@ Uma oficina mecânica deseja informatizar o seu sistema de ordem de serviço. A 
 ### Problema 3 - Academia (Dahra, Duda, Pedro, Nicole e Emily)
 Uma academia deseja informatizar o seu sistema de treino. A academia possui alunos que fazem treinos. Cada aluno possui um código, nome, idade e plano. A academia possui professores que fazem treinos. Cada treino possui um número, data, aluno e exercícios.
 
-### Problema 4 - Biblioteca do SESI (Maria, Míriam, Heloísa) (Eloá e Menegon)
+### Problema 4 - Biblioteca do SESI (Maria, Míriam, Heloísa)Ok (Eloá e Menegon)
 O bibliotecário deseja informatizar o seu sistema de empréstimo. A biblioteca possui livros, revistas, jornais, etc. Cada item possui um código, título, autor e quantidade em estoque. A biblioteca possui sócios que fazem empréstimos. Cada empréstimo possui um número, data, sócio e itens.
 
-### Problema 5 - Mercadinho do Seu João - Fiado (Matheus, Isabelle)
+### Problema 5 - Mercadinho do Seu João - Fiado (Matheus, Isabelle)Ok
 O dono de um mercadinho deseja informatizar o seu sistema de vendas fiado. O mercadinho vende arroz, feijão, macarrão, etc. Cada produto possui um código, nome, preço e quantidade em estoque. O mercadinho possui clientes que fazem compras. Cada compra possui um número, data, cliente e produtos.
 
 ### Problema 6 - Rede Social de Música (Laila e Bia)
