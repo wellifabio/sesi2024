@@ -16,6 +16,11 @@ Atributos são características das entidades. Exemplo: Aluno possui os atributo
 ### Relacionamentos
 Relacionamentos são as ligações entre as entidades. Exemplo: Aluno está matriculado em um Curso.
 
+## Níveis
+- Conceitual - Mais abstrato, próximo ao problema
+- Lógico - Mais detalhado, próximo a solução
+- Físico - Detalhes de implementação (SQL)
+
 ## DER - Diagrama Entidade Relacionamento
 O DER é uma representação gráfica do MER. O DER é composto por entidades, atributos e relacionamentos.
 ### Exemplo de DER - Escola 1.0
