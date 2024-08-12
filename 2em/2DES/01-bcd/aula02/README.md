@@ -48,7 +48,7 @@ O dicionário de dados é uma lista de todos os elementos do banco de dados. O d
 
 ## Atividade
 
-Em grupos de no mínimo 2 alunos e no máximo 4 alunos, crie um DER e um Dicionário de Dados para os seguintes problemas:
+Em grupos de no mínimo 2 alunos e no máximo 4 alunos, crie um **DER Conceitual** e um **Dicionário de Dados** para os seguintes problemas:
 
 ### Problema 1 - Padaria
 Uma padaria deseja informatizar o seu sistema de vendas. A padaria vende pães, bolos, doces, salgados, etc. Cada produto possui um código, nome, preço e quantidade em estoque. A padaria possui clientes que fazem pedidos. Cada pedido possui um número, data, cliente e produtos.
