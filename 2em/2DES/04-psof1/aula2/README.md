@@ -16,7 +16,7 @@
 ### Problema 1 - Padaria - (lohaine e Gabriela)
 Uma padaria deseja informatizar o seu sistema de vendas. A padaria vende pães, bolos, doces, salgados, etc. Cada produto possui um código, nome, preço e quantidade em estoque. A padaria possui clientes que fazem pedidos. Cada pedido possui um número, data, cliente e produtos.
 
-### Problema 2 - Oficina Mecânica - (Zanon, Marcos, Araújo, Giachetto, Kuae) 
+### Problema 2 - Oficina Mecânica - (Zanon, Marcos, Araújo, Giachetto, Kaue) 
 Uma oficina mecânica deseja informatizar o seu sistema de ordem de serviço. A oficina atende carros, motos, caminhões, etc. Cada veículo possui uma placa, modelo, ano e cliente. A oficina possui mecânicos que fazem serviços. Cada serviço possui um número, data, veículo e peças.
 
 ### Problema 3 - Academia - (Dahra, Duda, Pedro, Nicole e Emily)
