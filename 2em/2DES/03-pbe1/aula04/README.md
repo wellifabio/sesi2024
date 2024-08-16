@@ -14,3 +14,15 @@ Listas são estruturas de dados que armazenam uma coleção de elementos. Em Jav
 
 ### Iniciando o Ambiente
 Crie uma pasta chamada **listas** e dentro dela crie um arquivo chamado **server.js** conforme tutorial anterior.
+
+## Elementos de uma lista
+- String
+- Number - Int ou Float
+- Boolean
+- Object
+- Classes -> new Date() -> Objetos
+
+### Exemplo
+```javascript
+var lista = ["string", 1, 2.5, new Date(),{}];
+```
