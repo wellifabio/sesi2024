@@ -25,7 +25,7 @@ Uma academia deseja informatizar o seu sistema de treino. A academia possui alun
 ### Problema 4 - Biblioteca do SESI - (Maria, Míriam, Heloísa) - (Eloá e Menegon)
 O bibliotecário deseja informatizar o seu sistema de empréstimo. A biblioteca possui livros, revistas, jornais, etc. Cada item possui um código, título, autor e quantidade em estoque. A biblioteca possui sócios que fazem empréstimos. Cada empréstimo possui um número, data, sócio e itens.
 
-### Problema 5 - Mercadinho do Seu João - Fiado - (Matheus, Isabelle)
+### Problema 5 - Mercadinho do Seu João - (Matheus, Isabelle)
 O dono de um mercadinho deseja informatizar o seu sistema de vendas fiado. O mercadinho vende arroz, feijão, macarrão, etc. Cada produto possui um código, nome, preço e quantidade em estoque. O mercadinho possui clientes que fazem compras. Cada compra possui um número, data, cliente e produtos.
 
 ### Problema 6 - Rede Social de Música - (Laila, bia e milena)
