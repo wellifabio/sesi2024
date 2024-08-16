@@ -52,7 +52,7 @@
   - 3.2. Revisão dos objetivos
   - 3.3. Análise de riscos
   - 3.4. Cronograma
-  - 3.5. Recursos
+  - 3.5. Recursos 
   - 3.6. Custos
 - 4 Apresentação do projeto
   - 4.1. Definição dos recursos necessários
