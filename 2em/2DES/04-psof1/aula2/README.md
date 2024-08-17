@@ -4,11 +4,18 @@
   
 - 3 Metodologia de gerenciamento de projeto
   - 3.1. Escopo
+    - 3.1. Escopo: Definição detalhada do que o projeto vai entregar, incluindo seus limites, entregas principais e os critérios de aceitação. Define o que está incluído e excluído do projeto.
+  
   - 3.2. Revisão dos objetivos
+    - Revisão dos objetivos: Verificação e ajuste dos objetivos do projeto para garantir que estão alinhados com as expectativas das partes interessadas e com o propósito do projeto.
   - 3.3. Análise de riscos
+    - Identificação, avaliação e priorização dos riscos que podem impactar o projeto, com o desenvolvimento de estratégias para mitigá-los ou gerenciá-los.
   - 3.4. Cronograma
+    - Planejamento das atividades do projeto com suas respectivas datas de início e fim, incluindo dependências e marcos importantes para garantir que o projeto seja concluído no prazo.
   - 3.5. Recursos
+    - Gestão de todos os recursos necessários para o projeto, como equipe, equipamentos, materiais e outros, garantindo que estejam disponíveis conforme necessário.
   - 3.6. Custos
+    - Estimativa e controle dos custos associados ao projeto, garantindo que o orçamento seja seguido e que o projeto seja entregue dentro dos limites financeiros definidos.
 
 ## Desafio
   - Em grupo de até 5 pessoas, desenvolva uma documentação, contendo o escopo do projeto escolhido pelo docente, revisão de objetivos, analise de riscos, cronograma, recursos e levante os custos que teria o seu projeto.
