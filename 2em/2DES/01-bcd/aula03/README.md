@@ -309,3 +309,13 @@ Um escritório de engenharia deseja informatizar o seu sistema de projetos. O es
 |Projeto|Id_Projeto|Int||Identificador do projeto|
 |Engenheiro|Especialização|Varchar|100|Especialização do Engenheiro|
 |Engenheiro|Id_Engenehiro|Int||Identificador do Engenheiro|
+
+## Desenvolvendo o Script de Criação do Banco de Dados
+- SQL - Structured Query Language
+- DDL - Data Definition Language
+
+A partir do DER de um Banco a seguir, desenvolva o Script SQL DDL para a criação do Banco de Dados e suas tabelas.
+![DER](./banco.png)
+
+## Atividade
+Após todos os projetos terem sido corrigidos, cada grupo deverá criar o Script SQL DDL para a criação do Banco de Dados e suas tabelas.
