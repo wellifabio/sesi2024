@@ -66,6 +66,7 @@ Uma academia deseja informatizar o seu sistema de treino. A academia possui alun
 
 ### Problema 4 - Biblioteca do SESI (Maria, Míriam, Heloísa)Ok (Eloá e Menegon)
 #### https://github.com/mariapcaleffi/der-dd
+#### https://github.com/menegonlucas/der-dd.git
 O bibliotecário deseja informatizar o seu sistema de empréstimo. A biblioteca possui livros, revistas, jornais, etc. Cada item possui um código, título, autor e quantidade em estoque. A biblioteca possui sócios que fazem empréstimos. Cada empréstimo possui um número, data, sócio e itens.
 ![DER](./der04.png)
 #### Dicionário de Dados
@@ -88,48 +89,223 @@ O bibliotecário deseja informatizar o seu sistema de empréstimo. A biblioteca 
 O dono de um mercadinho deseja informatizar o seu sistema de vendas fiado. O mercadinho vende arroz, feijão, macarrão, etc. Cada produto possui um código, nome, preço e quantidade em estoque. O mercadinho possui clientes que fazem compras. Cada compra possui um número, data, cliente e produtos.
 ![DER](./der05.jpeg)
 #### Dicionário de Dados
-| Entidade | Atributo | Tipo | Tamanho | Descrição |
+|Entidade|Atributo|Tipo|Tamanho|Descrição|
 |-|-|-|-|-|
-| Cliente | Nome | Varchar | 100 | Nome do cliente |
-| Cliente | Data de nascimento | Int | 3 | Data de nascimento do cliente |
-| Cliente | Telefones |Multivalorado|| Telefone do cliente | 
-| Cliente | E-mail | Int | 100 | E-mail do cliente |
-| Cliente | Endereço | Varchar | 100 | Endereço do cliente | 
-| Cliente | id | Int | | Identificador do cliente |
-| Cliente | Documentos | Int |  | Documentos do cliente |
-| Compra | Número | Int | | Número da compra |
-| Compra | Cliente | Varchar | 100 | Compra do cliente |
-| Compra | Data | int | 8 | Data da compra |
-| Compra | produtos | Multivalorado | | Produto da compra |
-| Produto | Quantidade em estoque | int | | Quantidade do produto em estoque |
-| Produto | Código | int | | Código do produto |
-| Produto | Preço | float | | Preço do produto |
-| Produto | Nome | Varchar | 100 | Nome do produto |
+|Cliente|Nome|Varchar|100|Nome do cliente|
+|Cliente|Data de nascimento|Int|3|Data de nascimento do cliente|
+|Cliente|Telefones|Multivalorado||Telefone do cliente|
+|Cliente|E-mail|Int|100|E-mail do cliente|
+|Cliente|Endereço|Varchar|100|Endereço do cliente|
+|Cliente|id|Int||Identificador do cliente|
+|Cliente|Documentos|Int||Documentos do cliente|
+|Compra|Número|Int||Número da compra|
+|Compra|Cliente|Varchar|100|Compra do cliente|
+|Compra|Data|int|8|Data da compra|
+|Compra|produtos|Multivalorado||Produto da compra|
+|Produto|Quantidade em estoque|int||Quantidade do produto em estoque|
+|Produto|Código|int||Código do produto|
+|Produto|Preço|float||Preço do produto|
+|Produto|Nome|Varchar|100|Nome do produto|
 
 ### Problema 6 - Rede Social de Música (Laila, Bia e Milena)
 #### https://github.com/LailaCM/Rede-Social-Musical.git
 O dono de uma rede social de música deseja informatizar o seu sistema de playlists. A rede social possui músicas, álbuns, artistas, etc. Cada música possui um código, título, duração e gênero. A rede social possui usuários que fazem playlists. Cada playlist possui um número, data, usuário e músicas.
 ![DER](./der06.png)
 #### Dicionário de Dados
-| Entidade| Atributo|Tipo|Tamanho|Descrição|                                                   
+|Entidade|Atributo|Tipo|Tamanho|Descrição|
 |-|-|-|-|-|
-| **Usuário**| Nome | Varchar | 100 | Identificação do usuário|
-| **Usuário** | Idade | Int |  | Observações sobre o usuário    |                                    
-| **Usuário** | Foto |Varchar|255| Identificação do usuário|
-|**Usuário** |Data de Nascimento | Date | | Identificação do usuário|
-| **Playlist**  | Número ||| Identificador único da playlist|
-| **Playlist**| Usuário|Varchar|100| Quem criou a playlist|
-| **Playlist**| Data | Date||Quando foi criada|
-| **Playlist**| Músicas |Varchar|100| Quais estão presentes na playlist|
-| **Música** | Código |Int|| Identificador da playlist|
-| **Música** | Título |Varchar|100| Nome da música|
-| **Música**| Duração |Int|| Duração da música|
-| **Like** | Data | Date || Quando foi deixado o like|
-| **Like**| Número da Playlist|Int|| Identificação da playlist|
-| **Like**|Id_user| Int||Identificação do usuário|
+|**Usuário**|Nome|Varchar|100|Identificação do usuário|
+|**Usuário**|Idade|Int||Observações sobre o usuário|
+|**Usuário**|Foto|Varchar|255|Identificação do usuário|
+|**Usuário**|Data de Nascimento|Date||Identificação do usuário|
+|**Playlist**|Número|||Identificador único da playlist|
+|**Playlist**|Usuário|Varchar|100|Quem criou a playlist|
+|**Playlist**|Data|Date||Quando foi criada|
+|**Playlist**|Músicas|Varchar|100|Quais estão presentes na playlist|
+|**Música**|Código|Int||Identificador da playlist|
+|**Música**|Título|Varchar|100|Nome da música|
+|**Música**|Duração|Int||Duração da música|
+|**Like**|Data|Date||Quando foi deixado o like|
+|**Like**|Número da Playlist|Int||Identificação da playlist|
+|**Like**|Id_user|Int||Identificação do usuário|
 
-### Problema 7 - Pet Shop (Duda, Jõao, Olavo)Ok
+### Problema 7 - Pet Shop (Duda, Jõao, Olavo)
+#### https://github.com/Olavomarques/der-dd.git
 O dono de um pet shop deseja informatizar o seu sistema de vendas. O pet shop vende ração, brinquedos, remédios, etc. Cada produto possui um código, nome, preço e quantidade em estoque. O pet shop possui clientes que fazem compras. Cada compra possui um número, data, cliente e produtos.
+![DER](./der07.jpeg)
+#### Dicionário de Dados
+<table>
+<tr>
+<th>Entidade</th>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Tamanho</th>
+<th>Descrição</th>
+</tr>
+<tr>
+<td>Produto</td>
+<td>codigo</td>
+<td>int</td>
+<td></td>
+<td>Codigo do Produto</td>
+</tr>
+<tr>
+<td>Produto</td>
+<td>Preço</td>
+<td>flot</td>
+<td></td>
+<td>Preço do Produto</td>
+</tr>
+<tr>
+<td>Produto</td>
+<td>nome</td>
+<td>Varchar</td>
+<td>100</td>
+<td>Nome do Produto</td>
+</tr>
+<tr>
+<td>Produto</td>
+<td>Quantidade_em_stoque</td>
+<td>int</td>
+<td></td>
+<td>Quantidade de Produtos no Stoque</td>
+</tr>
+<tr>
+<td>Produto</td>
+<td>id</td>
+<td>int</td>
+<td></td>
+<td>identificação do produto</td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>Endereço</td>
+<td>Varchar</td>
+<td>100</td>
+<td>Endereço do Cliente</td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>Telefone</td>
+<td>int</td>
+<td></td>
+<td>Telefone do Cliente </td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>Nome</td>
+<td>Varchar</td>
+<td>100</td>
+<td>Nome do Cliente</td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>CPF</td>
+<td>int</td>
+<td></td>
+<td>CPF do Cliente</td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>Descrição</td>
+<td>int</td>
+<td></td>
+<td>descrição do cliete </td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>codigo</td>
+<td>int</td>
+<td></td>
+<td>codigo do Cliente </td>
+</tr>
+<tr>
+<td>Compra</td>
+<td>Número</td>
+<td>int</td>
+<td></td>
+<td>Número da compra</td>
+</tr>
+ <tr>
+<td>Compra</td>
+<td>produto</td>
+<td>int</td>
+<td></td>
+<td>O produto comprado</td>
+</tr>
+ <tr>
+<td>Compra</td>
+<td>Descrição</td>
+<td>int</td>
+<td></td>
+<td>Descrição da compra</td>
+</tr>
+<tr>
+<td>Compra</td>
+<td>Data</td>
+<td>date</td>
+<td></td>
+<td>Data da Compra</td>
+</tr>
+<tr>
+<td>Compra</td>
+<td>Codigo_do_cliente</td>
+<td>int</td>
+<td></td>
+<td>Código do Cliente</td>
+</tr>
+<tr>
+<td>itemCompra</td>
+<td>Código</td>
+<td>int</td>
+<td></td>
+<td>Código do Item</td>
+</tr>
+<tr>
+<td>itemCompra</td>
+<td>Quantidade</td>
+<td>int</td>
+<td></td>
+<td>Quantidade do Item</td>
+</tr>
+<tr>
+<td>itemCompra</td>
+<td>Preço_unitario</td>
+<td>flot</td>
+<td></td>
+<td>Preço do Item</td>
+</tr>
+<tr>
+<td>itemCompra</td>
+<td>Código_do_produto</td>
+<td>int</td>
+<td></td>
+<td>Código do Item</td>
+</tr>
+<tr>
+<td>itemCompra</td>
+<td>Número_da_compra</td>
+<td>int</td>
+<td></td>
+<td>Número do Item</td>
+</tr>
+</table>
 
-### Problema 8 - Escritório de Engenharia Civil (Hasman, Henrico, Canina, Stafocher, Leonardo)Ok
+### Problema 8 - Escritório de Engenharia Civil (Hasman, Henrico, Canina, Stafocher, Leonardo)
+#### https://github.com/GuilhermeCanina/der-dd.git
 Um escritório de engenharia deseja informatizar o seu sistema de projetos. O escritório faz projetos de casas, prédios, pontes, etc. Cada projeto possui um código, nome, data e cliente. O escritório possui engenheiros que fazem projetos. Cada projeto possui um número, data, engenheiro e atividades.
+![DER](./der08.png)
+#### Dicionário de Dados
+|Entidade|Atributo|Tipo|Tamanho|Descrição|
+|-|-|-|-|-|
+|Cliente|Nome|Varchar|100|Nome do Cliente|
+|Cliente|Telefone|Int||Telefone do Cliente|
+|Cliente|Nascimento|Int||Data de nascimento do Cliente|
+|Cliente|Idade|Int||Idade do Cliente|
+|Projeto|nome|Varchar|100|Nome do Projeto|
+|Projeto|Codigos|Int||Codigo do Projeto|
+|Projeto|Data|Int||Data do projeto|
+|Projeto|Nome|Varchar|100|Nome do Projeto|
+|Projeto|Id_Projeto|Int||Identificador do projeto|
+|Engenheiro|Especialização|Varchar|100|Especialização do Engenheiro|
+|Engenheiro|Id_Engenehiro|Int||Identificador do Engenheiro|
