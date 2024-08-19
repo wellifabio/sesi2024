@@ -181,11 +181,35 @@
         box-shadow: 5px 5px 5px gray;
     }
 
-    & .divbanner img:hover{
+    & .divbanner img:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease;
     }
 
+}
+
+.containertexto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 27%;
+    padding-top: 30px;
+
+    & .divtexto1 span {
+        width: 30%;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    & .divimg {
+        width: 70%;
+    }
+
+    & .divimg img {
+        width: 250px;
+        height: 100px;
+    }
 }
 
 ```
