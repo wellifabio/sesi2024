@@ -357,7 +357,17 @@ create table Movimentacao(
 
 show tables;
 ```
+### Para testar o script
+- 1 Abra o XAMPP e clique em **start** nos serviços **Apache** e **MySQL**
+- 2 Abra o shell ou um terminal "cmd" e acesse o mysql.
+![xampp](./xampp.png)
+```bash
+mysql -u root
+```
+- 3 Copie o script e cole no **shell**
+- 4 No XAMPP clique em **Admin** a frente do serviço **MySQL** para abrir o PHPMyAdmin
+- 5 No ambiente gráfico do PHPMyAdmin clique no nome do banco de dados e em seguida procure o ítem do menú **Desenhador** ou **Designer** para ve o **DER Lógico**.
 
 ## Atividade
-Após todos os projetos terem sido corrigidos, cada grupo deverá criar o Script SQL DDL para a criação do Banco de Dados e suas tabelas do sema seguinte ao seu projeto. O Script deverá ser colocado no diretório do projeto no repositório do GitHub.
-- **OBS**: o grupo do tema 1 fará o Script do tema 2, o grupo do tema 2 fará o Script do tema 3, e assim por diante, o grupo do último tema fará o Script do tema 1.
+Após todos os projetos terem sido corrigidos, cada grupo deverá criar o Script SQL DDL para a criação do Banco de Dados e suas tabelas do **seu tema** e do **tema seguinte** ao seu projeto. O Script deverá ser colocado no diretório do projeto no repositório do GitHub.
+- **OBS**: o grupo do tema 1 fará o Script do tema 1 e 2, o grupo do tema 2 fará o Script do tema 3 e 4, e assim por diante, o grupo do último tema fará o Script do **seu tema** e **tema 1**.
