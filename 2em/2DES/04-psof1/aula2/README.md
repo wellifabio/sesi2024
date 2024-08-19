@@ -17,6 +17,14 @@
   - 3.6. Custos
     - Estimativa e controle dos custos associados ao projeto, garantindo que o orçamento seja seguido e que o projeto seja entregue dentro dos limites financeiros definidos.
 
+### EAP - Estrutura Analítica do Projeto
+- A EAP é uma ferramenta de gerenciamento de projetos que divide o trabalho em partes menores e mais gerenciáveis, chamadas de pacotes de trabalho. A EAP é uma representação gráfica da estrutura do projeto, mostrando as entregas principais e as atividades necessárias para alcançá-las.
+
+### Escopo
+- O escopo do projeto é a definição detalhada do que o projeto vai entregar, incluindo seus limites, entregas principais e os critérios de aceitação. O escopo define o que está incluído e excluído do projeto, garantindo que todos os envolvidos tenham uma compreensão clara do que será entregue.
+
+- Nesta aula temos um documento chamado escopo.pdf com o exemplo de um escopo de um projeto de desenvolvimento de um sistema de banco online.
+
 ## Desafio
   - Em grupo de até 5 pessoas, desenvolva uma documentação, contendo o escopo do projeto escolhido pelo docente, revisão de objetivos, analise de riscos, cronograma, recursos e levante os custos que teria o seu projeto.
   

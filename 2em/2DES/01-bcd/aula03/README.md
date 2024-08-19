@@ -45,6 +45,7 @@ Uma oficina mecânica deseja informatizar o seu sistema de ordem de serviço. A 
 |**Veículo**|Modelo|varchar|100|marca do veículo|
 
 ### Problema 3 - Academia (Dahra, Duda, Pedro, Nicole e Emily)
+#### https://github.com/dudaberto/ACADEMIA---MERDER.git
 Uma academia deseja informatizar o seu sistema de treino. A academia possui alunos que fazem treinos. Cada aluno possui um código, nome, idade e plano. A academia possui professores que fazem treinos. Cada treino possui um número, data, aluno e exercícios.
 ![DER](./der03.png)
 #### Dicionário de Dados
