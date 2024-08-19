@@ -310,12 +310,54 @@ Um escritório de engenharia deseja informatizar o seu sistema de projetos. O es
 |Engenheiro|Especialização|Varchar|100|Especialização do Engenheiro|
 |Engenheiro|Id_Engenehiro|Int||Identificador do Engenheiro|
 
-## Desenvolvendo o Script de Criação do Banco de Dados
+## Desenvolvendo o Script de Criação do Banco de Dados a partir do DER
 - SQL - Structured Query Language
 - DDL - Data Definition Language
 
-A partir do DER de um Banco a seguir, desenvolva o Script SQL DDL para a criação do Banco de Dados e suas tabelas.
+Temos o DER de um Banco a seguir, desenvolveremos o Script SQL DDL para a criação do Banco de Dados e suas tabelas.
 ![DER](./banco.png)
+```sql
+-- Script de criação do Banco de Dados e tabelas de um BANCO
+drop database if exists Banco;
+create database Banco character set utf8 collate utf8_general_ci;
+use Banco;
+
+create table Cliente(
+    cpf varchar(11) not null primary key,
+    nome_completo varchar(100) not null,
+    endereco_cep varchar(8) not null,
+    endereco_numero varchar(10),
+    endereco_complemento varchar(100)
+);
+
+create table telefone(
+    cpf_cliente varchar(11) not null,
+    numero_telefone varchar(20) not null,
+    tipo varchar(20) not null,
+    foreign key(cpf_cliente) references Cliente(cpf)
+);
+
+create table conta(
+    numero_conta varchar(20) not null primary key,
+    cpf_cliente varchar(11) not null,
+    saldo decimal(10,2) not null,
+    foreign key(cpf_cliente) references Cliente(cpf)
+);
+
+create table Movimentacao(
+    id int not null primary key auto_increment,
+    tipo varchar(20) not null,
+    valor float(10,2) not null,
+    origem varchar(50) not null,
+    destino varchar(50) not null,
+    numero_conta varchar(20) not null,
+    quando datetime not null default(curtime()),
+    foreign key (numero_conta) references Conta(numero_conta)
+);
+
+show tables;
+```
 
 ## Atividade
-Após todos os projetos terem sido corrigidos, cada grupo deverá criar o Script SQL DDL para a criação do Banco de Dados e suas tabelas.
+Após todos os projetos terem sido corrigidos, cada grupo deverá criar o Script SQL DDL para a criação do Banco de Dados e suas tabelas do sema seguinte ao seu projeto. O Script deverá ser colocado no diretório do projeto no repositório do GitHub.
+- **OBS**: o grupo do tema 1 fará o Script do tema 2, o grupo do tema 2 fará o Script do tema 3, e assim por diante, o grupo do último tema fará o Script do tema 1.
