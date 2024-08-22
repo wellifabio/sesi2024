@@ -46,4 +46,4 @@ node server.js
 # Exemplo - Full-Stack
 Neste repositório está um projeto chamado "lojinha" com todas as 3 stacks (Banco de dados, Back-end e Front-End) somente com conceitos básicos.
 
-Sala do meet: https://meet.google.com/roq-ywqr-wzs
+Sala do meet: 
