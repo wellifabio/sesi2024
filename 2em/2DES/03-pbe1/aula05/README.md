@@ -1,5 +1,3 @@
-https://meet.google.com/gbr-xqwm-bkq
-
 # Aula03 - Primeiro Back-End
 
 ## Ambiente
