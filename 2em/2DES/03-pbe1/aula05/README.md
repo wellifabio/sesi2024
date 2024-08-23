@@ -44,9 +44,9 @@ node server.js
 
 # Desafio
 
-- Construa um projeto para uma **BIBLIOTECA** onde tera os seguintes campos: Nome do livro, nome do Autor, descrição do Livro, Data em que o livro foi cadastrado no sistema. Você deverá fazer um projeto fullstack, onde haverá o front end, o banco de dados, e o backend, no back end você irá desenvolver utilizando a biblioteca **BODY-PARSER** que usamos pela manhã para a comunicação do formulário **HTML** com a API.
+1) Construa um projeto para uma **BIBLIOTECA** onde tera os seguintes campos: Nome do livro, nome do Autor, descrição do Livro, Data em que o livro foi cadastrado no sistema. Você deverá fazer um projeto fullstack, onde haverá o front end, o banco de dados, e o backend, no back end você irá desenvolver utilizando a biblioteca **BODY-PARSER** que usamos pela manhã para a comunicação do formulário **HTML** com a API.
   
-- Construa um projeto para uma **CANTINA** onde tera os seguintes campos: Nome do produto, nome do fornecedor, descrição do produto, preço, custo do produto. Você deverá fazer um projeto fullstack, onde haverá o front end, o banco de dados, e o backend, no back end você irá desenvolver utilizando a biblioteca **QUERY** que usamos pela manhã para a comunicação do formulário **HTML** com a API.
+1) Construa um projeto para uma **CANTINA** onde tera os seguintes campos: Nome do produto, nome do fornecedor, descrição do produto, preço, custo do produto. Você deverá fazer um projeto fullstack, onde haverá o front end, o banco de dados, e o backend, no back end você irá desenvolver utilizando a biblioteca **QUERY** que usamos pela manhã para a comunicação do formulário **HTML** com a API.
   
 ## Entregas
 - Crie um repositório público no GitHub chamado `Projeto-Node.js`.
