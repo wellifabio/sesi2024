@@ -177,3 +177,7 @@ main{
 
 }
 ```
+
+## Atividade Prática utilizando HTML e CSS
+- Acesse o documento em anexo chamado "Lista de Exercício" e os realize. Salve em pastas sepradas, como: "Ex01", "Ex02" em diante.
+- As entregas serão por formulário, faça o upload no github com o nome de "Lista de Exercícios". Acesse o link para o envio: <a href="https://forms.gle/YENEiTehkU52wGmJ7">Clique aqui</a>
