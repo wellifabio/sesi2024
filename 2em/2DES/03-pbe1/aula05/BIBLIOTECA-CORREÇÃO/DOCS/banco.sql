@@ -9,5 +9,3 @@ CREATE TABLE livros (
     descricao VARCHAR(255) NOT NULL,
     dataCadastrado VARCHAR(255) NOT NULL
 );
-
--- Cadastrar um novo livro
