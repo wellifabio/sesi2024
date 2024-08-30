@@ -74,7 +74,7 @@ code .
 </html>
 ```
 
-- 3 Crie os arquivos 'api.js' e 'pakage.json' na pasta 'back' 
+- 3 Crie os arquivos 'api.js' e 'package.json' na pasta 'back' 
 
 ```bash
 const express = require('express');
@@ -188,38 +188,7 @@ ou
 nodemon
 ```
 - 8 Abra o navegador e acesse o endereço 'http://localhost:3000'
-- 9 Execute o Front-end abrindo o arquivo 'index.html' com LiveServer do VsCode
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca</title>
-</head>
-
-<body>
-    <header>
-        <h1>Cadastrar Livro</h1>
-    </header>
-    <main>
-        <form action="http://localhost:3000/livro" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nomeLivro" required>
-            <label for="autor">Autor:</label>
-            <input type="text" id="autor" name="nomeAutor" required>
-            <label for="descricao">Descrição:</label>
-            <input type="text" id="descricao" name="descricao" required>
-            <label for="ano">Data de Cadastro:</label>
-            <input type="date" id="ano" name="dataCadastrado" required>
-            <input type="submit" value="Enviar">
-        </form>
-    </main>
-</body>
-
-</html>
-```
+- 9 Execute o Front-end abrindo o arquivo 'index.html' com LiveServer do VsCode.
 - 10 Cadastre um livro e verifique se o mesmo foi cadastrado no banco de dados
 ```sql
 use bibliotecasesi;
