@@ -32,7 +32,7 @@ npm install mysql
 ```
 
 ## Tutorial de como testar este projeto full-stack
-- 1 Crie a estrutura de pastas e arquivos do projeto.<br>Crie uma pasta chamada biblioteca e abra a pasta com o GitBash<br>execute os comandos para criar as pastas e abra o VsCode
+- 1 Crie a estrutura de pastas e arquivos do projeto.<br>Crie uma pasta chamada **biblioteca** e abra a pasta com o GitBash<br>execute os comandos para criar as pastas e abra o **VsCode**
 
 ```bash
 mkdir back
