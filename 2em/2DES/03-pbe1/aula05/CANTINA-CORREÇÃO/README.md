@@ -1,4 +1,4 @@
-# Aula05 - Correção - Biblioteca
+# Aula05 - Correção - Cantina
 
 ## Ambiente
 - NodeJS
@@ -30,13 +30,7 @@ npm install express
 npm install cors
 ```
 
-- 5 Instale o Body-parser no seu projeto
-
-```bash
-npm install body-parser
-```
-
-- 6 Instale o Mysql no seu projeto
+- 5 Instale o Mysql no seu projeto
 
 ```bash
 npm install mysql

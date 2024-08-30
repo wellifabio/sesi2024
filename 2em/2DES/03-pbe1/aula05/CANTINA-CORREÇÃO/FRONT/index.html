@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantina</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Produtos</h1>
+    </header>
+    <main>
+        <form action="http://localhost:3000/produtos/create" method="get">
+            <input type="text" name="nomeProduto" placeholder="Nome do Produto" required>
+
+            <input type="text" name="nomeFornecedor" placeholder="Nome do Fornecedor" required>
+
+            <input type="text" name="descricao" placeholder="Descrição" required>
+
+            <input type="number" name="precoproduto" placeholder="Preço do Produto" required>
+
+            <input type="number" name="custoproduto" placeholder="Custo do Produto" required>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </main>
+</body>
+
+</html>
