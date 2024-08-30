@@ -3,36 +3,10 @@
 ## Ambiente
 - NodeJS
 - VsCode
-
-## Tutorial de como inicar um projeto NodeJS
-- 1 Criar um arquivo 'api.js' na raiz do projeto
-```bash
-echo >api.js
-```
-- 2 Abra o terminal do VsCode "CTRL + '" e inicie o projeto NodeJS (Utilize o gerenciador de pacotes npm), antes verifique se o node está instalado com o comando "node -v"
-```bash
-node -v
-npm init -y
-```
-- 3 Instale o Express no seu projeto
-```bash
-npm install express
-```
-- 4 Instale o Cors no seu projeto
-```bash
-npm install cors
-```
-- 5 Instale o Body-parser no seu projeto
-```bash
-npm install body-parser
-```
-- 6 Instale o Mysql no seu projeto
-```bash
-npm install mysql
-```
+- XAMPP
 
 ## Tutorial de como testar este projeto full-stack
-- 1 Crie a estrutura de pastas e arquivos do projeto.<br>Crie uma pasta chamada **biblioteca** e abra a pasta com o GitBash<br>execute os comandos para criar as pastas e abra o **VsCode**
+- 1 Crie a estrutura de pastas e arquivos do projeto: Crie uma pasta chamada **biblioteca** abra a pasta com o **GitBash** execute os comandos para criar as pastas e abrir o **VsCode**
 
 ```bash
 mkdir back
@@ -40,7 +14,7 @@ mkdir dosc
 mkdir front
 code .
 ```
-- 2 Crie o arquivo 'index.html' na pasta 'front'
+- 2 Crie o arquivo './front/index.html' com o conteúdo a seguir:
 
 ```bash
 <!DOCTYPE html>
@@ -74,8 +48,8 @@ code .
 </html>
 ```
 
-- 3 Crie os arquivos 'api.js' e 'package.json' na pasta 'back' 
-
+- 3 Crie os arquivos **'./back/api.js'** e **'./back/package.json'** na pasta 'back' com os conteúdos a seguir:
+- api.js
 ```bash
 const express = require('express');
 const cors = require('cors');
@@ -155,8 +129,7 @@ app.post("/livro", create);
 }
 ```
 
-- 4 Crie o arquivo 'banco.sql' na pasta 'docs'
-
+- 4 Crie o arquivo **'./docs/banco.sql'** na pasta 'docs'
 ```sql
 DROP DATABASE bibliotecasesi;
 CREATE DATABASE bibliotecasesi;
@@ -170,26 +143,25 @@ CREATE TABLE livros (
     dataCadastrado VARCHAR(255) NOT NULL
 );
 ```
-- 5 Abra a pasta Raiz do projeto com o **VsCode** e abra o terminal do VsCode "CTRL + '" e instale as dependências do projeto
+- 5 No **VsCode** e abra o terminal **CTRL + '** e instale as dependências do projeto
 ```bash
 cd back
 npm install
 ```
-- 6 Abra o XAMPP e inicie o Apache e o MySQL, abra o shell e copie e cole o script de criação do banco de dados './docs/banco.sql'
-
+- 6 Abra o **XAMPP** e clique em start no **Apache** e no **MySQL**, abra o **Shell**, acesse o SGBD
 ```cmd
 mysql -u root
 ```
+- 7 copie e cole o script de criação do banco de dados **'./docs/banco.sql'**
 
-- 7 Inicie o projeto
+- 8 Volte al **terminal** do **VsCode** e inicie o back-end
 ```bash
 node api.js
 ou 
 nodemon
 ```
-- 8 Abra o navegador e acesse o endereço 'http://localhost:3000'
-- 9 Execute o Front-end abrindo o arquivo 'index.html' com LiveServer do VsCode.
-- 10 Cadastre um livro e verifique se o mesmo foi cadastrado no banco de dados
+- 9 Execute o Front-end no navegador abrindo o arquivo 'index.html' com **Live Server** do **VsCode**.
+- 10 Cadastre um livro e verifique se o mesmo foi cadastrado no banco de dados, abra o **Shell** do **XAMPP** e execute o comando a seguir:
 ```sql
 use bibliotecasesi;
 select * from livros;
