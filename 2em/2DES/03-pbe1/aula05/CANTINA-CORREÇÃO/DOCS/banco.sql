@@ -10,5 +10,3 @@ CREATE TABLE produtos (
     precoproduto FLOAT(20) NOT NULL,
     custoproduto FLOAT(20) NOT NULL
 );
-
---  Nome do produto, nome do fornecedor, descrição do produto, preço, custo do produto

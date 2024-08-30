@@ -11,16 +11,7 @@ Pesquise no google, baixe e instale as versões LTS, para o seu Sistema Operacio
 ## Iniciando um novo projeto
 - 1 Crie uma pasta
 - 2 Abra com VsCode
-- 3 Abra um terminal CMD e digite os comando a seguir
-```bash
-    npm init
-```
-Pressione enter várias vezes para deixar com configurações padrão
-- 4 Instale as dependências iniciais
-```bash
-    npm i express cors mysql
-```
-- 5 Crie o arquivo server.js contendo o código a seguir
+- 3 Crie o arquivo **server.js** contendo o código a seguir
 
 ```js
 const express = require("express");
@@ -37,9 +28,19 @@ app.listen(3000,()=>{
     console.log("Back-end respondendo na porta 3000");
 });
 ```
+- 3 Inicie o projeto back-end, abrindo um terminal **CTRL + '** tipo CMD e digite os comando a seguir
+```bash
+    npm init -y
+```
+- 4 Instale as dependências iniciais
+```bash
+    npm i express cors mysql body-parser
+```
 - 6 Para testar no terminal digite:
 ```bash
 node server.js
+ou
+nodemon
 ```
 
 # Desafio
