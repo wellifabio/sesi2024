@@ -153,11 +153,11 @@ app.post("/livro", create);
     "mysql": "^2.18.1"
   }
 }
-````
+```
 
 - 4 Crie o arquivo 'banco.sql' na pasta 'docs'
 
-```bash
+```sql
 DROP DATABASE bibliotecasesi;
 CREATE DATABASE bibliotecasesi;
 use bibliotecasesi;
@@ -189,6 +189,37 @@ nodemon
 ```
 - 8 Abra o navegador e acesse o endereço 'http://localhost:3000'
 - 9 Execute o Front-end abrindo o arquivo 'index.html' com LiveServer do VsCode
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastrar Livro</h1>
+    </header>
+    <main>
+        <form action="http://localhost:3000/livro" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nomeLivro" required>
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" name="nomeAutor" required>
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao" required>
+            <label for="ano">Data de Cadastro:</label>
+            <input type="date" id="ano" name="dataCadastrado" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+
+</html>
+```
 - 10 Cadastre um livro e verifique se o mesmo foi cadastrado no banco de dados
 ```sql
 use bibliotecasesi;
