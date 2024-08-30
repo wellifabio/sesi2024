@@ -74,7 +74,7 @@ code .
 </html>
 ```
 
-- 3 Crie o arquivo 'api.js' na pasta 'back'
+- 3 Crie os arquivos 'api.js' e 'pakage.json' na pasta 'back' 
 
 ```bash
 const express = require('express');
@@ -134,6 +134,26 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", teste);
 app.post("/livro", create);
 ```
+- package.json
+```js
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "correcao",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Paiva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}
+````
 
 - 4 Crie o arquivo 'banco.sql' na pasta 'docs'
 
