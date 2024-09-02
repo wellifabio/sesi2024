@@ -30,7 +30,7 @@ Uma padaria deseja informatizar o seu sistema de vendas. A padaria vende pães, 
 ### Problema 2 - Oficina Mecânica (Zanon, Marcos, Araújo, Giachetto)
 #### https://github.com/GabrielBZanon/MER---DER.git
 Uma oficina mecânica deseja informatizar o seu sistema de ordem de serviço. A oficina atende carros, motos, caminhões, etc. Cada veículo possui uma placa, modelo, ano e cliente. A oficina possui mecânicos que fazem serviços. Cada serviço possui um número, data, veículo e peças.
-![DER](./der02.png)
+![DER](./der02.jpg)
 #### Dicionário de Dados
 |Entidade|Atributo|Tipo|Tamanho|Descrição|
 |-|-|-|-|-|
