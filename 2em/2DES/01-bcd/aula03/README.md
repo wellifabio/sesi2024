@@ -371,4 +371,4 @@ mysql -u root
 
 ## Atividade
 Após todos os projetos terem sido corrigidos, cada grupo deverá criar o Script SQL DDL para a criação do Banco de Dados e suas tabelas do **seu tema** e do **tema seguinte** ao seu projeto. O Script deverá ser colocado no diretório do projeto no repositório do GitHub.
-- **OBS**: o grupo do tema 1 fará o Script do tema 1 e 2, o grupo do tema 2 fará o Script do tema 3 e 4, e assim por diante, o grupo do último tema fará o Script do **seu tema** e **tema 1**.
+- **OBS**: o grupo do tema 1 fará o Script do tema 1 e 2, o grupo do tema 2 fará o Script do tema 2 e 3, e assim por diante, o grupo do último tema fará o Script do **seu tema** e **tema 1**.
