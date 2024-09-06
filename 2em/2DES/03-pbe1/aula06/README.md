@@ -167,3 +167,19 @@ nodemon
 |404|Not Found|Erro do Cliente|
 |500|Internal Server Error|Erro do Servidor|
 
+## CRUD
+### SQL - DML
+- **Create** - INSERT INTO tabela SET ?
+- **Read** - SELECT * FROM tabela
+- **Update** - UPDATE tabela SET ? WHERE id = ?
+- **Delete** - DELETE FROM tabela WHERE id = ?
+### REST - HTTP
+- **Create** - POST /tabela
+- **Read** - GET /tabela
+- **Update** - PUT /tabela/:id
+- **Delete** - DELETE /tabela/:id
+
+|Banco de Dados|CRUD|Back-End|CRUD|Front-End|
+|-|-|-|-|-|
+|![BD](./banco.png)|SQL|![API](./back.png)|REST-HTTP|![Front](./web.png)|
+
