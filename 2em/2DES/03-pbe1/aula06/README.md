@@ -167,7 +167,7 @@ nodemon
 |404|Not Found|Erro do Cliente|
 |500|Internal Server Error|Erro do Servidor|
 
-## CRUD
+## CRUD (Cadastro, consulta, atualização e exclusão)
 ### SQL - DML
 - **Create** - INSERT INTO tabela SET ?
 - **Read** - SELECT * FROM tabela
@@ -180,6 +180,6 @@ nodemon
 - **Delete** - DELETE /tabela/:id
 
 |Banco de Dados|CRUD|Back-End|CRUD|Front-End|
-|-|-|-|-|-|
-|![BD](./banco.png)|SQL|![API](./back.png)|REST-HTTP|![Front](./web.png)|
+|-|:-:|-|:-:|-|
+|![BD](./banco.png)|SQL<br><-------------->|![API](./back.png)|REST-HTTP<br><------------------->|![Front](./web.png)|
 
