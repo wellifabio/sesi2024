@@ -71,8 +71,16 @@ SELECT PASSWORD('Senha');
 ```
 
 # Dinâmica de criptografia
+
 Separados em grupos de 4 a 5 alunos, desenvolver um sistema de login e senha utilizando matemática simples em folhas de papel.
 - O sistema deve ser capaz de armazenar o login e senha do usuário de forma segura no banco de dados.
 - O sistema deve ser capaz de verificar se o login e senha informados pelo usuário estão corretos.
 - Os integrantes do seu grupo devem ser capazes de acessar o sistema utilizando o login e senha armazenados no banco de dados.
 - Os integrantes de outros grupos não devem ser capazes de acessar o sistema utilizando o login e senha armazenados no banco de dados.
+
+## Exemplo de criptografia
+- senha: 1234
+- chave: o último número da própria senha
+- senha criptografada onde cada número é acrescido da chave: 1 + 4, 2 + 4, 3 + 4, 4 + 4 e a chave = **56784**
+- senha criptografada: 56784
+- **Decriptografia**: 5 - 4, 6 - 4, 7 - 4, 8 - 4 = **1234**
