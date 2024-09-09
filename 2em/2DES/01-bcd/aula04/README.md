@@ -20,6 +20,7 @@ create table Cliente(
     endereco_complemento varchar(100)
 );
 
+
 create table telefone(
     cpf_cliente varchar(11) not null,
     numero_telefone varchar(20) not null,
