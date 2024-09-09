@@ -84,3 +84,32 @@ Separados em grupos de 4 a 5 alunos, desenvolver um sistema de login e senha uti
 - senha criptografada onde cada número é acrescido da chave: 1 + 4, 2 + 4, 3 + 4, 4 + 4 e a chave = **56784**
 - senha criptografada: 56784
 - **Decriptografia**: 5 - 4, 6 - 4, 7 - 4, 8 - 4 = **1234**
+
+- encripta.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripta</title>
+</head>
+<body>
+    <input type="number" id="senha">
+    <input type="button" value="Encripta" onclick="encripta(senha.value)">
+    <label id="resp"></label>
+</body>
+<script>
+    function encripta(senha){
+        senha = senha.split('');
+        let ultimo = senha.length - 1;
+        let resp = '';
+        senha.forEach(c => {
+            resp += (parseInt(c) + parseInt(senha[ultimo]));
+        });
+        resp += senha[ultimo]; 
+        document.querySelector("#resp").innerHTML = resp;
+    }
+</script>
+</html>
+```
