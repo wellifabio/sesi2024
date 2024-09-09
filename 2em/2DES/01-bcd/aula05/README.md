@@ -113,3 +113,34 @@ Separados em grupos de 4 a 5 alunos, desenvolver um sistema de login e senha uti
 </script>
 </html>
 ```
+Testando o programa com valores de senha diferentes: 5555, 3333, 1234
+![encripta](./cripto.png)
+
+## Exemplo de Banco de dados utilizando Funções e Criptografia
+```sql
+drop database if exists users;
+create database users;
+use users;
+create table user(
+    id int not null primary key auto_increment,
+    email varchar(255) not null,
+    passwd varchar(100) not null,
+    user_type varchar(20) default('ADMIN')
+);
+
+insert into user(email, passwd, user_type) values
+('valdir@gmail.com',sha1('valdir123'),null),
+('tereza@gmail.com',sha1('Vfr$5tgb'),'COMUM'),
+('Kitéria@gmail.com',sha1('AAsaAtgb'),null),
+('Filomena@gmail.com',sha1('Otavio'),'COMUM'),
+('Raimundo@gmail.com',sha1('23051980'),'COMUM'),
+('Adalgiza@gmail.com',sha1('Facil123'),'COMUM'),
+('Paraguassu@gmail.com',sha1('Senhafacil'),'COMUM'),
+('Wellington@gmail.com',sha1('Dificil'),'COMUM'),
+('Weliton@gmail.com',sha1('mamamama'),'COMUM'),
+('Ueliton@gmail.com',sha1('ananana'),'COMUM');
+
+select * from user;
+```
+- resultado
+![users](./bd.png)
