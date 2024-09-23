@@ -38,3 +38,18 @@ id	nome	classe	idade	especialidade
 2	Mariana	1ano	14	Voley
 3	Maria	1ano	15	Futebol
 ```
+- ORDER BY
+Exemplo
+```sql
+SELECT * FROM Jogadores ORDER BY nome;
+```
+Resultado
+```
+id	nome	classe	idade	especialidade
+4	Ana	1ano	14	Voley
+5	Beatriz	1ano	14	Voley
+1	Marcelo	1ano	15	Futebol
+3	Maria	1ano	15	Futebol
+2	Mariana	1ano	14	Voley
+6	Suzana	1ano	14	Voley
+```
