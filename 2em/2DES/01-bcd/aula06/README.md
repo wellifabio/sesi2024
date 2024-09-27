@@ -112,7 +112,12 @@ Resultado
 +-----------+---------------+
 ```
 
-## JOIN - Banco de dados para estudar
+## JOIN
+![Join](https://camo.githubusercontent.com/8fdd91bc20cbb81c1f68e40036da1e8cac84b3959b77a79810669880d3efe6aa/68747470733a2f2f63646e2e6564756362612e636f6d2f61636164656d792f77702d636f6e74656e742f75706c6f6164732f323031392f31312f6a6f696e732d696e2d6d7973716c2d312e706e67)
+
+- [Mais informações](https://www.instagram.com/p/CkFOOxMrD9t/?img_index=1)
+
+### Banco de dados para estudar
 ```sql
 drop database if exists transportadora;
 create database transportadora CHARSET=UTF8 COLLATE utf8_general_ci;
@@ -244,6 +249,22 @@ select * from rota;
 select * from veiculo;
 select * from entrega;
 select * from pedido;
+```
+- Exemplos, ao listar as entregas queremos também o nome do motorista
+```sql
+select e.*, f.nome from entrega e join funcionario f on e.motorista = f.idFuncionario;
+```
+- Juntando outros dados
+```sql
+-- Juntando dados de diferentes tabelas
+-- JOIN
+-- INNER JOIN e o ON comparando as chaves primária e estrangeira
+select * from cliente inner join pedido on cliente.idcliente = pedido.idCliente;
+-- Utilizando Alias (apelido)
+select * from cliente c inner join pedido p on c.idcliente = p.idcliente;
+-- Escolhendo os principais campos
+-- Nome do cliente, o endereço e todos os dados do pedido
+Select c.nome, c.endereco, p.* from cliente c inner join pedido p on c.idcliente = p.idcliente;
 ```
 
 ## Atividade
