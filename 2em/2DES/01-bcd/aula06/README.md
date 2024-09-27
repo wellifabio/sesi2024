@@ -267,6 +267,8 @@ select * from cliente c inner join pedido p on c.idcliente = p.idcliente;
 Select c.nome, c.endereco, p.* from cliente c inner join pedido p on c.idcliente = p.idcliente;
 ```
 
+### [Exercícios para entrega](https://docs.google.com/forms/d/e/1FAIpQLSdbmPQQrGUlB4s3qGsllN-vunkhWI5xWaycCpx-5fBnSRZy3Q/viewform?usp=sf_link)
+
 ## Atividade
 Aproveitando a semana do Interclasse, em grupos desenvolva um banco de dados com informações de todas as equipes, jogadores, resultados e estatísticas dos jogos. SQL e DER.
 
