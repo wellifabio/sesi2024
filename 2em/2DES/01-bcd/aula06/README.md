@@ -118,7 +118,7 @@ Aproveitando a semana do Interclasse, em grupos desenvolva um banco de dados com
 ### Grupos
 |Canina|Olavo|Laila|Gabriela|
 |-|-|-|-|
-|Barroso<br>Lohaine<br>Nicole<br>Emily<br>Milena<br>Bia|Calefi<br>Dara<br>Mirian<br>Berto<br>Eloa<Isabele>|Zanon<br>Canina<br>João<br>Pedro<br>Menegon<br>Lucas G.<br>Colombo|Matheus<br>Kauê<br>Araújo<br>Leonardo<br>Henrico<br>Hasman|
+|Barroso<br>Lohaine<br>Nicole<br>Emily<br>Milena<br>Bia|Calefi<br>Dara<br>Mirian<br>Berto<br>Eloa<br>Isabele|Zanon<br>Canina<br>João<br>Pedro<br>Menegon<br>Lucas G.<br>Colombo|Matheus<br>Kauê<br>Araújo<br>Leonardo<br>Henrico<br>Hasman|
 
 - **OBS:** Utilize o máximo possível dados reais do interclasse dos times que irão disputar com vocês.
 
