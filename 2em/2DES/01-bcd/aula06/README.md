@@ -305,5 +305,10 @@ Pode utilzar ferramentas de desenho como Canva ou Draw.io
 
 ## Entregas
 - Crie uma apresentação que junte o DER, os principais resultados do Banco de dados
+<<<<<<< HEAD
 - Salve em um repositório publico do github e anexe o link neste [forms](https://forms.gle/CbcfW4C2QZAdVBP88)
 - Apresente os resultados para toda a sala
+=======
+- Salve em um repositório publico do github e anexe o link neste [forms](https://forms.gle/C1yJfkgbXigjeTae8)
+- Apresente os resultados para toda a sala
+>>>>>>> 5b3164f42a76ee20d04628e70269f861fa3615c1
