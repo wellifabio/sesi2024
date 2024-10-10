@@ -164,7 +164,8 @@ Recomenda-se o uso de softwares específicos como: Visual Studio Code, Sublime, 
 ## Outros Materiais:
 |Link|Descrição|
 |-|-|
-|[CODEPEND](https://codepen.io/)|Construir, testar e descobrir códigos HTML, CSS e JavaScript|
+|[CODEPEN](https://codepen.io/)|Construir, testar e descobrir códigos HTML, CSS e JavaScript|
+|[FRONT-END MENTOR](https://www.frontendmentor.io/))|Desafios e soluções de desing HTML, CSS e JavaScript|
 |[W3C](https://www.w3.org/)|World Wide Web Consortium|
 |[W3SCHOOL](https://www.w3schools.com/)|Tutoriais de HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java, XML e jQuery|
 |[CANIUSE](https://caniuse.com/)|Compatibilidade de navegadores|
