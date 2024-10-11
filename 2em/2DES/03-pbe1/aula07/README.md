@@ -120,3 +120,5 @@ A partir dos diagramas de classes abaixo, crie as classes em JavaScript e crie o
   - IMC >= 30 e IMC < 34,9: Obesidade Grau I
   - IMC >= 35 e IMC < 39,9: Obesidade Grau II
   - IMC >= 40: Obesidade Grau III
+
+  
