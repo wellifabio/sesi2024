@@ -121,4 +121,68 @@ A partir dos diagramas de classes abaixo, crie as classes em JavaScript e crie o
   - IMC >= 35 e IMC < 39,9: Obesidade Grau II
   - IMC >= 40: Obesidade Grau III
 
-  
+## Listas de Objetos
+É possível criar listas de objetos em JavaScript. Veja o exemplo abaixo:
+```html
+<!doctype HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pacientes</title>
+</head>
+
+<body>
+	<p id="paragrafo"></p>
+</body>
+<script>
+	class Paciente {
+		constructor(nome, peso, altura) {
+			this.nome = nome;
+			this.peso = peso;
+			this.altura = altura;
+		}
+		calcIMC() {
+			return this.peso / (this.altura * this.altura);
+		}
+		diagnostico() {
+			const imc = this.calcIMC();
+			if (imc < 18.5) {
+				return "Abaixo do peso";
+			} else if (imc < 25) {
+				return "Peso normal";
+			} else if (imc < 30) {
+				return "Sobrepeso";
+			} else if (imc < 35) {
+				return "Obesidade grau 1";
+			} else if (imc < 40) {
+				return "Obesidade grau 2";
+			} else {
+				return "Obesidade grau 3";
+			}
+		}
+	}
+	const p = document.querySelector("#paragrafo"); //Objeto HTML
+	const ana = new Paciente("Ana", 60, 1.70);
+	const maria = new Paciente("Maria", 70, 1.80);
+	const joao = new Paciente("João", 80, 1.70);
+	const alberto = new Paciente("Alberto", 90, 2.00);
+
+	const pacientes = [ana, maria, joao, alberto];
+	for (let i = 0; i < pacientes.length; i++) {
+		p.innerHTML += `${pacientes[i].nome} tem IMC de ${pacientes[i].calcIMC().toFixed(2)} e ${pacientes[i].diagnostico()}<br>`;
+	}
+
+</script>
+
+</html>
+```
+A saída do código acima será: ![Saída](./listapacientes.png)<br>
+No exemplo acima, criamos uma lista de objetos do tipo paciente, também utilizamos um **método contrutor** para inicializar os atributos da classe, isto simplifica a criação de objetos.
+
+## Exercícios
+1. Crie uma lista de objetos a partir do diagrama de classes de pedidos ![Diagrama de Classes](./uml_dc_pedidos.png)
+Porém represente a lista em uma tabela HTML e na ultima ínha some o **total geral** dos pedidos.
+2. Faça uma estilização com CSS semelhante a da imagem abaixo:
+![Exemplo de Estilização](./estilizacao.png)
