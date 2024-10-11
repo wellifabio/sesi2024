@@ -58,8 +58,9 @@ A cifra de César é uma técnica clássica de criptografia que pertence ao grup
 
 #### Como funciona
 Substituição de Caracteres: A cifra de César funciona substituindo cada letra do texto original (plaintext) por outra letra que está um número fixo de posições à frente no alfabeto. Por exemplo, se o deslocamento (ou chave) for 3, a letra A se torna D, a letra B se torna E, e assim por diante.
-Chave de Criptografia: O número de posições que cada letra deve ser deslocada é conhecido como a chave. No exemplo acima, a chave é 3. Para decifrar a mensagem, você aplicaria o deslocamento inverso.
-![Exemplo da cifra de Cesar ilustrado](./cifracesar.png)
+<br>Chave de Criptografia: O número de posições que cada letra deve ser deslocada é conhecido como a chave. 
+<br>![Exemplo da cifra de Cesar ilustrado](./cifracesar.png)
+<br>No exemplo acima, a chave é 3. Para decifrar a mensagem, você aplicaria o deslocamento inverso.
 
 #### Exemplo
 Suponha que queremos criptografar a mensagem "HELLO" com uma chave de 3:
