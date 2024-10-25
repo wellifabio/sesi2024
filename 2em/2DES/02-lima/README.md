@@ -160,3 +160,16 @@ Recomenda-se o uso de softwares específicos como: Visual Studio Code, Sublime, 
 - 
 ## Referências Complementares:
 - Barbosa, R. L. (2020). Linguagem de marcação: Uma introdução. Novatec Editora.
+
+## Outros Materiais:
+|Link|Descrição|
+|-|-|
+|[CODEPEN](https://codepen.io/)|Construir, testar e descobrir códigos HTML, CSS e JavaScript|
+|[FRONT-END MENTOR](https://www.frontendmentor.io/)|Desafios e soluções de desing HTML, CSS e JavaScript|
+|[W3C](https://www.w3.org/)|World Wide Web Consortium|
+|[W3SCHOOL](https://www.w3schools.com/)|Tutoriais de HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java, XML e jQuery|
+|[CANIUSE](https://caniuse.com/)|Compatibilidade de navegadores|
+|[CSS TRICKS](https://css-tricks.com/)|Dicas, truques, tutoriais e artigos sobre CSS|
+|[HTML5 ROCKS](https://www.html5rocks.com/)|Recursos HTML5, tutoriais e artigos|
+|[CSS ZEN GARDEN](http://www.csszengarden.com/)|Exemplos de design de sites com CSS|
+|[CSS GRID GARDEN](https://cssgridgarden.com/)|Aprenda CSS Grid Layout jogando um jogo|

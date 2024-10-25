@@ -297,8 +297,8 @@ Dividir em partes, encontrar padrões e desenvolver o algoritmo
 
 ### Desenvolva o MER x DER conceitual
 Pode utilzar ferramentas de desenho como Canva ou Draw.io
-
--Nesta aula também temos uma planilha com dados
+### Obs:
+-Como material de apoio temos uma planilha chamada dados.xlsx
 
 ## Entregas
 - Crie uma apresentação que junte o DER, os principais resultados do Banco de dados
