@@ -1,5 +1,5 @@
 # Aula 09
-### Verificação Prática Somativa
+### Verificação Prática Formativa
 - API - Criação de API (Plataforma de Interface de Aplicação)
 - CRUD - Funcionalidades de Cadastro, consulta, alteração e exclusão
 - MVC - Padrão de projeto (Modelo, Visão e Controle) (SRC => Controller, Connect + routes.js)
