@@ -1,3 +1,4 @@
 # Aula08
 
-- formulario: https://forms.gle/TNYCHw8pVjwLvetS6
+Questões de revisão de Banco de Dados.
+- Formulario: https://forms.gle/TNYCHw8pVjwLvetS6
