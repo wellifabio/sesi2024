@@ -4,7 +4,7 @@
 
 ## Critérios
 |Criticidade|Capacidades Básicas e Socioemocionais|Critérios|
-|-|-|-|
+|-|:-:|-|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Identificar as características de banco de dados relacionais e não-relacionais|Aplicou técnicas de normalização e modelagem com MER DD e/ou MER DER conceitual|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Configurar o ambiente para utilização de banco de dados relacional|Instalou XAMPP se necessário e iniciou serviços MySQL, Apache, utilizou via shell ou PhpMyadmin, evidenciou enviando ao menos um script funcional|
 |![Critico](https://raw.githubusercontent.com/wellifabio/senai2023/main/outros/assets/critico.png)|Utilizar tipos de dados para definição dos atributos do banco de dados|Executou script de criação e população do banco de dados|
