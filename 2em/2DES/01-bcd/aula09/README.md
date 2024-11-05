@@ -116,4 +116,17 @@ show tables;
 ## Desafio:
 Execute este Script em um terminal ou phpMyAdmin e complete as tarefas a seguir:
 - Desenvolva o modelo **MER/DER conceitual** deste banco de dados, utiliza draw.io ou qualquer ferramenta gráfica, salve o arquivo no formato **.png** Anexe a imagem no formato *.png ao formulário desta questão.
-- 
+- Crie um **MER Dicionário de Dados** a partir do script de Criação **DDL**.
+- Conceitualmente, qual a cardinalidade simples do relacionamento entre as entidades **"Solicitações"** e **"Produtos"** respectivamente.
+    [ ] 1 para N (Solicitações x Produtos)
+    [ ] N para N (Solicitações x Produtos)
+    [ ] 1 para 1 (Solicitações x Produtos)
+    [ ] (1,1) para (0,N) (Solicitações x Produtos)
+    [ ] (0,1) para (0,1) (Solicitações x Produtos)
+- Faça uma query que mostre o nome do funcionário que mais fez solicitações (em Reais), O **SELECT** deve mostrar o **nome** do funcionário e seu respectivo **valor total**.
+- Qual funcionário que mais fez solicitações? (em Reais) (Solicitações que custaram mais).
+    [ ] Joao Antonio - 783.00
+    [ ] Maria da Silva - 783.25
+    [ ] Jose Pedro - 860.42
+    [ ] Ana Pereira - 783.00
+
