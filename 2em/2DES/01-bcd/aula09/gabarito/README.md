@@ -35,11 +35,12 @@ inner join Itens_Solicitacao i on i.Cod_Produto = p.Cod_Produto
 inner join Solicitacoes s on s.Num_Sol = i.Num_Sol
 where Year(s.Data_sol) = "2018" AND month(s.Data_sol) = "02";
 ```
-Resultado
+```
 +--------------+
 | Nome_produto |
 +--------------+
 | Parafuso     |
 | Difusor      |
 +--------------+
+```
 - 9(10) Crie uma **view(visão/relatório)** que mostre os seguintes campos: Num_Sol, Data_sol, Cod_Depto, Nome_Depto , Cod_Func, Nome_Func, Cod_Produto, Nome_produto, Qtde, valor e ordene por num_sol decrescente;
