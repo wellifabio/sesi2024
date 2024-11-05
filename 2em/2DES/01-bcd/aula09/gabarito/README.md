@@ -7,6 +7,52 @@
     - [ ] (1,1) para (0,N) (Solicitações x Produtos)
     - [ ] (0,1) para (0,1) (Solicitações x Produtos)
 - 3(05) Crie um **MER Dicionário de Dados** a partir do script de Criação **DDL**, pode formatar como **Tabela Markdow** ou **Texto com tópicos**.
+# Dicionário de Dados
+
+## 1. Funcionarios
+| Coluna | Tipo | Descrição |
+|-|-|-|
+| Cod_Func | numeric(4)   | Código único do funcionário (PK) |
+| Nome_Func | varchar(50)  | Nome do funcionário |
+| Sexo | char(1) | Sexo do funcionário (M/F) |
+| Cidade | varchar(30)  | Cidade onde o funcionário reside |
+| Estado | char(2) | Sigla do estado onde o funcionário reside |
+
+---
+
+## 2. Departamentos
+| Coluna | Tipo | Descrição |
+|-|-|-|
+| Cod_Depto  | numeric(4) | Código único do departamento (PK) |
+| Nome_Depto | varchar(50) | Nome do departamento |
+
+---
+
+## 3. Produtos
+| Coluna| Tipo | Descrição|
+|-|-|-|
+| Cod_Produto | numeric(4)  | Código único do produto (PK) |
+| Nome_produto | varchar(50) | Nome do produto |
+
+---
+
+## 4. Solicitacoes
+| Coluna | Tipo | Descrição |
+|-|-|-|
+| Num_Sol    | numeric(4)   | Número único da solicitação (PK) |
+| Data_sol   | date | Data da solicitação |
+| Cod_Depto  | numeric(4)   | Código do departamento relacionado (FK) |
+| Cod_Func   | numeric(4)   | Código do funcionário que fez a solicitação (FK) |
+
+---
+
+## 5. Itens_Solicitacao
+| Coluna | Tipo | Descrição |
+|-|-|-|
+| Num_Sol | numeric(4) | Número da solicitação (PK, FK) |
+| Cod_Produto | numeric(4) | Código do produto (PK, FK) |
+| Qtde | numeric(4) | Quantidade do produto solicitado |
+| Valor | numeric(12,2)| Valor total do item |
 - 4(05) Faça uma query que mostre o nome do funcionário que mais fez solicitações (em Reais), O **SELECT** deve mostrar o **nome** do funcionário e seu respectivo **valor total**.
 ```sql
 Select f.Nome_Func, sum(i.valor) as Total
