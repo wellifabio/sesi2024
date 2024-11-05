@@ -113,29 +113,29 @@ Select Year(curdate()) as ano;
 Select month(curdate()) as mes;
 show tables;
 ```
-## Desafio:
-Execute este Script em um terminal ou phpMyAdmin e complete as tarefas a seguir:
-- Desenvolva o modelo **MER/DER conceitual** deste banco de dados, utiliza draw.io ou qualquer ferramenta gráfica, salve o arquivo no formato **.png** Anexe a imagem no formato *.png ao formulário desta questão.
-- Crie um **MER Dicionário de Dados** a partir do script de Criação **DDL**, pode formatar como **Tabela Markdow** ou **Texto com tópicos**.
-- Conceitualmente, qual a cardinalidade simples do relacionamento entre as entidades **"Solicitações"** e **"Produtos"** respectivamente.
+## Desafios:
+Execute este Script em um **Terminal/Shell** ou **phpMyAdmin** e complete as tarefas a seguir:
+- 1(40) Desenvolva o modelo **MER/DER conceitual** deste banco de dados, utiliza draw.io ou qualquer ferramenta gráfica, salve o arquivo no formato **.png** Anexe a imagem no formato *.png ao formulário desta questão.
+- 2(05) Crie um **MER Dicionário de Dados** a partir do script de Criação **DDL**, pode formatar como **Tabela Markdow** ou **Texto com tópicos**.
+- 2(10) Conceitualmente, qual a cardinalidade simples do relacionamento entre as entidades **"Solicitações"** e **"Produtos"** respectivamente.
     - [ ] 1 para N (Solicitações x Produtos)
     - [ ] N para N (Solicitações x Produtos)
     - [ ] 1 para 1 (Solicitações x Produtos)
     - [ ] (1,1) para (0,N) (Solicitações x Produtos)
     - [ ] (0,1) para (0,1) (Solicitações x Produtos)
-- Faça uma query que mostre o nome do funcionário que mais fez solicitações (em Reais), O **SELECT** deve mostrar o **nome** do funcionário e seu respectivo **valor total**.
-- Qual funcionário que mais fez solicitações? (em Reais) (Solicitações que custaram mais).
+- 3(05) Faça uma query que mostre o nome do funcionário que mais fez solicitações (em Reais), O **SELECT** deve mostrar o **nome** do funcionário e seu respectivo **valor total**.
+- 4(05) Qual funcionário que mais fez solicitações? (em Reais) (Solicitações que custaram mais).
     - [ ] Joao Antonio - 783.00
     - [ ] Maria da Silva - 783.25
     - [ ] Jose Pedro - 860.42
     - [ ] Ana Pereira - 783.00
-- Qual funcionário que menos fez solicitações? (em Reais) (Solicitações que custaram menos)
+- 5(05) Qual funcionário que menos fez solicitações? (em Reais) (Solicitações que custaram menos)
     - [ ] Joao Antonio - 183.00
     - [ ] Maria da Silva - 606.30
     - [ ] Jose Pedro - 60.42
     - [ ] Ana Pereira - 104.50
-- Faça uma consulta que mostre os nomes dos **departamentos** e **nomes dos produtos** cujo as solicitações  contém **"Parafuso"** e **"Difusor"**.
-- Escreva um comando select para mostrar apenas os nomes dos produtos vendidos em **Fevereiro de 2018**.
-- Crie uma **view(visão/relatório)** que mostre os seguintes campos: Num_Sol, Data_sol, Cod_Depto, Nome_Depto , Cod_Func, Nome_Func, Cod_Produto, Nome_produto, Qtde, valor e ordene por num_sol decrescente;
+- 6(10) Faça uma consulta que mostre os nomes dos **departamentos** e **nomes dos produtos** cujo as solicitações  contém **"Parafuso"** e **"Difusor"**.
+- 7(10) Escreva um comando select para mostrar apenas os nomes dos produtos vendidos em **Fevereiro de 2018**.
+- 8(10) Crie uma **view(visão/relatório)** que mostre os seguintes campos: Num_Sol, Data_sol, Cod_Depto, Nome_Depto , Cod_Func, Nome_Func, Cod_Produto, Nome_produto, Qtde, valor e ordene por num_sol decrescente;
 
 
