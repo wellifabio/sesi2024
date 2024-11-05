@@ -1,5 +1,5 @@
 # Gabarito
-- 1(40) Desenvolva o modelo **MER/DER conceitual** deste banco de dados, utiliza draw.io ou qualquer ferramenta gráfica, salve o arquivo no formato **.png** Anexe a imagem no formato *.png ao formulário desta questão.
+- 1(40) Desenvolva o modelo **MER/DER conceitual** deste banco de dados, utiliza draw.io ou qualquer ferramenta gráfica, salve o arquivo no formato **.png** Anexe a imagem no formato *.png ao formulário desta questão. ![MER DER Conceitual](./mer_der_solicicacoes.png)
 - 2(05) Crie um **MER Dicionário de Dados** a partir do script de Criação **DDL**, pode formatar como **Tabela Markdow** ou **Texto com tópicos**.
 - 2(10) Conceitualmente, qual a cardinalidade simples do relacionamento entre as entidades **"Solicitações"** e **"Produtos"** respectivamente.
     - [ ] 1 para N (Solicitações x Produtos)
