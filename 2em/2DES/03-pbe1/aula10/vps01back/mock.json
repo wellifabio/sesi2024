@@ -1,0 +1,58 @@
+[
+    {
+        "cliente_id": 1,
+        "nome": "Jacinto Pena Atedemin",
+        "cpf": "123.456.789-11",
+        "email": "jacinto@pena.com",
+        "endereco": "Rua Osmar Motta, 234, São Dimas, Amparo, SP, 13904-125",
+        "data_nascimento": "1980-01-01",
+        "data_cadastro": "2024-11-08",
+        "telefones": [],
+        "carros": [
+            {
+                "carros_id": 1,
+                "marca_veiculo": "FIAT",
+                "modelo_veiculo": "UNO",
+                "ano_veiculo": 2010,
+                "fabricacao_veiculo": 2011
+            }
+        ]
+    },
+    {
+        "cliente_id": 2,
+        "nome": "Jacinto Tédio",
+        "cpf": "321.456.789-00",
+        "email": "jacinto@tedio.com",
+        "endereco": "Rua Tomas Silva, 111, São Dimas, Amparo, SP, 13904-100",
+        "data_nascimento": "2000-01-01",
+        "data_cadastro": "2024-11-08",
+        "telefones": [
+            {
+                "telefone_id": 1,
+                "numero": "19 99999-9999",
+                "tipo": "celular"
+            },
+            {
+                "telefone_id": 2,
+                "numero": "19 33333-3333",
+                "tipo": "residencial"
+            }
+        ],
+        "carros": [
+            {
+                "carros_id": 2,
+                "marca_veiculo": "Porche",
+                "modelo_veiculo": "Carrera911",
+                "ano_veiculo": 2015,
+                "fabricacao_veiculo": 2015
+            },
+            {
+                "carros_id": 3,
+                "marca_veiculo": "Dodge",
+                "modelo_veiculo": "RAM Page",
+                "ano_veiculo": 2024,
+                "fabricacao_veiculo": 2024
+            }
+        ]
+    }
+]
