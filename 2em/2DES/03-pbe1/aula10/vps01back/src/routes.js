@@ -8,5 +8,8 @@ router.get('/', (req, res) => {
 });
 
 router.post('/cliente', Cliente.create);
+router.get('/cliente', Cliente.read);
+router.put('/cliente', Cliente.update);
+router.delete('/cliente/:id', Cliente.del);
 
 module.exports = router;

@@ -1,5 +1,5 @@
 {
-  "name": "vps01back",
+  "name": "api-stockcar",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {

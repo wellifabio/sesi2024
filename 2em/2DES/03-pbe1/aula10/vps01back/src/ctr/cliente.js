@@ -16,6 +16,42 @@ const create = (req, res) => {
         });
 };
 
+const read = (req, res) => {
+    con.query('SELECT * FROM clientes', (err, result) => {
+        if (err) {
+            res.status(500).json({ mensagem: 'Erro ao buscar clientes', erro: err });
+        } else {
+            res.status(200).json(result);
+        }
+    });
+};
+
+const update = (req, res) => {
+    const { cliente_id, nome, cpf, email, endereco, data_nascimento } = req.body;
+    con.query(`UPDATE clientes SET nome = ?, cpf = ?, email = ?, endereco = ?, data_nascimento = ? WHERE cliente_id = ?`,
+        [nome, cpf, email, endereco, data_nascimento, cliente_id],
+        (err, result) => {
+            if (err) {
+                res.status(500).json({ mensagem: 'Erro ao atualizar cliente', erro: err });
+            } else {
+                res.status(202).json(result);
+            }
+        });
+};
+
+const del = (req, res) => {
+    con.query('DELETE FROM clientes WHERE cliente_id=?', req.params.id, (err, result) => {
+        if (err) {
+            res.status(500).json({ mensagem: 'Erro ao buscar clientes', erro: err });
+        } else {
+            res.status(204).json(result);
+        }
+    });
+};
+
 module.exports = {
-    create
+    create,
+    read,
+    update,
+    del
 };
