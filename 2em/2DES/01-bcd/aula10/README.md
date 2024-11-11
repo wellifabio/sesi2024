@@ -74,7 +74,8 @@ INSERT INTO telefones VALUES
 
 INSERT INTO pedidos(data,vencimento,valor,cpf) VALUES
 ('2023-01-02','2023-02-02',200,'111.111.111-11');
-
+`
+-- DML - Importação dos dados CSV
 LOAD DATA INFILE 'C:/dadoscsv/clientes.csv'
 INTO TABLE clientes
 FIELDS TERMINATED BY ';'
@@ -82,5 +83,20 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS;
 
+-- DQL - Conferindo os dados
 SELECT * FROM clientes;
 ```
+- Resultado
+```
+MariaDB [pedidos]> SELECT * FROM clientes;
++----------------+-------------------+-----------+--------+-------------+
+| cpf            | nome              | cep       | numero | complemento |
++----------------+-------------------+-----------+--------+-------------+
+| 111.111.111-11 | jão               | 13558-234 | NULL   | NULL        |
+| 726.761.547-37 | Arnaldo Coelho    | 35        | 13914  |             |
+| 877.641.789-18 | Joana Mello       | 28        | 13984  |  Ap23 Bl13  |
+| 924.444.039-32 | Jacinto Pena      | 272       |  1391  |             |
+| 974.259.245-44 | Ana J?lia Machado | 234       | 13987  |  Fundos     |
++----------------+-------------------+-----------+--------+-------------+
+5 rows in set (0.000 sec)
+``
