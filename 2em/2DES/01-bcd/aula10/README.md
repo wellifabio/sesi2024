@@ -109,3 +109,11 @@ Em grupos de no máximo 4 alunos, realizar os exercícios da pasta ./exercicios 
 - 3 Criar um script de criação de banco de dados para cada exercício
 - 4 Criar um script de importação dos dados para cada exercício
 - 5 Criar MER - DER Conceitual para cada exercício.
+
+## Entregas
+- Crie um repositório público no github com o nome `bcd-normalizacao-aula10` salve todas as planilhas normalizadas, arquivos csv, DER no formato de imagem e scripts.sql de criação e importação de dados em pastas separadas por exercício.
+- Crie um arquivo README.md para o repositório contendo:
+    - Título dos exercícios
+    - Descrição dos exercícios
+    - Uma tabela com os nomes dos integrantes do grupo e qual a contribuição de cada um nos exercícios.
+- Cole o link do repositório neste [FORMS](https://docs.google.com/forms/d/e/1FAIpQLSdMPbOydFTPTFzBBMq1m0voLyfYb_63ukQJynwa0ipl2SCmYg/viewform?usp=sf_link) até 18/11/2024.
