@@ -102,7 +102,7 @@ MariaDB [pedidos]> SELECT * FROM clientes;
 ```
 
 ## Exercícios
-Esta aula possui uma pasta ./exercicios com 5 planilhas com dados brutos para serem normalizados.
+Em grupos de no máximo 4 alunos, realizar os exercícios da pasta ./exercicios com 5 planilhas com dados brutos para serem normalizados.
 
 - 1 Normalizar os dados das planilhas
 - 2 Exportar os dados das planilhas para arquivos **csv** dentro de uma pasta chamada **dadoscsv** em c:
