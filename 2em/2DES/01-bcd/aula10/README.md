@@ -15,3 +15,5 @@ Normalização de dados é o processo de organização de dados em um banco de d
 - Melhora o desempenho
 
 ### Exemplo
+![Planilha de exemplo](./dados_pedidos.png)
+![MER x DER](./der_pedidos.png)
