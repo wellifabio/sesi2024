@@ -99,4 +99,13 @@ MariaDB [pedidos]> SELECT * FROM clientes;
 | 974.259.245-44 | Ana J?lia Machado | 234       | 13987  |  Fundos     |
 +----------------+-------------------+-----------+--------+-------------+
 5 rows in set (0.000 sec)
-``
+```
+
+## Exercícios
+Esta aula possui uma pasta ./exercicios com 5 planilhas com dados brutos para serem normalizados.
+
+- 1 Normalizar os dados das planilhas
+- 2 Exportar os dados das planilhas para arquivos **csv** dentro de uma pasta chamada **dadoscsv** em c:
+- 3 Criar um script de criação de banco de dados para cada exercício
+- 4 Criar um script de importação dos dados para cada exercício
+- 5 Criar MER - DER Conceitual para cada exercício.
