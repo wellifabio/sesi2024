@@ -100,7 +100,7 @@ MariaDB [pedidos]> SELECT * FROM clientes;
 +----------------+-------------------+-----------+--------+-------------+
 5 rows in set (0.000 sec)
 ```
-
+## [Exemplo de importação de dados via CSV](./importexport/README.md)
 ## Exercícios
 Em grupos de no máximo 4 alunos, realizar os exercícios da pasta ./exercicios com 5 planilhas com dados brutos para serem normalizados.
 
