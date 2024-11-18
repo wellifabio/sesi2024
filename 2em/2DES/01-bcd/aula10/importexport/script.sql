@@ -1,10 +1,3 @@
-# Exportação e Importação
-- 1 Normalizar os dados separando em planilhas
-- 2 Exportar cada planilha para CSV
-- 3 Tratar os dados convertendo os tipos numéricos e as datas para ano-mês-dia
-- 4 colocar os arquivos CSV em uma pasta na raiz ex:(c:\dadoscsv)
-- 5 Criar o script SQL para importar os dados ex:
-```sql
 drop database if exists pedidos;
 create database pedidos;
 use pedidos;
@@ -38,5 +31,3 @@ INTO TABLE pedidos
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS;
-```
-Esta pasta possui uma planilha com dados normalizados prontos para serem importados via CSV.
