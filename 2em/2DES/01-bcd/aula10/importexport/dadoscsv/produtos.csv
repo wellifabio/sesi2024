@@ -1,0 +1,10 @@
+id;nome;descricao;imagem;preco;quantidade
+1;Alicate;Alicate universal;alicate.png;  30.00 ;54
+2;Martelo;Martelo m�dio;martelo.png;  15.00 ;32
+3;Prego;15mm 1.5mm;prego.png;  0.15 ;82
+4;Parafuso;10mm 2mm;parafuso.png;  0.25 ;69
+5;Arruela;20mm 10mm;arruela.png;  0.10 ;48
+6;Trena;5 metros;trena.png;  25.00 ;25
+7;Fita isolante;15 metros;fita isolante.png;  8.00 ;58
+8;Tinta;5 litros - Coral;tinta.png;  45.00 ;93
+9;Pincel;25mm;pincel.png;  9.90 ;40
