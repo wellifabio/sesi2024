@@ -11,7 +11,7 @@ Normalização de dados é o processo de organização de dados em um banco de d
 
 ### Benefícios
 - Reduz redundância
-- Reduz inconcistência
+- Reduz inconsistência
 - Melhora o desempenho
 
 ### Exemplo
