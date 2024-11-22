@@ -8,7 +8,7 @@
 
 ### Exemplo de Composição
 Vamos utilizar o projeto simples de pedidos para exemplificar a composição.
-![Composicao](./pedidos_composicao.png)
+<br>![Composicao](./composicao/pedidos_composicao.png)<br>
 Neste exemplo a classe Pedido é composta por no mínimo um e no máximo um produto. a dependência é forte, sem produto não existe pedido.
 ```sql
 drop database if exists pedidos;
@@ -157,3 +157,4 @@ A função compor cria um objeto pedido com um objeto produto. O resultado em JS
 	}
 ]
 ```
+[Segue aqui uma API Back-end completa do exemplo da relação de composição](./composicao/)
