@@ -91,3 +91,69 @@ module.exports = { read };
 	}
 ]
 ```
+- Agora alteramos o código back-end para mostrar o pedido composto por um produto como um objeto.
+- Arquivo ./src/controllers/pedidoComposto.js
+```js
+const con = require('../connect');
+const read = async (req, res) => {
+    con.query('SELECT * FROM vw_pedidos',
+        async (err, result) => {
+            if (err) {
+                return res.status(500).json({ error: err.message });
+            }
+            const retorno = await compor(result);
+            return res.status(200).json(retorno);
+        }
+    );
+}
+
+async function compor(pedidos) {
+    let produtos = [];
+    pedidos.forEach(p => {
+        const produto = { id: p.produto, nome: p.nome, preco: p.preco };
+        const pedido = { id: p.id, data: p.data_pedido, produto, quantidade: p.quantidade, total: p.total };
+        produtos.push(pedido);
+    });
+    return produtos;
+}
+
+module.exports = { read };
+```
+A função compor cria um objeto pedido com um objeto produto. O resultado em JSON visto no vavegador ou insomnia na rotas GET http://localhost:3000/pedidoscompostos
+```json
+[
+	{
+		"id": 1,
+		"data": "2024-11-22T13:24:51.000Z",
+		"produto": {
+			"id": 1,
+			"nome": "MogoG 8",
+			"preco": 2200
+		},
+		"quantidade": 2,
+		"total": 4400
+	},
+	{
+		"id": 2,
+		"data": "2024-11-22T13:26:43.000Z",
+		"produto": {
+			"id": 2,
+			"nome": "IPhone 16",
+			"preco": 14200
+		},
+		"quantidade": 1,
+		"total": 14200
+	},
+	{
+		"id": 3,
+		"data": "2024-11-22T13:27:24.000Z",
+		"produto": {
+			"id": 3,
+			"nome": "Sansung Galaxy S24",
+			"preco": 8200
+		},
+		"quantidade": 1,
+		"total": 8200
+	}
+]
+```
