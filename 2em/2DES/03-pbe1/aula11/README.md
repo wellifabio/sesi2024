@@ -6,6 +6,14 @@
 - Agregação
 - Herança
 
+## Contextualização
+Nesta aula vamos aplicar os três conceitos em um sistema de pedidos desenvolvido para ser utilizado no balcão de uma loja física, onde o cliente escolhe os produtos e o vendedor registra o pedido. O sistema deve ser capaz de gerar relatórios de vendas e comissões dos vendedores.
+
+## Ambiente
+- VsCode
+- NodeJS
+- MySQL/MariaDB - XAMPP
+
 ### Exemplo de Composição
 Vamos utilizar o projeto simples de pedidos para exemplificar a composição.
 <br>![Composicao](./composicao/pedidos_composicao.png)<br>
@@ -442,7 +450,7 @@ module.exports = { create, read };
 ```
 [Segue aqui uma API Back-end completa do exemplo da relação de herança](./heranca/)
 
-### Exercício
+### Desafio
 Clone o exemplo em ./agregacao e altere adicionando o conceito de herança com pessoas, clientes e vendedores, adicione também as seguintes regras de negócio.
 - Um cliente pode ter um ou mais pedidos.
 - Um vendedor pode ter um ou mais pedidos.
