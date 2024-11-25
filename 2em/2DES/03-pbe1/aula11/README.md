@@ -459,3 +459,5 @@ Clone o exemplo em ./agregacao e altere adicionando o conceito de herança com p
 - Um produto pode estar em um ou mais pedidos.
 - O vendedor ganha 10% de comissão sobre o total do pedido.
 - Crie uma visão que mostre os vendedores agregados dos pedidos e a comissão.
+
+![Diagramas](./desafio/diagramas.png)
