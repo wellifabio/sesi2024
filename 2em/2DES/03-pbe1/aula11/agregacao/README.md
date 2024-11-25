@@ -1,5 +1,5 @@
 # Projeto pedidos
-## Exemplo de composição de pedidos
+## Exemplo de agregação de pedidos a clientes
 ![diagrama](./pedidos_agregacao.png)
 ## Ambiente
 - VsCode
