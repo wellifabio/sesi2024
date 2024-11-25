@@ -1,6 +1,6 @@
 # Projeto pedidos
 ## Exemplo de composição de pedidos
-![diagrama](../pedidos_composicao.png)
+![diagrama](./pedidos_composicao.png)
 ## Ambiente
 - VsCode
 - NodeJS
