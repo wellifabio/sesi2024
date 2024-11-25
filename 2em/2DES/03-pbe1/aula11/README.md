@@ -307,3 +307,147 @@ O resultado em JSON visto no vavegador ou insomnia na rotas GET http://localhost
 	}
 ]
 ```
+[Segue aqui uma API Back-end completa do exemplo da relação de agregação](./agregacao/)
+
+### Exemplo de Herança
+Vamos iniciar um projeto pedidos do zero com apenas trêstabelas: pessoas, clientes e vendedores.<br>
+A tabela pessoas é a superclasse de clientes e vendedores. A tabela clientes e vendedores são subclasses de pessoas.
+
+<br>![Heranca](./heranca/pedidos_heranca.png)<br>
+```sql
+drop database if exists pedidos;
+create database pedidos;
+use pedidos;
+
+create table pessoas(
+    id int not null primary key auto_increment,
+    cpf varchar(14) not null unique,
+    nome varchar(100) not null,
+    email varchar(100) not null unique
+);
+
+create table clientes(
+    id int not null primary key auto_increment,
+    pessoa_id int not null,
+    credito decimal(10,2),
+    foreign key (pessoa_id) references pessoas(id)
+);
+
+create table vendedores(
+    id int not null primary key auto_increment,
+    pessoa_id int not null,
+    salario decimal(10,2) not null,
+    foreign key (pessoa_id) references pessoas(id)
+);
+
+insert into pessoas(cpf, nome, email) values
+('111.111.111-11', 'Ana Santos', 'ana@email.com'),
+('222.222.222-22', 'Bruno Silva', 'bruno@email.com'),
+('333.333.333-33', 'Carlos Souza', 'carlos@email.com'),
+('444.444.444-44', 'Daniela Oliveira', 'daniela@email.com'),
+('555.555.555-55', 'Eduardo Pereira', 'eduardo@email.com'),
+('666.666.666-66', 'Fernanda Lima', 'fernanda@email.com');
+
+insert into clientes(pessoa_id, credito) values
+(1, 1000.00),
+(2, 2000.00),
+(3, null);
+
+insert into vendedores(pessoa_id, salario) values
+(4, 2000.00),
+(5, 3000.00);
+-- As visões a seguir juntam as tabelas pessoas, clientes e vendedores exemplificando a herança.
+drop view if exists vw_clientes;
+create view vw_clientes as
+select c.id as cliente_id, p.id, p.cpf, p.nome, p.email, c.credito
+from pessoas p join clientes c on p.id = c.pessoa_id;
+
+drop view if exists vw_vendedores;
+create view vw_vendedores as
+select v.id as vendedor_id, p.id, p.cpf, p.nome, p.email, v.salario
+from pessoas p join vendedores v on p.id = v.pessoa_id;
+
+select * from vw_clientes;
+select * from vw_vendedores;
+```
+
+- Vamos ver esta visão em um back-end NodeJS
+- Arquivo ./src/controllers/vendedor.js
+```javascript
+const con = require('../connect');
+const create = (req, res) => {
+    const { cpf, nome, email, salario } = req.body;
+    con.query('INSERT INTO pessoas (cpf, nome, email) VALUES (?, ?, ?)',
+        [cpf, nome, email],
+        (err, result) => {
+            if (err) {
+                return res.status(500).json({ error: err.message });
+            }
+            const clienteId = criarVendedor(result.insertId, salario);
+            return res.status(201).json({ id: result.insertId, clienteId, cpf, nome, email });
+        });
+}
+
+const criarVendedor = async (pessoaId, credito) => {
+    con.query('INSERT INTO vendedores (pessoa_id, salario) VALUES (?, ?)',
+        [pessoaId, credito],
+        (err, result) => {
+            if (err) {
+                console.log(err);
+            }
+            return result.insertId;
+        });
+}
+
+const read = (req, res) => {
+    con.query('SELECT * FROM vw_vendedores',
+        (err, result) => {
+            if (err) {
+                return res.status(500).json({ error: err.message });
+            }
+            return res.status(200).json(result);
+        }
+    );
+}
+module.exports = { create, read };
+```
+- O resultado em JSON, após incluir mais um vendedor, visto no vavegador ou insomnia na rotas GET http://localhost:3000/vendedores
+```json
+[
+	{
+		"vendedor_id": 1,
+		"id": 4,
+		"cpf": "444.444.444-44",
+		"nome": "Daniela Oliveira",
+		"email": "daniela@email.com",
+		"salario": 2000
+	},
+	{
+		"vendedor_id": 2,
+		"id": 5,
+		"cpf": "555.555.555-55",
+		"nome": "Eduardo Pereira",
+		"email": "eduardo@email.com",
+		"salario": 3000
+	},
+	{
+		"vendedor_id": 3,
+		"id": 7,
+		"cpf": "888.888.888-88",
+		"nome": "Amanda Martins",
+		"email": "amanda@email.com",
+		"salario": 7000
+	}
+]
+```
+[Segue aqui uma API Back-end completa do exemplo da relação de herança](./heranca/)
+
+### Exercício
+Clone o exemplo em ./agregacao e altere adicionando o conceito de herança com pessoas, clientes e vendedores, adicione também as seguintes regras de negócio.
+- Um cliente pode ter um ou mais pedidos.
+- Um vendedor pode ter um ou mais pedidos.
+- No pedido não é obrigatório ter um cliente ou um vendedor.
+- Um pedido pode ter um ou mais produtos.
+- Um produto pode estar em um ou mais pedidos.
+- O vendedor ganha 10% de comissão sobre o total do pedido.
+- Crie uma visão que mostre os vendedores agregados dos pedidos e a comissão.

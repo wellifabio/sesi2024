@@ -24,5 +24,31 @@ npx nodemon
 ## Exemplo de saída da rota vendedores
 A saída com a lista de clientes agregados dos pedidos é:
 ```json
-
+[
+	{
+		"vendedor_id": 1,
+		"id": 4,
+		"cpf": "444.444.444-44",
+		"nome": "Daniela Oliveira",
+		"email": "daniela@email.com",
+		"salario": 2000
+	},
+	{
+		"vendedor_id": 2,
+		"id": 5,
+		"cpf": "555.555.555-55",
+		"nome": "Eduardo Pereira",
+		"email": "eduardo@email.com",
+		"salario": 3000
+	},
+	{
+		"vendedor_id": 3,
+		"id": 7,
+		"cpf": "888.888.888-88",
+		"nome": "Amanda Martins",
+		"email": "amanda@email.com",
+		"salario": 7000
+	}
+]
 ```
+![Insomnia](./insominia_print.png)
