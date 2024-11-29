@@ -33,7 +33,7 @@ CREATE TABLE fornecedores (
 
 CREATE TABLE telefone(
     idtelefone INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    numero INT(11) NOT NULL UNIQUE,
+    numero VARCHAR(11) NOT NULL UNIQUE,
     idcliente INT(11),
     idforn INT(11),
     FOREIGN KEY (idcliente) REFERENCES clientes(idcliente),
