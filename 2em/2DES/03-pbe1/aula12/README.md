@@ -5,6 +5,7 @@
 - CRUD - Funcionalidades de Cadastro, consulta, alteração e exclusão
 - MVC - Padrão de projeto (Modelo, Visão e Controle)
 - Testes - Testes unitários da API utilizando software Insomnia
+- DER - Utilizando o drawio
 
 # Situação desafiadora
 |Contextualização|
