@@ -70,4 +70,5 @@ Você deverá desenvolver uma lista de requisitos de infraestrutura para a insta
 - A lista de requisitos deverá ser escrita no arquivo README.md do projeto, utilizando a lnguagem Markdown.
 - Tutorial de como testar o aplicativo
 
-
+# Entregas:
+- Link do formulário: https://forms.gle/TJ1k69YsNNCiB7QD6
