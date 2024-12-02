@@ -71,4 +71,4 @@ Você deverá desenvolver uma lista de requisitos de infraestrutura para a insta
 - Tutorial de como testar o aplicativo
 
 # Entregas:
-- Link do formulário: https://forms.gle/TJ1k69YsNNCiB7QD6
+- Link do formulário: <a href="https://forms.gle/TJ1k69YsNNCiB7QD6">[FORMS]</a>
