@@ -1,7 +1,7 @@
 # Técnico em Desenvolvimento de Sistemas
 ## 5º Itinerário: Formação Técnica e Profissional
 Esse itinerário específico é voltado para a Formação Técnica e Profissional dos estudantes.
-- [Plano de Curso](../PlanoCurso.pdf)
+
 - 2EM (Segundo ano do Ensino Médio)
 ## Competências transversais - Cursos autoinstitucionais
 - 1 Acessar o portal **[EAD](https://ead.sp.senai.br)**
